@@ -8,18 +8,29 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a46c48455ccce980",
+            "id": "07b62b703d8ed1ac",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
+          },
+          {
+            "id": "472ffb16a6b1d567",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematic.md",
+                "file": "Books/Storytelling with data.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematic.md",
+                "file": "Books/Storytelling with data.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematic.md",
+                "file": "Books/Storytelling with data.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematic.md"
+                "file": "Books/Storytelling with data.md"
               }
             }
           }
@@ -146,12 +157,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a46c48455ccce980",
+  "active": "472ffb16a6b1d567",
   "lastOpenFiles": [
+    "Books/Introduction.md",
+    "Books/Storytelling with data.md",
+    "Storytelling with data.md",
+    "Machine Learning and Deep Learning/Welcome.md",
+    "Machine Learning and Deep Learning/Mathematic.md",
+    "Machine Learning and Deep Learning/Probability.md",
+    "Machine Learning and Deep Learning/README.md",
+    "Machine Learning and Deep Learning/Untitled.canvas",
     "Untitled.canvas",
+    "Probability.md",
+    "Mathematic.md",
     "Untitled",
     "2024-02-20.md",
-    "Mathematic.md",
     "Welcome.md"
   ]
 }
