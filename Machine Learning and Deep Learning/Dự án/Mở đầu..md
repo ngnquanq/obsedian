@@ -1,0 +1,1 @@
+ Chuyện là mình cũng không có quen viết lách nhiều trên máy tính (trước giờ ghi vở không à), nhưng không sao, có thằng đẹ giới thịu nên mình lên đây ghi lun kkkk 

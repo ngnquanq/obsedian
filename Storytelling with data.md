@@ -1,1 +1,0 @@
-# Chả bík ghi cái đéo j

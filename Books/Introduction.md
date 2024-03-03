@@ -13,3 +13,4 @@ Fuck...
 Ok, dưới đây là những gì tôi rút ra được từ những cuốn sách tôi đọc.
 
 * [[Books/Storytelling with data]] - chị [[Ni cô]]
+* 
