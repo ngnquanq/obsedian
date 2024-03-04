@@ -30,5 +30,13 @@
       ],
       "key": "ArrowRight"
     }
+  ],
+  "url-into-selection:paste-url-into-selection": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Numpad7"
+    }
   ]
 }
