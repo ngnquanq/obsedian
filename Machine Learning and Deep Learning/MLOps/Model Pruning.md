@@ -1,6 +1,6 @@
 Model Pruning hay còn được gọi là cắt tỉa mô hình, đúng như tên gọi của nó, đây là một kĩ thuật để mình "tỉa bớt mô hình", sao cho nó nhẹ hơn, friendly cho bộ nhớ hơn, ít tốn pin hơn và nhiều thứ khác. Nhìn nó như hình này!
+![[neuron_pruning.png]]
 
-<img alt="center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2LPjKBIHoSVqVfC82gxq7LT-dGzM_l2Hu1mF4yjsauA&s" \img>
 # Reference
 - Paper: [To prune, or not to prune: exploring the efficacy of pruning for model compression](https://arxiv.org/pdf/1710.01878.pdf)
 - Blog: [Optimizing deep learning models with pruning](https://medium.com/@jan_marcel_kezmann/optimizing-deep-learning-models-with-pruning-a-practical-guide-163e990c02af#cb63)
@@ -82,3 +82,9 @@ Một vài kĩ thuật tỉa mô hình khác cũng có thể được áp dụng
 - **Feature map pruning:**  Nôm na là loại bỏ bớt feature maps trong các mạng CNN thay vì một cái trọng số hay một cái neuron cụ thể nào đó, có thể thay thế cho weight và neuron pruning. 
 - **Channel pruning**: Biến thể của cái trên, nhưng mà thay vì loại bỏ feature map cụ thể nào đó thì nó loại luôn cả 1 kênh, có thể thay thế cho weight và neuron pruning.
 - **Iterative pruning**: Quá trình lặp đi lặp lại việc pruning một mô hình và tinh chỉnh cho tới khi nào mức độ phức tạp của mô hình nằm ở mức cho phép. Dễ kiểm soát nhất, song có thể tốn tài nguyên do phải thực hiện nhiều lần.  
+
+# Thought
+
+Tưởng tượng model của bạn như một cái cây ấy. 
+
+Nó mà lỏm chỏm lỏm chỏm quá thì nhìn nó xấu, nên bạn mới phải đi tỉa nó cho nó đẹp hơn. Còn cái iterative pruning là giống kiểu bạn như thợ làm vườn, bạn tỉa từ từ từ từ cho tới khi nào nó vừa mắt bạn, kiểu kiểu v. 

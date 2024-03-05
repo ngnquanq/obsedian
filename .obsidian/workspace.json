@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning and Deep Learning/MLOps/Model Pruning.md",
+                "file": "Machine Learning and Deep Learning/NLP/Sentiment Analysis With Mamba.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning and Deep Learning/MLOps/Model Pruning.md",
+                "file": "Machine Learning and Deep Learning/NLP/Sentiment Analysis With Mamba.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning and Deep Learning/MLOps/Model Pruning.md",
+                "file": "Machine Learning and Deep Learning/NLP/Sentiment Analysis With Mamba.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning and Deep Learning/MLOps/Model Pruning.md"
+                "file": "Machine Learning and Deep Learning/NLP/Sentiment Analysis With Mamba.md"
               }
             }
           }
@@ -164,16 +164,25 @@
   },
   "active": "6a4f1dae87d8f109",
   "lastOpenFiles": [
+    "Finance",
+    "Mathematics",
+    "Machine Learning and Deep Learning/MLOps/Model Quantization.md",
+    "Machine Learning and Deep Learning/MLOps/Model Pruning.md",
+    "Basic Computer Science/API.md",
+    "Basic Computer Science/How GPU works.md",
+    "Basic Computer Science/Floating-point numbers.md",
+    "Basic Computer Science/images/diagram-what-is-an-api-postman-illustration.svg",
+    "Basic Computer Science/images/api.png",
+    "Basic Computer Science/images",
+    "Basic Computer Science/New folder",
+    "Machine Learning and Deep Learning/MLOps/Web Deployment.md",
+    "Basic Computer Science/AI application principles.md",
+    "Untitled.md",
     "Machine Learning and Deep Learning/MLOps/images/neuron_pruning.png",
     "Machine Learning and Deep Learning/MLOps/images/weight_pruning.png",
     "Machine Learning and Deep Learning/MLOps/images",
-    "Machine Learning and Deep Learning/MLOps/Model Quantization.md",
-    "Machine Learning and Deep Learning/MLOps/Web Deployment.md",
-    "Machine Learning and Deep Learning/MLOps/Model Pruning.md",
-    "Basic Computer Science/Floating-point numbers.md",
     "Books/Introduction.md",
     "Books/Storytelling with data.md",
-    "Basic Computer Science/How GPU works.md",
     "Note.md",
     "Machine Learning and Deep Learning/NLP/Sentiment Analysis With Mamba.md",
     "Machine Learning and Deep Learning/Dự án/Danh sách đề tài.md",
