@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/Thị trường tài chính và quản trị rủi ro tài chính..md",
+                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 2 - Các báo cáo tài chính và dòng tiền.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/Thị trường tài chính và quản trị rủi ro tài chính..md",
+                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 2 - Các báo cáo tài chính và dòng tiền.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/Thị trường tài chính và quản trị rủi ro tài chính..md",
+                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 2 - Các báo cáo tài chính và dòng tiền.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/Thị trường tài chính và quản trị rủi ro tài chính..md"
+                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 2 - Các báo cáo tài chính và dòng tiền.md"
               }
             }
           }
@@ -164,8 +164,15 @@
   },
   "active": "756e3b709ecf4dd8",
   "lastOpenFiles": [
-    "Machine Learning and Deep Learning/MLOps/Model Pruning.md",
+    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 1 - Giới thiệu về tài chính doanh nghiệp.md",
     "Books/Thị trường tài chính và quản trị rủi ro tài chính..md",
+    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 2 - Các báo cáo tài chính và dòng tiền.md",
+    "Books/Tài chính doanh nghiệp.md",
+    "Finance/Tài chính doanh nghiệp/2. Định giá và hoạch định ngân sách vốn",
+    "Finance/Tài chính doanh nghiệp/1. Tổng quan",
+    "Finance/Tài chính doanh nghiệp",
+    "Books/images",
+    "Machine Learning and Deep Learning/MLOps/Model Pruning.md",
     "Finance",
     "Mathematics",
     "Machine Learning and Deep Learning/MLOps/Model Quantization.md",
@@ -188,23 +195,16 @@
     "Machine Learning and Deep Learning/NLP/Sentiment Analysis With Mamba.md",
     "Machine Learning and Deep Learning/Dự án/Danh sách đề tài.md",
     "Basic Computer Science",
-    "Machine Learning and Deep Learning/MLOps",
     "Machine Learning and Deep Learning/Welcome.md",
     "Machine Learning and Deep Learning/README.md",
     "Machine Learning and Deep Learning/Probability.md",
     "Machine Learning and Deep Learning/Mathematic.md",
-    "Machine Learning and Deep Learning/NLP",
     "Machine Learning and Deep Learning/Dự án/Mở đầu..md",
     "Machine Learning and Deep Learning/Untitled.canvas",
     "Books/Suy nghĩ thống kê ngày thường.md",
     "Books/Ikigami.md",
-    "Books/Ikigami",
-    "Machine Learning and Deep Learning/Dự án",
     "Storytelling with data.md",
     "Untitled.canvas",
-    "Probability.md",
-    "Mathematic.md",
-    "2024-02-20.md",
-    "Welcome.md"
+    "Probability.md"
   ]
 }
