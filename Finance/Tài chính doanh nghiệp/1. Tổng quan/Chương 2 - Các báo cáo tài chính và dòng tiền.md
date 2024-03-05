@@ -57,9 +57,16 @@ Con số đặc biệt quan trọng là **EBIT (Earning Before Tax and Interest)
 # 3. Thuế
 
 ## Các bật thuế suất thuế thu nhập doanh nghiệp
+Các bậc thuết suất thuế thu nhập doanh nghiệp (tại Mỹ) được thể hiện trong bảng sau:
+
+![[TaxTable.png]]
+
 
 ## Thuế suất trung bình so với thuế suất biên
 
+**Thuế suất trung bình:** Số tiền thuế $\div$ Tổng thu nhập chịu thuế. Đồng thời đồng biến với thu nhập
+
+**Thuế suất biên tế:** Thuế suất phải nộp với mỗi 1$ tăng thêm. Thông thường, các quyết định tài chính dựa trên thuế suất này. 
 # 4. Vốn luân chuyển ròng
 
 # 5. Dòng tiền với góc độ tài chính

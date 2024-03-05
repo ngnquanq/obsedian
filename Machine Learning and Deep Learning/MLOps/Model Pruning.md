@@ -14,7 +14,7 @@ Có một vài động lực cho việc chúng ta tỉa bớt mô hình, bao g�
 # Các loại tỉa mô hình (phương thức):
 ## 1. Weight pruning:
 
-Việc tỉa bớt đi trọng số mô hình bao gồm loại bỏ các trọng số bên trong một mô hình mà nó **không đóng góp gì nhiều** tới kết quả của mô hình, <mark style="background: #ABF7F7A6;">TLDR: bỏ các tham số mà có hay không cũng không quan trọng</mark>.
+Việc tỉa bớt đi trọng số mô hình bao gồm loại bỏ các trọng số bên trong một mô hình mà nó **không đóng góp gì nhiều** tới kết quả của mô hình, <mark style="background: #ABF7F7A6;">TLDR: bỏ các tham số, neurons, filters, channel, bất cứ thứ gì có thể được cập nhật thông qua quá trình model học mà có hay không cũng không quan trọng</mark>.
 
 Một trong những kĩ thuật để phục vụ việc này là "magnitude-based pruning", các trọng số có giá trị nhỏ sẽ bị bỏ đi, hoặc là "gradient-based pruning", các trọng số mà có giá trị đạo hàm thấp sẽ bị bỏ đi. 
 

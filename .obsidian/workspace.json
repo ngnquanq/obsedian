@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning and Deep Learning/MLOps/Model Pruning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "756e3b709ecf4dd8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 2 - Các báo cáo tài chính và dòng tiền.md",
+                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 2 - Các báo cáo tài chính và dòng tiền.md",
+                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 2 - Các báo cáo tài chính và dòng tiền.md",
+                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 2 - Các báo cáo tài chính và dòng tiền.md"
+                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md"
               }
             }
           }
@@ -162,39 +148,43 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "756e3b709ecf4dd8",
+  "active": "4086bca747cc54c8",
   "lastOpenFiles": [
-    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 1 - Giới thiệu về tài chính doanh nghiệp.md",
+    "Finance/Tài chính doanh nghiệp/5. Tài trợ dài hạn/Chương 15 - Tài trợ dài hạn.md",
+    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
     "Books/Thị trường tài chính và quản trị rủi ro tài chính..md",
-    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 2 - Các báo cáo tài chính và dòng tiền.md",
     "Books/Tài chính doanh nghiệp.md",
+    "Finance/Tài chính doanh nghiệp/2. Định giá và hoạch định ngân sách vốn/Images/BCDKT-TT.png",
+    "Finance/Tài chính doanh nghiệp/2. Định giá và hoạch định ngân sách vốn/Images",
+    "Finance/Tài chính doanh nghiệp/2. Định giá và hoạch định ngân sách vốn/New folder",
+    "Finance/Tài chính doanh nghiệp/5. Tài trợ dài hạn",
+    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 2 - Các báo cáo tài chính và dòng tiền.md",
+    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 1 - Giới thiệu về tài chính doanh nghiệp.md",
+    "Machine Learning and Deep Learning/MLOps/Model Pruning.md",
+    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/TaxTable.png",
+    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images",
+    "Finance/Tài chính doanh nghiệp/1. Tổng quan/New folder",
+    "Finance/Lý thuyết tài chính",
     "Finance/Tài chính doanh nghiệp/2. Định giá và hoạch định ngân sách vốn",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan",
     "Finance/Tài chính doanh nghiệp",
     "Books/images",
-    "Machine Learning and Deep Learning/MLOps/Model Pruning.md",
-    "Finance",
-    "Mathematics",
     "Machine Learning and Deep Learning/MLOps/Model Quantization.md",
     "Basic Computer Science/API.md",
     "Basic Computer Science/How GPU works.md",
     "Basic Computer Science/Floating-point numbers.md",
     "Basic Computer Science/images/diagram-what-is-an-api-postman-illustration.svg",
     "Basic Computer Science/images/api.png",
-    "Basic Computer Science/images",
-    "Basic Computer Science/New folder",
     "Machine Learning and Deep Learning/MLOps/Web Deployment.md",
     "Basic Computer Science/AI application principles.md",
     "Untitled.md",
     "Machine Learning and Deep Learning/MLOps/images/neuron_pruning.png",
     "Machine Learning and Deep Learning/MLOps/images/weight_pruning.png",
-    "Machine Learning and Deep Learning/MLOps/images",
     "Books/Introduction.md",
     "Books/Storytelling with data.md",
     "Note.md",
     "Machine Learning and Deep Learning/NLP/Sentiment Analysis With Mamba.md",
     "Machine Learning and Deep Learning/Dự án/Danh sách đề tài.md",
-    "Basic Computer Science",
     "Machine Learning and Deep Learning/Welcome.md",
     "Machine Learning and Deep Learning/README.md",
     "Machine Learning and Deep Learning/Probability.md",
@@ -203,8 +193,6 @@
     "Machine Learning and Deep Learning/Untitled.canvas",
     "Books/Suy nghĩ thống kê ngày thường.md",
     "Books/Ikigami.md",
-    "Storytelling with data.md",
-    "Untitled.canvas",
-    "Probability.md"
+    "Untitled.canvas"
   ]
 }
