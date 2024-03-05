@@ -1,4 +1,13 @@
 [
   "obsidian-emoji-toolbar",
-  "url-into-selection"
+  "url-into-selection",
+  "quick-latex",
+  "obsidian-outliner",
+  "obsidian-latex-suite",
+  "obsidian-icon-folder",
+  "highlightr-plugin",
+  "cm-editor-syntax-highlight-obsidian",
+  "dataview",
+  "obsidian-tasks-plugin",
+  "tag-wrangler"
 ]

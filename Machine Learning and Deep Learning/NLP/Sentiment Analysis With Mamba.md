@@ -1,6 +1,8 @@
 
 # Prerequisites
-- [[How GPU works?]]
+- [[How GPU works]]
+- 
+- 
 - 
 # Motivation
 Motivation thì đơn giản là mình muốn một cái model nào đó mà nó phải:

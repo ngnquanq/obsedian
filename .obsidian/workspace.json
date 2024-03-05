@@ -8,43 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "07b62b703d8ed1ac",
+            "id": "4086bca747cc54c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning and Deep Learning/Dự án/Danh sách đề tài.md",
-                "mode": "preview",
+                "file": "Machine Learning and Deep Learning/MLOps/Model Pruning.md",
+                "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
           },
           {
-            "id": "977e1aa040771a86",
+            "id": "756e3b709ecf4dd8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Note.md",
+                "file": "Machine Learning and Deep Learning/MLOps/Model Pruning.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ccf28851c383a322",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning and Deep Learning/MLOps/Model Quantization.md",
-                "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning and Deep Learning/MLOps/Model Quantization.md",
+                "file": "Machine Learning and Deep Learning/MLOps/Model Pruning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning and Deep Learning/MLOps/Model Quantization.md",
+                "file": "Machine Learning and Deep Learning/MLOps/Model Pruning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning and Deep Learning/MLOps/Model Quantization.md"
+                "file": "Machine Learning and Deep Learning/MLOps/Model Pruning.md"
               }
             }
           }
@@ -172,24 +162,30 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "ccf28851c383a322",
+  "active": "6a4f1dae87d8f109",
   "lastOpenFiles": [
-    "Basic Computer Science/floating-point numbers.md",
-    "Machine Learning and Deep Learning/NLP/Sentiment Analysis With Mamba.md",
+    "Machine Learning and Deep Learning/MLOps/images/neuron_pruning.png",
+    "Machine Learning and Deep Learning/MLOps/images/weight_pruning.png",
+    "Machine Learning and Deep Learning/MLOps/images",
     "Machine Learning and Deep Learning/MLOps/Model Quantization.md",
+    "Machine Learning and Deep Learning/MLOps/Web Deployment.md",
+    "Machine Learning and Deep Learning/MLOps/Model Pruning.md",
+    "Basic Computer Science/Floating-point numbers.md",
+    "Books/Introduction.md",
+    "Books/Storytelling with data.md",
+    "Basic Computer Science/How GPU works.md",
+    "Note.md",
+    "Machine Learning and Deep Learning/NLP/Sentiment Analysis With Mamba.md",
+    "Machine Learning and Deep Learning/Dự án/Danh sách đề tài.md",
     "Basic Computer Science",
     "Machine Learning and Deep Learning/MLOps",
     "Machine Learning and Deep Learning/Welcome.md",
     "Machine Learning and Deep Learning/README.md",
     "Machine Learning and Deep Learning/Probability.md",
     "Machine Learning and Deep Learning/Mathematic.md",
-    "Machine Learning and Deep Learning/Dự án/Danh sách đề tài.md",
-    "Note.md",
     "Machine Learning and Deep Learning/NLP",
     "Machine Learning and Deep Learning/Dự án/Mở đầu..md",
     "Machine Learning and Deep Learning/Untitled.canvas",
-    "Books/Introduction.md",
-    "Books/Storytelling with data.md",
     "Books/Suy nghĩ thống kê ngày thường.md",
     "Books/Ikigami.md",
     "Books/Ikigami",
