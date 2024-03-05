@@ -14,7 +14,9 @@ Motivation thì đơn giản là mình muốn một cái model nào đó mà nó
 
 # Mamba
 
+Mamba hay với cái tên gọi khác là S6 (Selective State Space Model + Parralel Scan + ...)
 # Coding
 
 # Side thoughs
+Mạnh
 

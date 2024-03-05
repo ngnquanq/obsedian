@@ -3,5 +3,6 @@
   "enabledCssSnippets": [
     "center",
     "quote"
-  ]
+  ],
+  "theme": "moonstone"
 }

@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning and Deep Learning/NLP/Sentiment Analysis With Mamba.md",
+                "file": "Books/Thị trường tài chính và quản trị rủi ro tài chính..md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning and Deep Learning/NLP/Sentiment Analysis With Mamba.md",
+                "file": "Books/Thị trường tài chính và quản trị rủi ro tài chính..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning and Deep Learning/NLP/Sentiment Analysis With Mamba.md",
+                "file": "Books/Thị trường tài chính và quản trị rủi ro tài chính..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning and Deep Learning/NLP/Sentiment Analysis With Mamba.md"
+                "file": "Books/Thị trường tài chính và quản trị rủi ro tài chính..md"
               }
             }
           }
@@ -162,12 +162,13 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "6a4f1dae87d8f109",
+  "active": "756e3b709ecf4dd8",
   "lastOpenFiles": [
+    "Machine Learning and Deep Learning/MLOps/Model Pruning.md",
+    "Books/Thị trường tài chính và quản trị rủi ro tài chính..md",
     "Finance",
     "Mathematics",
     "Machine Learning and Deep Learning/MLOps/Model Quantization.md",
-    "Machine Learning and Deep Learning/MLOps/Model Pruning.md",
     "Basic Computer Science/API.md",
     "Basic Computer Science/How GPU works.md",
     "Basic Computer Science/Floating-point numbers.md",
