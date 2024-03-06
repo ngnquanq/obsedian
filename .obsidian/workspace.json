@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
+                "file": "Basic Computer Science/API.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ef243a321448ce70",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
+                "file": "Basic Computer Science/API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
+                "file": "Basic Computer Science/API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md"
+                "file": "Basic Computer Science/API.md"
               }
             }
           }
@@ -150,8 +151,12 @@
   },
   "active": "4086bca747cc54c8",
   "lastOpenFiles": [
-    "Finance/Tài chính doanh nghiệp/5. Tài trợ dài hạn/Chương 15 - Tài trợ dài hạn.md",
+    "Basic Computer Science/Floating-point numbers.md",
+    "Basic Computer Science/How GPU works.md",
+    "Basic Computer Science/HTTP Standards.md",
+    "Basic Computer Science/API.md",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
+    "Finance/Tài chính doanh nghiệp/5. Tài trợ dài hạn/Chương 15 - Tài trợ dài hạn.md",
     "Books/Thị trường tài chính và quản trị rủi ro tài chính..md",
     "Books/Tài chính doanh nghiệp.md",
     "Finance/Tài chính doanh nghiệp/2. Định giá và hoạch định ngân sách vốn/Images/BCDKT-TT.png",
@@ -170,9 +175,6 @@
     "Finance/Tài chính doanh nghiệp",
     "Books/images",
     "Machine Learning and Deep Learning/MLOps/Model Quantization.md",
-    "Basic Computer Science/API.md",
-    "Basic Computer Science/How GPU works.md",
-    "Basic Computer Science/Floating-point numbers.md",
     "Basic Computer Science/images/diagram-what-is-an-api-postman-illustration.svg",
     "Basic Computer Science/images/api.png",
     "Machine Learning and Deep Learning/MLOps/Web Deployment.md",
@@ -192,7 +194,6 @@
     "Machine Learning and Deep Learning/Dự án/Mở đầu..md",
     "Machine Learning and Deep Learning/Untitled.canvas",
     "Books/Suy nghĩ thống kê ngày thường.md",
-    "Books/Ikigami.md",
     "Untitled.canvas"
   ]
 }
