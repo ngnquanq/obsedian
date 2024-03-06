@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4086bca747cc54c8",
+            "id": "bbed08c40484bf2f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Basic Computer Science/API.md",
+                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 2 - Các báo cáo tài chính và dòng tiền.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ef243a321448ce70",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Basic Computer Science/API.md",
+                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 2 - Các báo cáo tài chính và dòng tiền.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Basic Computer Science/API.md",
+                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 2 - Các báo cáo tài chính và dòng tiền.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Basic Computer Science/API.md"
+                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 2 - Các báo cáo tài chính và dòng tiền.md"
               }
             }
           }
@@ -149,13 +148,16 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "4086bca747cc54c8",
+  "active": "bbed08c40484bf2f",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Note.md",
+    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
+    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 2 - Các báo cáo tài chính và dòng tiền.md",
+    "Basic Computer Science/API.md",
     "Basic Computer Science/Floating-point numbers.md",
     "Basic Computer Science/How GPU works.md",
     "Basic Computer Science/HTTP Standards.md",
-    "Basic Computer Science/API.md",
-    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
     "Finance/Tài chính doanh nghiệp/5. Tài trợ dài hạn/Chương 15 - Tài trợ dài hạn.md",
     "Books/Thị trường tài chính và quản trị rủi ro tài chính..md",
     "Books/Tài chính doanh nghiệp.md",
@@ -163,7 +165,6 @@
     "Finance/Tài chính doanh nghiệp/2. Định giá và hoạch định ngân sách vốn/Images",
     "Finance/Tài chính doanh nghiệp/2. Định giá và hoạch định ngân sách vốn/New folder",
     "Finance/Tài chính doanh nghiệp/5. Tài trợ dài hạn",
-    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 2 - Các báo cáo tài chính và dòng tiền.md",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Chương 1 - Giới thiệu về tài chính doanh nghiệp.md",
     "Machine Learning and Deep Learning/MLOps/Model Pruning.md",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/TaxTable.png",
@@ -179,12 +180,10 @@
     "Basic Computer Science/images/api.png",
     "Machine Learning and Deep Learning/MLOps/Web Deployment.md",
     "Basic Computer Science/AI application principles.md",
-    "Untitled.md",
     "Machine Learning and Deep Learning/MLOps/images/neuron_pruning.png",
     "Machine Learning and Deep Learning/MLOps/images/weight_pruning.png",
     "Books/Introduction.md",
     "Books/Storytelling with data.md",
-    "Note.md",
     "Machine Learning and Deep Learning/NLP/Sentiment Analysis With Mamba.md",
     "Machine Learning and Deep Learning/Dự án/Danh sách đề tài.md",
     "Machine Learning and Deep Learning/Welcome.md",

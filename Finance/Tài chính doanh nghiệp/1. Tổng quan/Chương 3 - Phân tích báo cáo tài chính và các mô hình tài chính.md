@@ -56,13 +56,180 @@ Một tỷ số thanh toán hiện hành **thấp không có nghĩa là công ty
 
 ### Tỷ số thanh toán nhanh (Quick or Acid-Test Ratio):
 Trong tài sản ngắn hạn cũng bao gồm hàng tồn kho, dù cái này là kém thanh khoản nhất. Và người ta cũng có nhiều lý do để không tính luôn hàng tồn kho vào công thức, ví dụ như giá trị sổ sách khác nhiều so với giá trị thị trường. Hoặc là công ty mua về nhiều nhưng để đó do một vấn đề gì đó, dù là vấn đề gì thì việc tính luôn hàng tồn kho dường như không thể hiện toàn bộ ý nghĩa của khả năng thanh khoản của công ty. Do đó, công thức mới là:
+
 $$
 \text{Tỷ số thanh toán nhanh} = \frac{\text{Tài sản ngắn hạn} - \text{Hàng tồn kho}}{\text{Nợ ngắn hạn}}
-$$ Dựa vào công thức tính tỷ số thanh toán hiện hành và tỷ số thanh toán nhanh, ta thấy rằng việc sử dụng tiền để mua hàng tồn kho không làm ảnh hưởng đến tỷ số thanh toán hiện hành nhưng thay đổi, cụ thể hơn là giảm đi tỷ số thanh toán nhanh, do giờ đây tài sản thanh khoản cao của công ty trở nên ít đi. 
+$$
+
+Dựa vào công thức tính tỷ số thanh toán hiện hành và tỷ số thanh toán nhanh, ta thấy rằng việc sử dụng tiền để mua hàng tồn kho không làm ảnh hưởng đến tỷ số thanh toán hiện hành nhưng thay đổi, cụ thể hơn là giảm đi tỷ số thanh toán nhanh, do giờ đây tài sản thanh khoản cao của công ty trở nên ít đi. 
 
 ### Tỷ số thanh toán tiền mặt (Cash ratio):
 Đây là tỷ số thanh toán mà các nhà cung cấp dịch vụ tín dụng trong ngắn hạn quan tâm, được tính bằng công thức:
+
 $$
 \text{Tỷ số tiền mặt} = \frac{\text{Tiền mặt}}{\text{Nợ ngắn hạn}}
 $$
 
+## Các tỷ số thanh toán dài hạn hoặc đòn bẩy tài chính
+Các tỷ số này được sử dụng để đo lường khả năng thanh toán các khoản nợ dài hạn của công ty, tổng quát hơn, **đo lường đòn bẩy tài chính của công ty**. 
+
+### Tỷ số tổng nợ (Total Debt Ratio)
+Như đề cập, tổng nợ, tức tính đến **toàn bộ nợ** của mọi kì hạn của mọi nhà cung cấp tín dụng. Công thức của tỷ số tổng nợ là: 
+
+$$
+\text{Tỷ số tổng nợ} = \frac{\text{Tổng tài sản - Tổng vốn cổ phần}}{\text{Tổng tài sản}}
+$$
+
+Tỷ số này cao hay thấp, hay tạo ra bất kì sự khác biệt nào hay không sẽ **phụ thuộc vào cấu trúc vốn có quan trọng hay không**. Các dạng biến đổi khác của tỷ số này là:
+
+$$
+\text{Tỷ số nợ trên vốn chủ sở hữu} = \frac{\text{Tổng nợ}}{\text{Tổng vốn cổ phần}}
+$$
+và bội số vốn cổ phần:
+
+$$
+\text{Bội số vốn cổ phần} = \frac{\text{Tài sản}}{\text{Tổng vốn cổ phần}} =1 +  \frac{\text{Tổng nợ}}{\text{Tổng vốn cổ phần}}
+$$
+
+Chỉ cần có 1 trong 3 tỷ số này là ta tự động tính được 2 cái còn lại, do đó mà **cả 3 chỉ số này miêu tả cùng 1 vấn đề**. 
+
+### Khả năng thanh toán lãi vay (Times Interest Earned)
+Đây là một chỉ số đo lường khả năng thanh toán dài hạn (TIE). Công thức tính của chỉ số này là:
+
+$$
+\text{Tỷ số khả năng thanh toán lãi vay} = \frac{\text{EBIT}}{\text{Lãi vay}}
+$$
+Ý nghĩa của con số này **đo lường khả năng đảm bảo chi trả chi phí lãi vay của một công ty** tốt tới mức nào dựa trên thu nhập trước thuế và lãi vay
+
+### Tỷ số đảm bảo tiền mặt (Cash coverage)
+Chúng ta đặc biệt quan tâm tới sự hiện hữu của tiền mặt trong doanh nghiệp, trong khi đó TIE lại phụ thuộc vào EBIT, mà không thật sự đo lường lượng tiền mặt có sẵn đi chi trả lãi vay. Do đó một cách để xác định tỷ số đảm bảo tiền mặt là (cash coverage) là:
+
+$$
+\text{Tỷ số đảm bảo tiền mặt} = \frac{\text{EBIT + (Khấu hao + Chi phí trừ dần)}}{\text{Lãi vay}} = \frac{\text{EBITDA}}{\text{Lãi vay}}
+$$
+Để mà nói thì con số này **đo lường khả năng tạo ra dòng tiền từ hoạt động kinh doanh của doanh nghiệp**. 
+
+Ngoài ra ta cũng có một chỉ số khác để đo khả năng trả nợ dài hạn sử dụng 2 thông tin chính là EBITDA và Nợ phải chịu lãi (nợ này bao gồm cả nợ trong ngắn hạn và nợ trong dài hạn). Công thức là:
+
+$$
+\frac{\text{Nợ phải chịu lãi}}{\text{EBITDA}}
+$$
+
+Con số này thấp hơn 1 được xem là rất mạnh, và giá trị này trên 5 được xem là rất yếu. 
+
+## Các chỉ tiêu đo lường hiệu quả quán lý tài sản hay vòng quay (Asset Management or turnover measures).
+Mục tiêu của các chỉ số này là để mô tả doanh nghiệp đang sử dụng tài sản của mình hiệu quả hay thâm dụng thế nào trong việc tạo ra doanh thu.
+
+### Vòng quay hàng tồn kho (Inventory Turnover) và Thời gian lưu kho (Day's Sales in Inventory).
+Công thức tính vòng quay hàng tồn kho như sau:
+
+$$
+\text{Vòng quay hàng tồn kho} = \frac{\text{Giá vốn hàng bán}}{\text{Hàng tồn kho}}
+$$
+
+Về cơ bản thì chúng ta bán hết, hoặc quay vòng, toàn bộ hàng tồn kho trong "{Vòng quay hàng tồn kho} lần trong năm". Là một người quản lý, chúng ta muốn **con số này càng cao càng tốt**, có nghĩa là hàng tồn kho ra vào liên tục, tín hiệu cho ăn nên làm ra.
+
+Dựa vào con số trên, ta cũng có thể ngay lập tức tính ra số ngày cần thiết để quay hết 1 vòng:
+
+$$
+\text{Thời gian lưu kho} = \frac{\text{365 ngày}}{\text{Vòng quay hàng tồn kho}}
+$$
+
+### Vòng quay khoản phải thu (Receivables Turnover) và số ngày thu khoản phải thu (Day's Sales In Receivable).
+Concept công thức cũng hao hao cái trên. Các tỷ số này cho chúng ta biết chúng ta thu tiền bán hàng nhanh ra sao. Công thức của vòng quay khoản phải thu như sau:
+
+$$
+\text{Vòng quay khoản phải thu} = \frac{\text{Doanh thu}}{\text{Khoản phải thu}}
+$$
+Và cũng tương tự, ta cũng có thể tính được số ngày thu khoản phải thu như sau:
+
+$$
+\text{Số ngày thu khoản phải thu} = \frac{\text{365 ngày}}{\text{Vòng quay khoản phải thu}}
+$$
+
+### Vòng quay tổng tài sản (Total Asset Turnover)
+Đây là một tỷ số quan trọng "tổng quát" hơn. Công thức của tỷ số này là:
+
+$$
+\text{Vòng quay tổng tài sản} = \frac{\text{Doanh thu}}{\text{Tổng tài sản}}
+$$
+
+## Các chỉ tiêu đo lường khả năng sinh lợi (Profitability Measures)
+Đây là **nhóm tỷ số được sử dụng rộng rãi nhất trong tất cả tỷ số tài chính**. Đo lường xem công ty đang sử dụng tài sản của mình hiệu quả như thế nào và công ty quản lý các hoạt động của mình hiệu quả ra sao.
+
+### Biên lơi j nhuận (Profit Margin):
+Công thức tính biên lợi nhuận: 
+
+$$
+\text{Biên lợi nhuận} = \frac{\text{Lợi nhuận ròng}}{\text{Doanh thu}}
+$$
+
+Ở khía cạnh kế toán, cứ mỗi 1$ doanh thu, ta lại tạo ra {Biên lợi nhuận ròng}cent
+
+### Biên EBITDA (EBITDA Margin)
+Như đã đề cập ở trên, **biên EBITDA chú ý đến dòng tiền hoạt động trực tiếp** hơn là đến lợi nhuạn ròng và không tính đến ảnh hưởng của cấu trúc vốn hay thuế. Công thức của biên EBITDA có thể được tính như sau:
+
+$$
+\text{Biên EBITDA} = \frac{\text{EBITDA}}{\text{Doanh thu}}
+$$
+
+### Tỷ suất sinh lời trên tài sản (Return on Assets - ROA)
+Đo lường lợi nhuận trên mỗi đô la tài sản. Công thức tính là:
+
+$$
+\text{ROA} = \frac{\text{Lợi nhuận ròng}}{\text{Tổng tài sản}}
+$$
+
+### Tỷ suất sinh lời trên vốn chủ sở hữu (Return on Equity - ROE)
+Đo chủ sở hữu được hưởng thành quả như thế nào trong năm. 
+
+$$
+\text{Tỷ suất sinh lợi trên vốn chủ sở hữu} = \frac{\text{Lợi nhuận ròng}}{\text{Vốn chủ sở hữu}}
+$$
+Một lưu ý khác cần được lưu tâm đó là việc công ty có **ROE cao hơn ROA** cũng đồng nghĩa là công ty **đã sử dụng đòn bẩy tài chính**.
+
+**Chứng minh:**
+
+## Các chỉ tiêu đo lường giá trị thị trường:
+Chỉ tính được cho các công ty niêm yết.
+
+### Tỷ số giá trên thu nhập (Price-Earnings Ratio - PE)
+Tỷ số PE đo lường các nhà đầu tư sẵn lòng trả bao nhiêu cho 1 đô là thu nhập hiện hành, **PE cao hàm ý doanh nghiệp có triển vọng tăng trưởng đáng kể trong tương lai** và có công thức:
+
+$$
+\text{Tỷ số PE} = \frac{\text{Giá mỗi cổ phiếu}}{\text{Thu nhập mỗi cổ phần}}
+$$
+
+### Tỷ số giá trị thị trường trên giá trị sổ sách (Market to book ratio)
+Mình thấy ít sài, cơ bản thì công thức của nó như cái tên của nó:
+
+$$
+\text{Tỷ số giá trị thị trường trên sổ sách} = \frac{\text{Giá trị thị trường mỗi cổ phần}}{\text{Giá trị sổ sách mỗi cổ phần}}
+$$
+**Giá trị này nhỏ hơn 1 hàm nghĩa doanh nghiệp đã không thành công trong việc tạo ra giá trị cho cổ đông của mình**.
+
+### Vốn hóa thị trường (Market Capitalization)
+Bằng với giá thị trường của mỗi cổ phần của công ty nhân với lượng cổ phần đang lưu hành.
+
+$$
+\text{Vốn hóa thị trường} = \text{Giá một cổ phần} \times \text{Số lượng cổ phần đang lưu hành}
+$$
+
+### Giá trị doanh nghiệp (Enterprise Value)
+Rất gần với vốn hóa thị trường, đo lường **giá trị thị trường của các cổ phiếu đang lưu hành cộng với giá trị thị trường của nợ phải chịu lãi đang lưu hành trừ đi tiền mặt nắm giữ**. Công thức của EV được tính như sau:
+
+$$
+\text{EV} = \text{Giá trị vốn hóa thị trường} + \text{Giá trị vốn hóa của nợ chịu lãi} - \text{Tiền mặt}
+$$
+Đây là một chỉ số đo lường tốt hơn vì nó cho biết **cần bao nhiêu tiền để có thể mua toàn bộ cổ phần đang lưu hành của công ty và trả hết nợ vay**.
+
+### Bội số giá trị doanh nghiệp
+Mình thấy cái này cũng ít xài. Công thức tính là lấy giá trị doanh nghiệp chia cho EBITDA:
+
+$$
+\frac{\text{EV}}{\text{EBITDA}}
+$$
+
+Bội số này hữu ích bởi vì nó cho phép **so sánh công ty này với công ty khác khi có sự khác biệt về cấu trúc vốn (chi phí lãi vay), thuế hay chi tiêu vốn**. Tương tự như PE, ta kỳ vọng công ty có cơ hội tăng trưởng cao sẽ có bội số EV cao. 
+
+# 3. Đồng nhất thức Dupont
