@@ -186,7 +186,7 @@ $$
 $$
 \text{Tỷ suất sinh lợi trên vốn chủ sở hữu} = \frac{\text{Lợi nhuận ròng}}{\text{Vốn chủ sở hữu}}
 $$
-Một lưu ý khác cần được lưu tâm đó là việc công ty có **ROE cao hơn ROA** cũng đồng nghĩa là công ty **đã sử dụng đòn bẩy tài chính**.
+Một lưu ý khác cần được lưu tâm đó là việc công ty có [[Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính]]
 
 **Chứng minh:**
 
@@ -233,3 +233,83 @@ $$
 Bội số này hữu ích bởi vì nó cho phép **so sánh công ty này với công ty khác khi có sự khác biệt về cấu trúc vốn (chi phí lãi vay), thuế hay chi tiêu vốn**. Tương tự như PE, ta kỳ vọng công ty có cơ hội tăng trưởng cao sẽ có bội số EV cao. 
 
 # 3. Đồng nhất thức Dupont
+
+
+
+Như đã đề cập ở trên về  ROA và ROE, mình xin quote lại chính mình 😍
+> **ROE cao hơn ROA** cũng đồng nghĩa là công ty **đã sử dụng đòn bẩy tài chính** 
+
+Ở phần này thì ta đi vào phân tích rõ hơn mối quan hệ giữa 2 tỷ số này thông qua việc tìm hiểu một phương pháp tiếp cận nổi tiếng đó là phương pháp chia ROE thành các tỷ số khác nhau. (**Đây là concept chung, bạn chia thế đéo nào cũng được, nhớ lại việc chia tỷ số phải có ý nghĩa là được**). 
+## Xem xét kỹ hơn ROE
+
+Đại khái là sau vài phép biến đổi, ta có công thức ROE mới như sau:
+
+$$
+\text{ROE} = \text{Biên lợi nhuận x Vòng quay tổng tài sản x Bội số vốn cổ phần}
+$$
+
+Và cũng nhờ vào chia tách như vậy (à cái công thức ở trên gọi là **đồng nhất thức DuPont** á nha). Ta biết được rằng ROE sẽ phải chịu ảnh hưởng bởi các nhân tố chính:
+- Hiệu quả hoạt động (đo bằng biên lợi nhuận)
+- Hiệu quả sử dụng tài sản (đo bằng vòng quay tổng tài sản)
+- Đòn bẩy tài chính (đo bằng bội số vốn chủ sở hữu)
+
+Và do đó mà tùy vào 3 chỉ số này tăng giảm ra sao mà ROE tăng hoặc giảm, hay nói cụ thể hơn, **bất kỳ yếu tố nào tác động lên 3 chỉ số này đều gây tác động lên ROE**. Và không chỉ vậy, nếu ROE tự nhiên thấp hơn, **đồng nhất thức DuPont cho bạn biết chỗ để fix bug 🤩**. Và nhớ lại, đây chỉ là concept thôi nhé, bạn tách được 3 cái kia ra thành mấy cái khác nhỏ hơn cũng được. 
+
+## Các vấn đề trong phân tích báo cáo tài chính
+
+Nãy giờ có quá nhiều số liệu đã được đề cập, tuy nhiên, người học phải lưu ý rằng: **không có lý thuyết nền tảng nào giúp chúng ta xác định là cần xem xét những con số định lượng nào cũng như một hướng dẫn chuẩn mực để so sánh**. Và cũng do đó, ta cũng **không nói được tỷ số nào quan trọng nhất và giá trị cao hay thấp của chúng là bao nhiêu**.
+
+Và rất nhiều vấn đề khác, ví dụ như:
+- Nhiều công ty là tập đoàn đa ngành => Khó phân tích
+- Phân bố rải rác giữa các đối thủ cạnh tranh => Khó so sánh
+- Các công ty dù cùng lĩnh vực kinh doanh cũng khó so sánh, ví dụ như các công yt độc quyền => Khó phân tích
+- Sử dụng thủ tục kế toán khác nhau (cơm bữa luôn) => Khó so sánh
+- Các sự kiện bất thường, vấn vân
+
+# 4. Các mô hình tài chính
+
+Một công dụng cũng quan trọng không kém của báo cáo tài chính đó là **lập kế hoạch tài chính**. Output của các mô hình lập kế hoạch tài chính đó là **báo cáo tài chính dự phóng** trong đó dự phòng (pro foma) có nghĩa **"một vấn đề mang tính hình thức"**.
+
+Mô hình lập kế hoạch tài chính đơn giản: 
+# 5. Tài trợ từ bên ngoài và tăng trưởng
+## EFN và tăng trưởng
+## Chính sách tài chính và tăng trưởng
+
+**Có mối liên hệ trực tiếp giữa tăng trưởng và tài trợ bên ngoài**
+### Tỷ lệ tăng trưởng nội tại (Internal Growth Rate)
+
+Được định nghĩa là **tỷ lệ tăng trưởng tối đa mà doanh nghiệp có thể đạt được khi không sử dụng bất kỳ nguồn tài trợ nào từ bên ngoài** (hay nói cách khác là doanh nghiệp có bao nhiêu thì sống bằng bấy nhiêu). Công thức để tính sự tăng trưởng này là:
+
+$$
+\text{Tỷ lệ tăng trưởng nội tại} = \frac{\text{ROA x b}}{\text{1 - ROA x b}}
+$$
+trong đó ROA là tỷ suất sinh lợi trên tài sản, b là tỷ lệ tái đầu tư, hay tỷ lệ lợi nhuận giữ lại. 
+### Tỷ lệ tăng trưởng cố định (Sustainable Growth Rate)
+
+Tỷ lệ tăng trưởng này là tỷ lệ tăng trưởng tối đa một doanh nghiệp có thể đạt được mà không cần huy động thêm cốn cổ phần từ bên ngoài khi công ty phải duy trì tỷ số nợ trên vốn cổ phần là không đổi, lý do nó có tên gọi như vậy là vì nó là **tỷ lệ tăng trưởng tối đa một doanh nghiệp có thể duy trì mà không làm tăng đòn bẩy tài chính chung của doanh nghiệp.** Công thức của cái này tương tự cái trên, chỉ thay ROA thành ROE:
+
+$$
+\text{Tỷ lệ tăng trưởng cố định} = \frac{\text{ROE x b}}{\text{1 - ROE x b}}
+$$
+### Các nhân tốc tác động tăng trưởng (Determinants of Growth)
+
+**Các nhân tố chính ảnh hưởng đến ROE cũng sẽ là những nhân tố quan trọng đến tỷ lệ tăng trưởng.** Như vậy, khả năng tăng trưởng ổn định của công ty sẽ phụ thuộc vào 4 nhân tố sau:
+- Biên lợi nhuận
+- Chính sách cổ tức
+- Chính sách tài chính
+- Vòng quay tổng tài sản
+
+<mark style="background: #FFB8EBA6;">TLDR: Nếu một doanh nghiệp không muốn bán cổ phần mới và cố định tất cả các nhân tố đầu vào bao gồm biên lợi nhuận, chính sách cổ tức, chính sách tài trợ và vòng quay tổng tài sản thì sẽ chỉ đạt được duy nhất một tỷ lệ tăng trưởng.</mark>
+
+# 6. Một số phản đối về các mô hình lập kế hoạch tài chính
+
+Khi lập kế hoạch tài chính, có các yếu tố cơ bản của giá trị doanh nghiệp có xu hướng **bị cho ra rìa**, đó là **quy mô dòng tiền, rủi ro và thời điểm**. 
+
+Và do nó rất khó, và rất nhiều giả định cần được lập ra, vì vậy mà **lập kế hoạch tài chính là một quy trình lặp đi lặp lại**.
+
+Nhưng dù sao đi nữa thì kế hoạch tài chính **vẫn được lập dù không hoàn hảo, và việc lập cũng không hoàn toàn máy móc.**
+
+Quote lại lời trong sách (thật ra là của cầu thủ bóng chày Yogi Berra "bất tử")
+
+> "Ya gotta watch out if you dont know where you're goin. You just might not get there"
+
