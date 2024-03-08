@@ -8,19 +8,67 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bbed08c40484bf2f",
+            "id": "9d0f6b1ae0ce1f32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
+                "file": "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Introduction.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f24e85a501ba5ff2",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "18a8b19e3e25b325",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Two-phase predictions design pattern.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ba5ee48337936f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Continued Model Evaluation design pattern.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "492d5cf8dd1529d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Batch Serving design pattern.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 535.5
+    "width": 506.5
   },
   "right": {
     "id": "ef243a321448ce70",
@@ -86,7 +134,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +150,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +171,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,55 +192,55 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "6a4f1dae87d8f109",
+  "active": "f24e85a501ba5ff2",
   "lastOpenFiles": [
-    "Machine Learning and Deep Learning/Computer Vision",
-    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Tổng quan.md",
     "Finance/Tài chính doanh nghiệp.md",
+    "Finance/Tài chính doanh nghiệp/5. Tài trợ dài hạn/Tài trợ dài hạn.md",
+    "Finance/Tài chính doanh nghiệp/5. Tài trợ dài hạn/Content/Chương 19 - Cổ tức và các hình thức chi trả khác.md",
+    "Finance/Tài chính doanh nghiệp/4. Cấu trúc vốn và chính sách cổ tức/Cấu trúc vốn và chính sách cổ tức.md",
+    "Finance/Tài chính doanh nghiệp/5. Tài trợ dài hạn/Images",
+    "Finance/Tài chính doanh nghiệp/5. Tài trợ dài hạn/Content",
+    "Finance/Tài chính doanh nghiệp/2. Định giá và hoạch định ngân sách vốn/Định giá và hoạch định ngân sách vốn.md",
+    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Tổng quan.md",
+    "Finance/Tài chính doanh nghiệp/4. Cấu trúc vốn và chính sách cổ tức/Content/Chương 15 - Tài trợ dài hạn.md",
+    "Finance/Tài chính doanh nghiệp/4. Cấu trúc vốn và chính sách cổ tức/Content",
+    "Finance/Tài chính doanh nghiệp/4. Cấu trúc vốn và chính sách cổ tức/Content/Chương 16 - Cấu trúc vốn.md",
+    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Introduction.md",
+    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Stateless Serving Function design pattern.md",
+    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 08 - Connected Patterns",
+    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 07 - Responsible AI",
+    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 06 - Reproducibility Design Patterns",
+    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 03 - Problem Representation Design Patterns",
+    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 04 - Model Traning Patterns",
+    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 02 - Data Representation Design Patterns",
+    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 01 - The need for machine learning design patterns",
+    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Two-phase predictions design pattern.md",
+    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Keyed Predictions design pattern.md",
+    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Continued Model Evaluation design pattern.md",
+    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Batch Serving design pattern.md",
+    "Machine Learning and Deep Learning/MLOps/AIO/Model Pruning.md",
+    "Untitled.canvas",
+    "Basic Computer Science/AI application principles.md",
+    "Basic Computer Science/API.md",
+    "Basic Computer Science/Floating-point numbers.md",
+    "Basic Computer Science/How GPU works.md",
+    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
     "Finance/Lý thuyết trò chơi.md",
     "Finance/Quản trị và chiến lược ngân hàng.md",
-    "Finance/Lý thuyết trò chơi",
     "Finance/Quản trị học.md",
-    "Finance/Quản trị và chiến lược ngân hàng",
-    "Finance/Quản trị học",
     "Finance/Lý thuyết tài chính.md",
-    "Finance/Tài chính doanh nghiệp/2. Định giá và hoạch định ngân sách vốn/Định giá và hoạch định ngân sách vốn.md",
-    "Finance/Tài chính doanh nghiệp/2. Định giá và hoạch định ngân sách vốn/Content",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 1 - Giới thiệu về tài chính doanh nghiệp.md",
-    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content",
-    "Finance/Tài chính doanh nghiệp/4. Cấu trúc vốn và chính sách cổ tức/Chương 15 - Tài trợ dài hạn.md",
-    "Finance/Tài chính doanh nghiệp/5. Tài trợ dài hạn/Chương 19 - Cổ tức và các hình thức chi trả khác.md",
-    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
-    "Finance/Tài chính doanh nghiệp/4. Cấu trúc vốn và chính sách cổ tức/Images",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma7.png",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma6.png",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma5.png",
-    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma5.tif",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma4.png",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma3.png",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma2.png",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma1.png",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma0.png",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 2 - Các báo cáo tài chính và dòng tiền.md",
-    "Untitled.md",
-    "Note.md",
-    "Basic Computer Science/API.md",
-    "Basic Computer Science/Floating-point numbers.md",
-    "Basic Computer Science/How GPU works.md",
-    "Basic Computer Science/HTTP Standards.md",
-    "Books/Thị trường tài chính và quản trị rủi ro tài chính..md",
-    "Books/Tài chính doanh nghiệp.md",
     "Finance/Tài chính doanh nghiệp/2. Định giá và hoạch định ngân sách vốn/Images/BCDKT-TT.png",
-    "Finance/Tài chính doanh nghiệp/2. Định giá và hoạch định ngân sách vốn/Images",
-    "Finance/Tài chính doanh nghiệp/2. Định giá và hoạch định ngân sách vốn/New folder",
-    "Finance/Tài chính doanh nghiệp/5. Tài trợ dài hạn",
-    "Machine Learning and Deep Learning/MLOps/Model Pruning.md",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/TaxTable.png",
-    "Machine Learning and Deep Learning/MLOps/Model Quantization.md",
-    "Machine Learning and Deep Learning/MLOps/Web Deployment.md",
-    "Basic Computer Science/AI application principles.md",
-    "Books/Introduction.md",
-    "Machine Learning and Deep Learning/Untitled.canvas",
-    "Untitled.canvas"
+    "Machine Learning and Deep Learning/Untitled.canvas"
   ]
 }
