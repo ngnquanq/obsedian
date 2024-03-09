@@ -1,0 +1,7 @@
+- UBUNTU - Open Source OS 
+-  Mastering terminal
+- Docker
+- Cấu trúc đường dẫn - Môn OS
+- Mạng máy tính + An ninh mạng
+- Kiến thức về xác suất, thống kê + Hypothesis Testing
+- Kiến trúc máy tính

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3ca223bbc15b07d8",
+        "id": "d7d4212aa62102fa",
         "type": "tabs",
         "children": [
           {
-            "id": "9d0f6b1ae0ce1f32",
+            "id": "30fe75287a128075",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Introduction.md",
+                "file": "Machine Learning and Deep Learning/MLOps/AIO/Model Pruning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,46 +21,12 @@
             }
           },
           {
-            "id": "f24e85a501ba5ff2",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "18a8b19e3e25b325",
+            "id": "55027448d5f570e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Two-phase predictions design pattern.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4ba5ee48337936f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Continued Model Evaluation design pattern.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "492d5cf8dd1529d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Batch Serving design pattern.md",
+                "file": "File extension.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -118,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 506.5
+    "width": 200
   },
   "right": {
     "id": "ef243a321448ce70",
@@ -134,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "File extension.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "File extension.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,7 +139,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "File extension.md"
+              }
             }
           }
         ]
@@ -192,8 +162,18 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "f24e85a501ba5ff2",
+  "active": "55027448d5f570e2",
   "lastOpenFiles": [
+    "Machine Learning and Deep Learning/MLOps/AIO/Model Pruning.md",
+    "File extension.md",
+    "TO LEARN LIST !.md",
+    "Machine Learning and Deep Learning/MLOps/AIO/Model Quantization.md",
+    "Machine Learning and Deep Learning/NLP/Sentiment Analysis With Mamba.md",
+    "Mathematics/Signal Processing/Signal Processing.md",
+    "Basic Computer Science/Programming lecture",
+    "Basic Computer Science/Programming lecture/Discrete approximation.md",
+    "Mathematics/Signal Processing",
+    "Basic Computer Science/Programming lecture/Parallel Programming.md",
     "Finance/Tài chính doanh nghiệp.md",
     "Finance/Tài chính doanh nghiệp/5. Tài trợ dài hạn/Tài trợ dài hạn.md",
     "Finance/Tài chính doanh nghiệp/5. Tài trợ dài hạn/Content/Chương 19 - Cổ tức và các hình thức chi trả khác.md",
@@ -212,24 +192,15 @@
     "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 06 - Reproducibility Design Patterns",
     "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 03 - Problem Representation Design Patterns",
     "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 04 - Model Traning Patterns",
-    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 02 - Data Representation Design Patterns",
-    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 01 - The need for machine learning design patterns",
     "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Two-phase predictions design pattern.md",
     "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Keyed Predictions design pattern.md",
     "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Continued Model Evaluation design pattern.md",
     "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Batch Serving design pattern.md",
-    "Machine Learning and Deep Learning/MLOps/AIO/Model Pruning.md",
     "Untitled.canvas",
     "Basic Computer Science/AI application principles.md",
     "Basic Computer Science/API.md",
     "Basic Computer Science/Floating-point numbers.md",
     "Basic Computer Science/How GPU works.md",
-    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
-    "Finance/Lý thuyết trò chơi.md",
-    "Finance/Quản trị và chiến lược ngân hàng.md",
-    "Finance/Quản trị học.md",
-    "Finance/Lý thuyết tài chính.md",
-    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 1 - Giới thiệu về tài chính doanh nghiệp.md",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma7.png",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma6.png",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma5.png",
@@ -238,7 +209,6 @@
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma2.png",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma1.png",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma0.png",
-    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 2 - Các báo cáo tài chính và dòng tiền.md",
     "Finance/Tài chính doanh nghiệp/2. Định giá và hoạch định ngân sách vốn/Images/BCDKT-TT.png",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/TaxTable.png",
     "Machine Learning and Deep Learning/Untitled.canvas"

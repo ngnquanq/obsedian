@@ -37,3 +37,12 @@ Cách thức này có thể được sử dụng cho nhiều khía cạnh khác 
 - **Hàm kích hoạt (activation)**: Thường thì mấy cái hàm kích hoạt cần nhiều bộ nhớ #why , nên là với việc mình lượng hóa được mấy cái hàm này không chỉ làm giảm bộ nhớ lưu trữ mà khi kết hợp nó với weight quantization, mình có thể tận dụng tối đa tính toán số nguyên để đạt được một cái performance cải thiện hơn. 
 - **KV cache:** Cải thiện throughput của việc tạo ra một chuỗi dài
 - **Đạo hàm (Gradients)**: Ít được sử dụng hơn, vì nếu sử dụng thì chỉ sử dụng cho quá trình training, còn trong lúc inference thì có cần gì đụng tới đạo hàm đâu. Và do trong mặc định thì mấy cái  đạo hàm này được lưu dưới dạng FP32 (trong pytorch). Do đó mà việc mình quantize nó sẽ làm giảm tính toán. 
+
+# Quantization Aware Training
+
+Dùng cái model đó, quantize (trước khi train), cho bước retrain nó friendly GPU hơn. Nhưng đồng thời, QAT làm cho cái model sau cùng (sau train) có performance cao hơn nhiều so với train rồi mới quantize. 
+
+Deal with non-differentiable function
+
+# Post-Traning Quantization
+

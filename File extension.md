@@ -1,0 +1,2 @@
+- .bat: Running the command line in a sequence model
+- .iso: image or else
