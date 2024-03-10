@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning and Deep Learning/MLOps/AIO/Model Pruning.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "55027448d5f570e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "File extension.md",
+                "file": "Data Science/Basic Computer Science/Operating system/1 - Basic of OS.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "File extension.md",
+                "file": "Data Science/Basic Computer Science/Operating system/1 - Basic of OS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "File extension.md",
+                "file": "Data Science/Basic Computer Science/Operating system/1 - Basic of OS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "File extension.md"
+                "file": "Data Science/Basic Computer Science/Operating system/1 - Basic of OS.md"
               }
             }
           }
@@ -162,20 +148,32 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "55027448d5f570e2",
+  "active": "30fe75287a128075",
   "lastOpenFiles": [
-    "Machine Learning and Deep Learning/MLOps/AIO/Model Pruning.md",
-    "File extension.md",
+    "Data Science/Basic Computer Science/Operating system/0 - Introduction to OS.md",
+    "Pasted image 20240310204020.png",
+    "Data Science/Basic Computer Science/Operating system/1 - Basic of OS.md",
+    "Data Science/Basic Computer Science/Operating system.md",
+    "Pasted image 20240310202459.png",
     "TO LEARN LIST !.md",
-    "Machine Learning and Deep Learning/MLOps/AIO/Model Quantization.md",
-    "Machine Learning and Deep Learning/NLP/Sentiment Analysis With Mamba.md",
-    "Mathematics/Signal Processing/Signal Processing.md",
-    "Basic Computer Science/Programming lecture",
-    "Basic Computer Science/Programming lecture/Discrete approximation.md",
-    "Mathematics/Signal Processing",
-    "Basic Computer Science/Programming lecture/Parallel Programming.md",
-    "Finance/Tài chính doanh nghiệp.md",
+    "Data Science/Basic Computer Science/Operating system",
+    "File extension.md",
+    "Data Science/MLOps/AIO/Model Pruning.md",
+    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 2 - Các báo cáo tài chính và dòng tiền.md",
+    "Data Science/Statistics/Statistical Experiments and Significance Testing/AB Testing.md",
+    "Data Science/Statistics/Statistical Experiments and Significance Testing",
+    "Data Science/Statistics",
     "Finance/Tài chính doanh nghiệp/5. Tài trợ dài hạn/Tài trợ dài hạn.md",
+    "Data Science/Basic Computer Science/For fun/Invitation making app.md",
+    "Data Science/Basic Computer Science/For fun",
+    "Data Science/MLOps/AIO/Model Quantization.md",
+    "Data Science/NLP/Sentiment Analysis With Mamba.md",
+    "Mathematics/Signal Processing/Signal Processing.md",
+    "Data Science/Basic Computer Science/Programming lecture",
+    "Data Science/Basic Computer Science/Programming lecture/Discrete approximation.md",
+    "Mathematics/Signal Processing",
+    "Data Science/Basic Computer Science/Programming lecture/Parallel Programming.md",
+    "Finance/Tài chính doanh nghiệp.md",
     "Finance/Tài chính doanh nghiệp/5. Tài trợ dài hạn/Content/Chương 19 - Cổ tức và các hình thức chi trả khác.md",
     "Finance/Tài chính doanh nghiệp/4. Cấu trúc vốn và chính sách cổ tức/Cấu trúc vốn và chính sách cổ tức.md",
     "Finance/Tài chính doanh nghiệp/5. Tài trợ dài hạn/Images",
@@ -185,22 +183,11 @@
     "Finance/Tài chính doanh nghiệp/4. Cấu trúc vốn và chính sách cổ tức/Content/Chương 15 - Tài trợ dài hạn.md",
     "Finance/Tài chính doanh nghiệp/4. Cấu trúc vốn và chính sách cổ tức/Content",
     "Finance/Tài chính doanh nghiệp/4. Cấu trúc vốn và chính sách cổ tức/Content/Chương 16 - Cấu trúc vốn.md",
-    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Introduction.md",
-    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Stateless Serving Function design pattern.md",
-    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 08 - Connected Patterns",
-    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 07 - Responsible AI",
-    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 06 - Reproducibility Design Patterns",
-    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 03 - Problem Representation Design Patterns",
-    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 04 - Model Traning Patterns",
-    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Two-phase predictions design pattern.md",
-    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Keyed Predictions design pattern.md",
-    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Continued Model Evaluation design pattern.md",
-    "Machine Learning and Deep Learning/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Batch Serving design pattern.md",
+    "Data Science/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Introduction.md",
+    "Data Science/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Stateless Serving Function design pattern.md",
+    "Data Science/MLOps/Machine Learning Design Pattern/Chapter 08 - Connected Patterns",
+    "Data Science/MLOps/Machine Learning Design Pattern/Chapter 05 - Design Patterns for Resilient Serving/Two-phase predictions design pattern.md",
     "Untitled.canvas",
-    "Basic Computer Science/AI application principles.md",
-    "Basic Computer Science/API.md",
-    "Basic Computer Science/Floating-point numbers.md",
-    "Basic Computer Science/How GPU works.md",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma7.png",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma6.png",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma5.png",
@@ -209,8 +196,6 @@
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma2.png",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma1.png",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma0.png",
-    "Finance/Tài chính doanh nghiệp/2. Định giá và hoạch định ngân sách vốn/Images/BCDKT-TT.png",
-    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/TaxTable.png",
     "Machine Learning and Deep Learning/Untitled.canvas"
   ]
 }

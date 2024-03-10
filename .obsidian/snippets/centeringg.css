@@ -1,0 +1,9 @@
+.markdown-preview-view table{
+margin-left: auto;
+margin-right: auto;
+}
+
+.markdown-preview-view table {
+margin-left: auto !important;
+margin-right: auto !important;
+} 
