@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d7d4212aa62102fa",
+        "id": "7e3daefc6172bff8",
         "type": "tabs",
         "children": [
           {
-            "id": "30fe75287a128075",
+            "id": "d70d725170b36936",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Basic Computer Science/Operating system/1 - Basic of OS.md",
+                "file": "Data Science/Basic Computer Science/Operating system/4 - Operating System Services.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Basic Computer Science/Operating system/1 - Basic of OS.md",
+                "file": "Data Science/Basic Computer Science/Operating system/4 - Operating System Services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Basic Computer Science/Operating system/1 - Basic of OS.md",
+                "file": "Data Science/Basic Computer Science/Operating system/4 - Operating System Services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Basic Computer Science/Operating system/1 - Basic of OS.md"
+                "file": "Data Science/Basic Computer Science/Operating system/4 - Operating System Services.md"
               }
             }
           }
@@ -150,25 +150,33 @@
   },
   "active": "6a4f1dae87d8f109",
   "lastOpenFiles": [
-    "Data Science/Basic Computer Science/images/Pasted image 20240310212847.png",
-    "Pasted image 20240310211850.png",
-    "Data Science/Basic Computer Science/Operating system/1 - Basic of OS.md",
-    "Data Science/Basic Computer Science/images/Pasted image 20240310210417.png",
-    "Data Science/Basic Computer Science/images/Pasted image 20240310211126.png",
-    "Data Science/Basic Computer Science/images/Pasted image 20240310205404.png",
+    "Data Science/Basic Computer Science/images/Pasted image 20240311104058.png",
     "Data Science/Data Science.md",
-    "Data Science/Basic Computer Science/Computer system.md",
+    "Data Science/Basic Computer Science/Operating system.md",
+    "Data Science/Basic Computer Science/Operating system/1 - Basic of OS.md",
     "Data Science/Basic Computer Science/Operating system/0 - Introduction to OS.md",
-    "Data Science/Basic Computer Science/Computer System",
+    "Data Science/Basic Computer Science/images/Pasted image 20240311102711.png",
+    "Data Science/Basic Computer Science/Operating system/4 - Operating System Services.md",
+    "Data Science/Basic Computer Science/images/Pasted image 20240311103111.png",
+    "Data Science/Basic Computer Science/images/Pasted image 20240311103012.png",
+    "Data Science/Basic Computer Science/images/Pasted image 20240311091641.png",
+    "Data Science/Basic Computer Science/Computer system.md",
+    "Data Science/Basic Computer Science/Operating system/3 - Operating System Structure (Multiprogramming and Multitasking).md",
+    "Data Science/Basic Computer Science/images/Pasted image 20240311102012.png",
+    "Data Science/Basic Computer Science/images/Pasted image 20240311101945.png",
+    "Data Science/Basic Computer Science/images/Pasted image 20240311100955.png",
+    "Data Science/Basic Computer Science/images/Pasted image 20240311100250.png",
+    "Data Science/Basic Computer Science/Operating system/2 - Computer System Architecture.md",
+    "Data Science/Basic Computer Science/images/Pasted image 20240311100019.png",
+    "Data Science/Basic Computer Science/images/Pasted image 20240311092908.png",
+    "Data Science/Basic Computer Science/Undefined/API.md",
     "Data Science/Basic Computer Science/Programming lecture/Parallel Programming.md",
     "Data Science/Basic Computer Science/Programming lecture/Discrete approximation.md",
-    "Data Science/Basic Computer Science/images/Pasted image 20240310202459.png",
+    "Data Science/Dự án/Danh sách đề tài.md",
+    "Data Science/Basic Computer Science/Computer System",
     "Data Science/Basic Computer Science/Undefined/HTTP Standards.md",
-    "Data Science/Basic Computer Science/Undefined/API.md",
     "Data Science/Basic Computer Science/Undefined",
     "Data Science/Basic Computer Science/Programming lecture/Untitled",
-    "Data Science/Basic Computer Science/images/Pasted image 20240310204020.png",
-    "Data Science/Basic Computer Science/Operating system.md",
     "TO LEARN LIST !.md",
     "Data Science/Basic Computer Science/Operating system",
     "Data Science/Basic Computer Science/Undefined/File extension.md",
@@ -187,16 +195,8 @@
     "Mathematics/Signal Processing",
     "Finance/Tài chính doanh nghiệp.md",
     "Finance/Tài chính doanh nghiệp/5. Tài trợ dài hạn/Content/Chương 19 - Cổ tức và các hình thức chi trả khác.md",
-    "Finance/Tài chính doanh nghiệp/4. Cấu trúc vốn và chính sách cổ tức/Cấu trúc vốn và chính sách cổ tức.md",
     "Finance/Tài chính doanh nghiệp/5. Tài trợ dài hạn/Images",
-    "Finance/Tài chính doanh nghiệp/2. Định giá và hoạch định ngân sách vốn/Định giá và hoạch định ngân sách vốn.md",
-    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Tổng quan.md",
-    "Finance/Tài chính doanh nghiệp/4. Cấu trúc vốn và chính sách cổ tức/Content/Chương 15 - Tài trợ dài hạn.md",
     "Untitled.canvas",
-    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma7.png",
-    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma6.png",
-    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma5.png",
-    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Images/pro_forma4.png",
     "Machine Learning and Deep Learning/Untitled.canvas"
   ]
 }

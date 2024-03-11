@@ -1,4 +1,4 @@
-## Computer system operation
+# Computer system operation
 
 **Notice: Some basic knowledge of the structure of Computer System is required to understand how OS work**
 
@@ -38,3 +38,16 @@ Here are some important terms:
 The bigger the rectangular, the slower it take to access it. 
 
 We **mainly focus on Main Memory**, it's where RAM located. Anything you loaded into your computer, loaded into main memory (small but fast). When we **have bigger RAM, have a faster computer.** With faster RAM, **you increase the speed at which memory transfers information to other components**.
+
+# I/O Structure
+
+![[Pasted image 20240310213124.png]]
+
+**Device Driver:** think as the friend of all, the all-known helps finding common platform to say. 
+
+![[Pasted image 20240310214400.png]]
+
+![[Pasted image 20240310214742.png]]
+
+
+

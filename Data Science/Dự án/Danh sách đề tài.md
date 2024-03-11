@@ -4,6 +4,7 @@ Before heading to this, please read the [[Mở đầu.]] for more information.
 * Machine Translation
 * Chatbot
 * Poem Generation
+* Sentiment Analysis - [[Sentiment Analysis With Mamba]]
 
 ## 2. Bank
 * Fraud detection
