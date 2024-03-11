@@ -11,12 +11,9 @@
             "id": "d70d725170b36936",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Data Science/Basic Computer Science/Operating system/4 - Operating System Services.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Data Science/Basic Computer Science/images/Pasted image 20240311164126.png"
               }
             }
           }
@@ -86,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Basic Computer Science/Operating system/4 - Operating System Services.md",
+                "file": "Data Science/Basic Computer Science/images/Pasted image 20240311164126.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Basic Computer Science/Operating system/4 - Operating System Services.md",
+                "file": "Data Science/Basic Computer Science/images/Pasted image 20240311164126.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Basic Computer Science/Operating system/4 - Operating System Services.md"
+                "file": "Data Science/Basic Computer Science/images/Pasted image 20240311164126.png"
               }
             }
           }
@@ -150,25 +147,30 @@
   },
   "active": "6a4f1dae87d8f109",
   "lastOpenFiles": [
-    "Data Science/Basic Computer Science/images/Pasted image 20240311104058.png",
+    "Data Science/Basic Computer Science/Operating system/10 - Structures of Operating System.md",
+    "Data Science/Basic Computer Science/images/Pasted image 20240311172216.png",
+    "Data Science/Basic Computer Science/images/Pasted image 20240311171728.png",
+    "Data Science/Basic Computer Science/images/Pasted image 20240311171429.png",
+    "Data Science/Basic Computer Science/images/Pasted image 20240311170905.png",
+    "Data Science/Basic Computer Science/Operating system/9 - Operating System Design and Implementation.md",
+    "Data Science/Basic Computer Science/images/Pasted image 20240311170511.png",
+    "Data Science/Basic Computer Science/images/Pasted image 20240311170330.png",
+    "Data Science/Basic Computer Science/images/Pasted image 20240311165610.png",
+    "Data Science/Basic Computer Science/Operating system/8 - System Program.md",
+    "Data Science/Basic Computer Science/images/Pasted image 20240311164655.png",
+    "Data Science/Basic Computer Science/images/Pasted image 20240311164542.png",
+    "Data Science/Basic Computer Science/images/Pasted image 20240311164442.png",
+    "Data Science/Basic Computer Science/Operating system/7 - Types of System Calls.md",
+    "Data Science/Basic Computer Science/Operating system/6 - System Call.md",
+    "Data Science/Basic Computer Science/Operating system/5 - User Operating System Interface.md",
+    "Data Science/Basic Computer Science/Operating system/4 - Operating System Services.md",
     "Data Science/Data Science.md",
     "Data Science/Basic Computer Science/Operating system.md",
     "Data Science/Basic Computer Science/Operating system/1 - Basic of OS.md",
     "Data Science/Basic Computer Science/Operating system/0 - Introduction to OS.md",
-    "Data Science/Basic Computer Science/images/Pasted image 20240311102711.png",
-    "Data Science/Basic Computer Science/Operating system/4 - Operating System Services.md",
-    "Data Science/Basic Computer Science/images/Pasted image 20240311103111.png",
-    "Data Science/Basic Computer Science/images/Pasted image 20240311103012.png",
-    "Data Science/Basic Computer Science/images/Pasted image 20240311091641.png",
     "Data Science/Basic Computer Science/Computer system.md",
     "Data Science/Basic Computer Science/Operating system/3 - Operating System Structure (Multiprogramming and Multitasking).md",
-    "Data Science/Basic Computer Science/images/Pasted image 20240311102012.png",
-    "Data Science/Basic Computer Science/images/Pasted image 20240311101945.png",
-    "Data Science/Basic Computer Science/images/Pasted image 20240311100955.png",
-    "Data Science/Basic Computer Science/images/Pasted image 20240311100250.png",
     "Data Science/Basic Computer Science/Operating system/2 - Computer System Architecture.md",
-    "Data Science/Basic Computer Science/images/Pasted image 20240311100019.png",
-    "Data Science/Basic Computer Science/images/Pasted image 20240311092908.png",
     "Data Science/Basic Computer Science/Undefined/API.md",
     "Data Science/Basic Computer Science/Programming lecture/Parallel Programming.md",
     "Data Science/Basic Computer Science/Programming lecture/Discrete approximation.md",
@@ -186,15 +188,9 @@
     "Data Science/Statistics/Statistical Experiments and Significance Testing",
     "Data Science/Statistics",
     "Finance/Tài chính doanh nghiệp/5. Tài trợ dài hạn/Tài trợ dài hạn.md",
-    "Data Science/Basic Computer Science/For fun/Invitation making app.md",
     "Data Science/Basic Computer Science/For fun",
-    "Data Science/MLOps/AIO/Model Quantization.md",
-    "Data Science/NLP/Sentiment Analysis With Mamba.md",
-    "Mathematics/Signal Processing/Signal Processing.md",
     "Data Science/Basic Computer Science/Programming lecture",
     "Mathematics/Signal Processing",
-    "Finance/Tài chính doanh nghiệp.md",
-    "Finance/Tài chính doanh nghiệp/5. Tài trợ dài hạn/Content/Chương 19 - Cổ tức và các hình thức chi trả khác.md",
     "Finance/Tài chính doanh nghiệp/5. Tài trợ dài hạn/Images",
     "Untitled.canvas",
     "Machine Learning and Deep Learning/Untitled.canvas"

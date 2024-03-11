@@ -41,3 +41,16 @@ The designs of OS must not be failed when the error occurs, it must be designed 
 
 It's basically mean that: **allocating resources to different processes to different users.**
 
+The resource allocate should be in a manner such that each process get the efficient amount of resource they need, and computing takes place in an efficient manner. 
+
+# Accounting
+
+Keep track of which user use how much and what kind of resources.
+
+We keeping this, simply for statistic purpose, i.e how much memory that we've used for the specific task at hand. 
+# Protection and Security
+
+No need to say more, **very imporant**.
+
+A very cool term: A chain is strongest as it's weakest link.
+
