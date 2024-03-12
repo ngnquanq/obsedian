@@ -5,3 +5,4 @@
 - Mạng máy tính + An ninh mạng
 - Kiến thức về xác suất, thống kê + Hypothesis Testing
 - Kiến trúc máy tính
+- Lập trình song song

@@ -31,4 +31,15 @@ Although it still have some disadvantage. E.g:
 
 Basic idea is that we remove all the non essential components from the kernal and then reimplement them as system and user level program.
 
-And because every program got executed in the user mode, therefore the problem of having a system crash when executed in the kernal mode is not likely to happen (hope so)
+And because every program got executed in the user mode, therefore the problem of having a system crash when executed in the kernal mode is not likely to happen (hope so).
+
+The disadvantage is that it may suffer from performance decrease when having increase of system function overhead.
+
+# Modules
+
+
+![[Pasted image 20240311172759.png]]
+
+Till this far, this might be the best approach in structuring OS, in which it involve using OOP techniques to create a module kernel. 
+
+To be more specific, this approach take the best of two above structure (layer and microkernal).  Being more specific, With this structure, we dont have to access layer by layer like the layer structure, the module just have to access to other modules via the core kernel module. Also, unlike microkernel, each of the module is loaded when used, therefore not suffer from overhead 
