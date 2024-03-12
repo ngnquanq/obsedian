@@ -6,3 +6,6 @@
 
 [[Tài trợ dài hạn]]
 
+[[Tài chính ngắn hạn]]
+
+

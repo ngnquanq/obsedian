@@ -11,12 +11,9 @@
             "id": "0a59ca33f57af5ad",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Data Science/Basic Computer Science/Operating system.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
+                "file": "Pasted image 20240312190813.png"
               }
             }
           }
@@ -86,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Basic Computer Science/Operating system.md",
+                "file": "Pasted image 20240312190813.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Basic Computer Science/Operating system.md",
+                "file": "Pasted image 20240312190813.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Basic Computer Science/Operating system.md"
+                "file": "Pasted image 20240312190813.png"
               }
             }
           }
@@ -150,9 +147,26 @@
   },
   "active": "0a59ca33f57af5ad",
   "lastOpenFiles": [
+    "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming/Unit 1/CUDA.md",
+    "Pasted image 20240312190813.png",
+    "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming/Unit 1/Core GPU Design Tenets.md",
+    "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming/Unit 1/What kind of processors will we build.md",
+    "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming/Unit 1/Chicken or Oxen.md",
+    "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming/Unit 1/Digging Holes - Intro to Parallel Programming..md",
+    "Finance/Tài chính doanh nghiệp.md",
+    "Finance/Lý thuyết tài chính.md",
+    "Finance/Tài chính doanh nghiệp/7. Tài chính ngắn hạn/Tài chính ngắn hạn.md",
+    "Finance/Tài chính doanh nghiệp/7. Tài chính ngắn hạn/Content/Chương 26 - Tài chính ngắn hạn và lập kế hoạch tài chính ngắn hạn (Short-Tẻm Finance and Planning).md",
+    "Data Science/Basic Computer Science/images/Pasted image 20240312095703.png",
+    "Finance/Tài chính doanh nghiệp/7. Tài chính ngắn hạn/Image",
+    "Finance/Tài chính doanh nghiệp/7. Tài chính ngắn hạn/Content",
+    "Finance/Tài chính doanh nghiệp/7. Tài chính ngắn hạn",
+    "Data Science/Basic Computer Science/Operating system/36 - Scheduling Criteria.md",
     "Data Science/Basic Computer Science/Operating system/35 - Preemptive and Non-Preemptive Scheduling.md",
+    "Data Science/Basic Computer Science/images/Pasted image 20240312101826.png",
+    "Data Science/Basic Computer Science/images/Pasted image 20240312100912.png",
+    "Data Science/Basic Computer Science/Operating system.md",
     "Data Science/Basic Computer Science/Operating system/34 - CPU and IO Burst Cycles.md",
-    "Pasted image 20240312095703.png",
     "Mathematics/Signal Processing/Signal Processing.md",
     "Data Science/Data Science.md",
     "For fun/Invitation making app.md",
@@ -165,13 +179,8 @@
     "Data Science/Basic Computer Science/images/Pasted image 20240312075346.png",
     "Data Science/Basic Computer Science/images/Pasted image 20240312091539.png",
     "Data Science/Basic Computer Science/images/Pasted image 20240312091300.png",
-    "Data Science/Basic Computer Science/images/Pasted image 20240312090905.png",
-    "Data Science/Basic Computer Science/images/Pasted image 20240312090109.png",
     "Data Science/Basic Computer Science/Operating system/28 - Introduction to Threads.md",
-    "Data Science/Basic Computer Science/images/Pasted image 20240312080845.png",
     "TO LEARN LIST !.md",
-    "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming/Unit 1/Chicken or Oxen.md",
-    "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming/Unit 1/Digging Holes - Intro to Parallel Programming..md",
     "Data Science/Basic Computer Science/Operating system/1 - Basic of OS.md",
     "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming/Unit 1",
     "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming/Untitled.md",
@@ -179,23 +188,10 @@
     "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming/Images",
     "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming",
     "Data Science/Basic Computer Science/Programming lecture/Parallel Programming.md",
-    "Data Science/Basic Computer Science/Operating system/0 - Introduction to OS.md",
-    "Data Science/Basic Computer Science/Operating system/19 - Operation On Processes - Process Termination.md",
-    "Data Science/Basic Computer Science/Operating system.md",
-    "Data Science/Basic Computer Science/Computer system.md",
-    "Data Science/Basic Computer Science/Programming lecture/Discrete approximation.md",
-    "Data Science/Basic Computer Science/Operating system/18 - Operation On Processes - Process Creation.md",
-    "Data Science/Basic Computer Science/Operating system/17 - Context Switch.md",
-    "Data Science/Basic Computer Science/Operating system/3 - Operating System Structure (Multiprogramming and Multitasking).md",
-    "Data Science/Basic Computer Science/Operating system/16 - Process Scheduling.md",
-    "Data Science/Basic Computer Science/Operating system/15 - Process Control Block.md",
     "Data Science/Basic Computer Science/Computer System",
     "Data Science/Basic Computer Science/Undefined",
     "Data Science/Basic Computer Science/Operating system",
     "Data Science/Statistics/Statistical Experiments and Significance Testing",
-    "Data Science/Statistics",
-    "For fun",
-    "Data Science/Basic Computer Science/Programming lecture",
     "Untitled.canvas",
     "Machine Learning and Deep Learning/Untitled.canvas"
   ]
