@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "018ec36ec903be2a",
+        "id": "0d8fe190ed800f37",
         "type": "tabs",
         "children": [
           {
-            "id": "0a59ca33f57af5ad",
+            "id": "32c7db001d21cd09",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20240312190813.png"
+                "file": "Data Science/Dự án/Neural Style Transfer.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pasted image 20240312190813.png",
+                "file": "Data Science/Dự án/Neural Style Transfer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pasted image 20240312190813.png",
+                "file": "Data Science/Dự án/Neural Style Transfer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pasted image 20240312190813.png"
+                "file": "Data Science/Dự án/Neural Style Transfer.md"
               }
             }
           }
@@ -145,10 +148,24 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "0a59ca33f57af5ad",
+  "active": "32c7db001d21cd09",
   "lastOpenFiles": [
-    "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming/Unit 1/CUDA.md",
+    "Data Science/Data Science.md",
+    "Data Science/Dự án/Neural Style Transfer.md",
+    "Data Science/Dự án/Images",
+    "Data Science/Dự án/Images/Pasted image 20240314133654.png",
+    "Data Science/Dự án/Mở đầu..md",
+    "Data Science/Dự án/Danh sách đề tài.md",
+    "Data Science/Basic Computer Science/Others.md",
+    "Data Science/Basic Computer Science/Others/Version Control.md",
+    "Data Science/Basic Computer Science/Others",
+    "Data Science/MLOps/MLOPs.md",
+    "Data Science/MLOps/Docker/Question.md",
+    "Data Science/MLOps/Docker/History and motivation.md",
+    "Data Science/MLOps/AIO/Model Pruning.md",
     "Pasted image 20240312190813.png",
+    "Data Science/MLOps/Docker",
+    "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming/Unit 1/CUDA.md",
     "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming/Unit 1/Core GPU Design Tenets.md",
     "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming/Unit 1/What kind of processors will we build.md",
     "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming/Unit 1/Chicken or Oxen.md",
@@ -168,30 +185,16 @@
     "Data Science/Basic Computer Science/Operating system.md",
     "Data Science/Basic Computer Science/Operating system/34 - CPU and IO Burst Cycles.md",
     "Mathematics/Signal Processing/Signal Processing.md",
-    "Data Science/Data Science.md",
     "For fun/Invitation making app.md",
     "Data Science/Basic Computer Science/images/Pasted image 20240312092410.png",
-    "Data Science/Basic Computer Science/Operating system/33 - Introduction to CPU Scheduling.md",
     "Data Science/Basic Computer Science/images/Pasted image 20240312093809.png",
-    "Data Science/Basic Computer Science/Operating system/10 - Structures of Operating System.md",
-    "Data Science/Basic Computer Science/Operating system/29 - Multithreading Models and Hyperthreading.md",
     "Data Science/Basic Computer Science/images/Pasted image 20240312092003.png",
     "Data Science/Basic Computer Science/images/Pasted image 20240312075346.png",
     "Data Science/Basic Computer Science/images/Pasted image 20240312091539.png",
-    "Data Science/Basic Computer Science/images/Pasted image 20240312091300.png",
-    "Data Science/Basic Computer Science/Operating system/28 - Introduction to Threads.md",
-    "TO LEARN LIST !.md",
-    "Data Science/Basic Computer Science/Operating system/1 - Basic of OS.md",
     "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming/Unit 1",
-    "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming/Untitled.md",
-    "Data Science/Basic Computer Science/Programming lecture/Untitled.md",
     "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming/Images",
     "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming",
-    "Data Science/Basic Computer Science/Programming lecture/Parallel Programming.md",
     "Data Science/Basic Computer Science/Computer System",
-    "Data Science/Basic Computer Science/Undefined",
-    "Data Science/Basic Computer Science/Operating system",
-    "Data Science/Statistics/Statistical Experiments and Significance Testing",
     "Untitled.canvas",
     "Machine Learning and Deep Learning/Untitled.canvas"
   ]

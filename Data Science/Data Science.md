@@ -5,3 +5,12 @@
 
 ## Statistics
 
+# Core knowledges
+## MLOPs
+[[MLOPs]]
+
+
+# Projects
+[[Danh sách đề tài]]
+
+
