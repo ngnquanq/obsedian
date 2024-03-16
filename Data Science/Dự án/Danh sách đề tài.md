@@ -18,3 +18,4 @@ Before heading to this, please read the [[Mở đầu.]] for more information.
 
 ## 5. Artist
 - Neural Style Transfer - [[Neural Style Transfer]]
+	- An extended version: An image that can capture the "*vibe*" of the style text, i.e when giving a sorrow text input, the image should be capture the vibe, but still **preserve** the content of the image. 

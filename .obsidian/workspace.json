@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Test Driven Development (TDD).md",
+                "file": "Data Science/Dự án/Danh sách đề tài.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Test Driven Development (TDD).md",
+                "file": "Data Science/Dự án/Danh sách đề tài.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Test Driven Development (TDD).md",
+                "file": "Data Science/Dự án/Danh sách đề tài.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Test Driven Development (TDD).md"
+                "file": "Data Science/Dự án/Danh sách đề tài.md"
               }
             }
           }
@@ -150,8 +150,10 @@
   },
   "active": "32c7db001d21cd09",
   "lastOpenFiles": [
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Minimum Viable Product (MVP).md",
+    "Data Science/Dự án/Mở đầu..md",
+    "Data Science/Dự án/Neural Style Transfer.md",
     "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Test Driven Development (TDD).md",
+    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Minimum Viable Product (MVP).md",
     "Data Science/MLOps/Coursera DevOps/images/Pasted image 20240316094218.png",
     "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Working in small batches.md",
     "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Git Repository Guidlines.md",
@@ -183,8 +185,6 @@
     "Finance/Quản trị và chiến lược ngân hàng/Chương 4 - Thành lập ngân hàng, chi nhánh, máy ATM, dịch vụ điện thoại và trang web mới..md",
     "Finance/Quản trị và chiến lược ngân hàng/Chương 3 - Tổ chức và cơ cấu ngành ngân hàng và dịch vụ ngành tài chính..md",
     "Finance/Quản trị và chiến lược ngân hàng/Chương 2 - Tác động của chính sách và quy định của chính phủ đối với ngành dịch vụ tài chính..md",
-    "Finance/Quản trị và chiến lược ngân hàng/Chương 1 - Tổng quan về lĩnh vực dịch vụ tài chính đang thay đổi.md",
-    "Data Science/Dự án/Neural Style Transfer.md",
     "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps",
     "Data Science/MLOps/Coursera DevOps",
     "Data Science/Dự án/Images",
