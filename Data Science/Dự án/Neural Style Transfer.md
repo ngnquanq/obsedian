@@ -48,6 +48,10 @@ $$
 $$
 This is how we construct the style loss of the NST algorithm, instead of normal L2 or L1 norm in the content loss.
 
+**Again: Why do we need Gram matrix?**
+**Because:** It solve our desire. Also we cannot use the direct style image for the gram matrix. The core of Gram matrix is **it do something with itself.** 
+
+
 
 # Experiment
 Pre-requisite:
@@ -66,3 +70,4 @@ During:
 - What will happen if we use other metrics? Let say Frobenius matrix distance.
 - What will happen if we use the feature map of later layers of the style image as filter for the content image to slide upon?
 - How about trying with different type? i.e with text, like writing style?
+

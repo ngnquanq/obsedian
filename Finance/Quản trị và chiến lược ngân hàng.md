@@ -1,0 +1,7 @@
+[[Chương 1 - Tổng quan về lĩnh vực dịch vụ tài chính đang thay đổi]]
+[[Chương 2 - Tác động của chính sách và quy định của chính phủ đối với ngành dịch vụ tài chính.]]
+[[Chương 3 - Tổ chức và cơ cấu ngành ngân hàng và dịch vụ ngành tài chính.]]
+[[Chương 4 - Thành lập ngân hàng, chi nhánh, máy ATM, dịch vụ điện thoại và trang web mới.]]
+[[Chương 7 - Quản lý rủi ro khi thay đổi lãi suất - kỹ thuật quản lý tài sản nợ và thời hạn.]]
+[[Chương 5 - Báo cáo tài chính của các ngân hàng và đối thủ cạnh tranh của họ.]]
+[[Chương 6 - Đo lường và đánh giá hiệu quả hoạt động của các ngân hàng và đối thủ cạnh tranh chính.]]
