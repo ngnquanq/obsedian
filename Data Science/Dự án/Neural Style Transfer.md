@@ -71,3 +71,8 @@ During:
 - What will happen if we use the feature map of later layers of the style image as filter for the content image to slide upon?
 - How about trying with different type? i.e with text, like writing style?
 
+# Multimodalities style transfer data
+
+## Objective:
+- We're **already have good models** to extract features from both text and image.
+- That propose a new question, a hardly answered one: **How to align the **
