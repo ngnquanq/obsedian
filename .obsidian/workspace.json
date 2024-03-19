@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0d8fe190ed800f37",
+        "id": "43b60d4bbc9192b9",
         "type": "tabs",
         "children": [
           {
-            "id": "32c7db001d21cd09",
+            "id": "6686fb15f224e529",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/2 - Introduction to Agile Development and Scrum/Week 1/Agile principle.md",
+                "file": "Data Science/Basic Computer Science/Others.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "venv",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 762.5,
+    "collapsed": true
   },
   "right": {
     "id": "ef243a321448ce70",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/2 - Introduction to Agile Development and Scrum/Week 1/Agile principle.md",
+                "file": "Data Science/Basic Computer Science/Others.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/2 - Introduction to Agile Development and Scrum/Week 1/Agile principle.md",
+                "file": "Data Science/Basic Computer Science/Others.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/2 - Introduction to Agile Development and Scrum/Week 1/Agile principle.md"
+                "file": "Data Science/Basic Computer Science/Others.md"
               }
             }
           }
@@ -148,10 +149,42 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "32c7db001d21cd09",
+  "active": "6686fb15f224e529",
   "lastOpenFiles": [
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/List.md",
+    "Data Science/Basic Computer Science/Others/Version Control.md",
+    "Data Science/Basic Computer Science/Others/Virtual environment.md",
     "Data Science/MLOps/Coursera DevOps/2 - Introduction to Agile Development and Scrum/Week 1/Agile principle.md",
+    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Container basic cheatsheet.pdf",
+    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 2/Container Orchestration.md",
+    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Building and Running Container Images.md",
+    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Docker CLI cheatsheet.pdf",
+    "Pasted image 20240318180855.png",
+    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 2",
+    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Docker Architecture.md",
+    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Summary and Highlights.md",
+    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Introduction to Containers.md",
+    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Introduction to Docker.md",
+    "Data Science/MLOps/images/Pasted image 20240318094653.png",
+    "Data Science/Basic Computer Science/Programming lecture/The programming language guide.md",
+    "Data Science/MLOps/images/Pasted image 20240318113401.png",
+    "Data Science/MLOps/images/Pasted image 20240318113256.png",
+    "Data Science/MLOps/images/Pasted image 20240318113124.png",
+    "Data Science/MLOps/images/Pasted image 20240318112951.png",
+    "Data Science/MLOps/images/Pasted image 20240318112847.png",
+    "Data Science/MLOps/images/Pasted image 20240318112410.png",
+    "Data Science/MLOps/images/Pasted image 20240318112322.png",
+    "Data Science/MLOps/images/Pasted image 20240318112159.png",
+    "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming/Unit 1/Chicken or Oxen.md",
+    "Data Science/Basic Computer Science/Computer system.md",
+    "Data Science/Basic Computer Science/Operating system.md",
+    "Data Science/Basic Computer Science/Others.md",
+    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Docker Objects.md",
+    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1",
+    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift",
+    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/1 - Introduction to DevOps.md",
+    "Data Science/MLOps/MLOPs.md",
+    "Data Science/MLOps/Coursera DevOps/2 - Introduction to Agile Development and Scrum/Week 1/Working Agile.md",
+    "Data Science/MLOps/Coursera DevOps/2 - Introduction to Agile Development and Scrum/Week 1/Methodologies Overview.md",
     "Data Science/MLOps/Coursera DevOps/2 - Introduction to Agile Development and Scrum/Week 1",
     "Data Science/MLOps/Coursera DevOps/2 - Introduction to Agile Development and Scrum",
     "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 4/Summary and Highlights.md",
@@ -159,43 +192,11 @@
     "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 4/Comparison of DevOps to Site Reliability Engineering (SRE).md",
     "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 4/Vanity metrics vs. actionable metrics.md",
     "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 4/How Do You Measure Your Culture.md",
-    "Pasted image 20240317164840.png",
     "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 4/There is No DevOps Team.md",
     "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 4/Rewarding for A while hoping for B.md",
     "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 4/Everyone is responsible for Success.md",
-    "Pasted image 20240317164151.png",
-    "Pasted image 20240317164024.png",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 4/Organizational Impact of DevOps.md",
-    "Pasted image 20240317152349.png",
-    "Data Science/MLOps/Coursera DevOps/images/Pasted image 20240316140712.png",
-    "Data Science/MLOps/Coursera DevOps/images/Pasted image 20240317151846.png",
-    "Data Science/MLOps/Coursera DevOps/images/Pasted image 20240317151808.png",
-    "Data Science/MLOps/Coursera DevOps/images/Pasted image 20240317151651.png",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 3/Summary and Highlights.md",
     "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 4",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 3/Continuous Delivery.md",
-    "Data Science/MLOps/Coursera DevOps/images/Pasted image 20240316192542.png",
-    "Data Science/MLOps/Coursera DevOps/images/Pasted image 20240316192307.png",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 3/Continous Integration.md",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 3/Required DevOps Behaviors.md",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 3/Infrastructure as code.md",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 3/Taylorism and Working in Silos.md",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 3/Software Engineering vs Civil Engineering.md",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Untitled.md",
-    "Data Science/MLOps/MLOPs.md",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Summary and Highlights.md",
     "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 3",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Designing for Failuer.md",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Cloud Native Microservices.md",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Behavior Driven Development (BDD).md",
-    "Data Science/Dự án/Neural Style Transfer.md",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Working in small batches.md",
-    "Data Science/Dự án/Danh sách đề tài.md",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 1",
-    "Data Science/MLOps/Coursera DevOps/images",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps",
-    "Data Science/MLOps/Coursera DevOps",
     "Untitled.canvas",
     "Machine Learning and Deep Learning/Untitled.canvas"
   ]
