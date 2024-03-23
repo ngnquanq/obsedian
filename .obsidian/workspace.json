@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6686fb15f224e529",
+            "id": "cbad5f880a8a149f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Basic Computer Science/Others.md",
+                "file": "Data Science/Research skills/How To Read AI Research Papers Effectively.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Basic Computer Science/Others.md",
+                "file": "Data Science/Research skills/How To Read AI Research Papers Effectively.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Basic Computer Science/Others.md",
+                "file": "Data Science/Research skills/How To Read AI Research Papers Effectively.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Basic Computer Science/Others.md"
+                "file": "Data Science/Research skills/How To Read AI Research Papers Effectively.md"
               }
             }
           }
@@ -149,54 +149,54 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "6686fb15f224e529",
+  "active": "cbad5f880a8a149f",
   "lastOpenFiles": [
+    "Data Science/Computer Vision/Pix2Pix and CycleGAN.md",
+    "Data Science/Research skills/How To Read AI Research Papers Effectively.md",
+    "Data Science/Research skills",
+    "Pasted image 20240322203919.png",
+    "Data Science/Computer Vision/GAN and DCGAN.md",
+    "Data Science/Basic Computer Science/Programming lecture/Intro to Triton - A parallel programming compiler and language.md",
+    "Pasted image 20240320100136.png",
+    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Docker cheatsheet while studying.md",
+    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Docker CLI cheatsheet.pdf",
+    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Container basic cheatsheet.pdf",
+    "Data Science/Dự án/Neural Style Transfer.md",
+    "Data Science/Basic Computer Science/Programming lecture/The programming language guide.md",
+    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 2/Introduction to Kubernetes.md",
+    "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless",
+    "Pasted image 20240319113029.png",
+    "Data Science/Statistics/Statistical thinking.md",
+    "Data Science/Statistics/Computational thinking.md",
+    "Pasted image 20240318180855.png",
+    "Data Science/Basic Computer Science/Others.md",
     "Data Science/Basic Computer Science/Others/Version Control.md",
     "Data Science/Basic Computer Science/Others/Virtual environment.md",
     "Data Science/MLOps/Coursera DevOps/2 - Introduction to Agile Development and Scrum/Week 1/Agile principle.md",
-    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Container basic cheatsheet.pdf",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 2/Container Orchestration.md",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Building and Running Container Images.md",
-    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Docker CLI cheatsheet.pdf",
-    "Pasted image 20240318180855.png",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 2",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Docker Architecture.md",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Summary and Highlights.md",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Introduction to Containers.md",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Introduction to Docker.md",
     "Data Science/MLOps/images/Pasted image 20240318094653.png",
-    "Data Science/Basic Computer Science/Programming lecture/The programming language guide.md",
     "Data Science/MLOps/images/Pasted image 20240318113401.png",
     "Data Science/MLOps/images/Pasted image 20240318113256.png",
     "Data Science/MLOps/images/Pasted image 20240318113124.png",
     "Data Science/MLOps/images/Pasted image 20240318112951.png",
     "Data Science/MLOps/images/Pasted image 20240318112847.png",
-    "Data Science/MLOps/images/Pasted image 20240318112410.png",
-    "Data Science/MLOps/images/Pasted image 20240318112322.png",
-    "Data Science/MLOps/images/Pasted image 20240318112159.png",
     "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming/Unit 1/Chicken or Oxen.md",
     "Data Science/Basic Computer Science/Computer system.md",
     "Data Science/Basic Computer Science/Operating system.md",
-    "Data Science/Basic Computer Science/Others.md",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Docker Objects.md",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift",
     "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/1 - Introduction to DevOps.md",
     "Data Science/MLOps/MLOPs.md",
-    "Data Science/MLOps/Coursera DevOps/2 - Introduction to Agile Development and Scrum/Week 1/Working Agile.md",
-    "Data Science/MLOps/Coursera DevOps/2 - Introduction to Agile Development and Scrum/Week 1/Methodologies Overview.md",
     "Data Science/MLOps/Coursera DevOps/2 - Introduction to Agile Development and Scrum/Week 1",
     "Data Science/MLOps/Coursera DevOps/2 - Introduction to Agile Development and Scrum",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 4/Summary and Highlights.md",
     "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Untitled",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 4/Comparison of DevOps to Site Reliability Engineering (SRE).md",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 4/Vanity metrics vs. actionable metrics.md",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 4/How Do You Measure Your Culture.md",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 4/There is No DevOps Team.md",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 4/Rewarding for A while hoping for B.md",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 4/Everyone is responsible for Success.md",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 4",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 3",
     "Untitled.canvas",
     "Machine Learning and Deep Learning/Untitled.canvas"
   ]

@@ -75,4 +75,23 @@ During:
 
 ## Objective:
 - We're **already have good models** to extract features from both text and image.
-- That propose a new question, a hardly answered one: **How to align the **
+- That propose a new question, a hardly answered one: **How to align the text and the image**
+
+## Extract feature
+
+In deep learning model, i.e VGG19, the earlier layers capture low abstract feature (edges for example), the later layers capture more high abstract feature. 
+
+## Gram Matrix
+
+- Basically matrix multiplication from a matrix with itself.
+- Gram matrix is like a path to follow
+- When calculate inner product between 2 vector, as long as the elements of the vector is the same, then the dot product will produce the same value although having different vectors. Another way to say: **The value of the inner product is position-invariant  if the 2 vector have the same elements.**
+- This Gram Matrix **is built from the feature map**. 
+- This Gram Matrix **is applied for style loss**
+
+## Style transfer
+- Instead of noise, we could use the contain image as the variable itself. 
+- With the:
+	- **Style loss:** we should use later layers of the model
+	- **Content loss:** we should use earlier layers of the model
+- Beware with the weight of the content and the weigth of the style. The process of training the variable image may occur imbalance situation where it will copy all the content image or all the style image
