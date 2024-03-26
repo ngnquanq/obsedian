@@ -49,4 +49,13 @@ The number of AI papers on arXiv per month grows exponentially
 - Not all the paper say things specifically, they make some assumption and they just not tell people
 - Some papers just got poor architecture describe, those just focus on the result. 
 - Some kind of straightforward information can be get just by looking at the performance metric like line graph or sum
-- 
+
+# Q&A
+## How much time do you set aside for reading papers in your day job?
+
+- Depends on the reader. Because it may took longer than reading one paper, we have to read the other paper to understand the paper you are reading. 
+- Avoid jumping to the rabit hole of reading paper
+- Read the result first, if it useful to use, then read it, else, skip
+## How can i develope the broader skillset that researchers have? Does leetcode help?
+- Depends on what you're trying to do, read and reimplement paper, fuck leetcode, lol.
+- Try to consume research paper regularly (stay on top of the field take time)

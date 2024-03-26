@@ -7,7 +7,7 @@ Before heading to this, please read the [[Mở đầu.]] for more information.
 * Sentiment Analysis - [[Sentiment Analysis With Mamba]]
 
 ## 2. Bank
-* Fraud detection
+* Fraud detection - [[Fraud Detection using ML]]
 * Anomaly transaction detect
 
 ## 3. Database + Backend
