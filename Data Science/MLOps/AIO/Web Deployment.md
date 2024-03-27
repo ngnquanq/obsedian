@@ -69,6 +69,23 @@ uvicorn?
 
 Cần một thư viện để hỗ trợ tương tác giữa android và cái API
 
+Mình sử dụng thư viện Retrofit để đẩy và nhận thông tin từ cái server. 
+
 ## Internet Access Permission Configuration
 
 Mình cần cho phép ứng dụng Android truy cập vào internet để handle request. 
+
+...Nhiều quá...
+
+# Deploy ML API on Azure Service
+
+## Web App in Flask
+
+```cmd
+Flask=2.2.2
+gunicorn
+Werkzeug
+```
+
+Nói chung có cả `template\index.html` để view nữa, phần về Flask không cần bàn nữa. 
+
