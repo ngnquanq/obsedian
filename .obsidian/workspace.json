@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "95e620070fb25cb6",
+        "id": "69c4c89b524cb7d2",
         "type": "tabs",
         "children": [
           {
-            "id": "6882c3254c54fa1c",
+            "id": "1a7ea6d6adbaea29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Computer Vision/GAN and DCGAN.md",
+                "file": "Data Science/Basic Deep Learning/Loss function/1. Cross Entropy Loss.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "venv",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Computer Vision/GAN and DCGAN.md",
+                "file": "Data Science/Basic Deep Learning/Loss function/1. Cross Entropy Loss.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Computer Vision/GAN and DCGAN.md",
+                "file": "Data Science/Basic Deep Learning/Loss function/1. Cross Entropy Loss.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Computer Vision/GAN and DCGAN.md"
+                "file": "Data Science/Basic Deep Learning/Loss function/1. Cross Entropy Loss.md"
               }
             }
           }
@@ -148,18 +148,30 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "6882c3254c54fa1c",
+  "active": "1a7ea6d6adbaea29",
   "lastOpenFiles": [
+    "Data Science/Basic Deep Learning/Loss function/0. Why Loss function.md",
+    "Data Science/Basic Deep Learning/Loss function/1. Cross Entropy Loss.md",
+    "Pasted image 20240328105833.png",
+    "Pasted image 20240329171524.png",
+    "TO LEARN LIST !.md",
+    "Data Science/Basic Deep Learning/Loss function.md",
+    "Data Science/Data Science.md",
+    "Data Science/Computer Vision/Text To Image.md",
+    "Data Science/Basic Deep Learning/Loss function",
+    "Data Science/Basic Deep Learning",
+    "Data Science/Computer Vision/Diffusion model.md",
+    "Data Science/Computer Vision/Pix2Pix and CycleGAN.md",
+    "Data Science/Computer Vision/GAN and DCGAN.md",
+    "img/Pasted image 20240327144108.png",
     "Data Science/Basic Computer Science/Others/Virtual environment.md",
     "Data Science/MLOps/AIO/Web Deployment.md",
     "Data Science/Dự án/Fraud Detection using ML.md",
     "Data Science/Dự án/Danh sách đề tài.md",
     "img/Pasted image 20240324132115.png",
-    "Data Science/Computer Vision/GAN and DCGAN.md",
     "Data Science/Research skills/How To Read AI Research Papers Effectively.md",
     "Data Science/Statistics/Statistical thinking.md",
     "img",
-    "Data Science/Computer Vision/Pix2Pix and CycleGAN.md",
     "Data Science/Research skills",
     "img/Pasted image 20240322203919.png",
     "Data Science/Basic Computer Science/Programming lecture/Intro to Triton - A parallel programming compiler and language.md",
@@ -178,24 +190,11 @@
     "Data Science/Basic Computer Science/Others/Version Control.md",
     "Data Science/MLOps/Coursera DevOps/2 - Introduction to Agile Development and Scrum/Week 1/Agile principle.md",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 2/Container Orchestration.md",
-    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Building and Running Container Images.md",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 2",
-    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Docker Architecture.md",
-    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Summary and Highlights.md",
-    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Introduction to Containers.md",
-    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Introduction to Docker.md",
     "Data Science/MLOps/images/Pasted image 20240318094653.png",
     "Data Science/MLOps/images/Pasted image 20240318113401.png",
-    "Data Science/MLOps/images/Pasted image 20240318113256.png",
-    "Data Science/MLOps/images/Pasted image 20240318113124.png",
-    "Data Science/MLOps/images/Pasted image 20240318112951.png",
-    "Data Science/Basic Computer Science/Programming lecture/Introduction to Parallel Programming/Unit 1/Chicken or Oxen.md",
-    "Data Science/Basic Computer Science/Computer system.md",
-    "Data Science/Basic Computer Science/Operating system.md",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift",
-    "Data Science/MLOps/Coursera DevOps/2 - Introduction to Agile Development and Scrum/Week 1",
-    "Data Science/MLOps/Coursera DevOps/2 - Introduction to Agile Development and Scrum",
     "Untitled.canvas",
     "Machine Learning and Deep Learning/Untitled.canvas"
   ]

@@ -13,4 +13,7 @@
 # Projects
 [[Danh sách đề tài]]
 
+# Basic Deep Learning
+1. [[Loss function]]
+2. 
 
