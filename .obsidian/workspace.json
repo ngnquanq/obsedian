@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Basic Deep Learning/Loss function/1. Cross Entropy Loss.md",
+                "file": "Data Science/MLOps/AIO/Deploy as services.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ef243a321448ce70",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Basic Deep Learning/Loss function/1. Cross Entropy Loss.md",
+                "file": "Data Science/MLOps/AIO/Deploy as services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Basic Deep Learning/Loss function/1. Cross Entropy Loss.md",
+                "file": "Data Science/MLOps/AIO/Deploy as services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Basic Deep Learning/Loss function/1. Cross Entropy Loss.md"
+                "file": "Data Science/MLOps/AIO/Deploy as services.md"
               }
             }
           }
@@ -150,9 +151,12 @@
   },
   "active": "1a7ea6d6adbaea29",
   "lastOpenFiles": [
-    "Data Science/Basic Deep Learning/Loss function/0. Why Loss function.md",
     "Data Science/Basic Deep Learning/Loss function/1. Cross Entropy Loss.md",
-    "Pasted image 20240328105833.png",
+    "Data Science/MLOps/AIO/Deploy as services.md",
+    "img/Pasted image 20240328105833.png",
+    "63d289fbf4787a8054d01c8d_Logarithmic function range.webp",
+    "img/log_range.png",
+    "Data Science/Basic Deep Learning/Loss function/0. Why Loss function.md",
     "Pasted image 20240329171524.png",
     "TO LEARN LIST !.md",
     "Data Science/Basic Deep Learning/Loss function.md",
@@ -191,8 +195,6 @@
     "Data Science/MLOps/Coursera DevOps/2 - Introduction to Agile Development and Scrum/Week 1/Agile principle.md",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 2/Container Orchestration.md",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 2",
-    "Data Science/MLOps/images/Pasted image 20240318094653.png",
-    "Data Science/MLOps/images/Pasted image 20240318113401.png",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift",
     "Untitled.canvas",
