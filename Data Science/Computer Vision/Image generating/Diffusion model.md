@@ -41,4 +41,7 @@ From an image which is none-random distribution, we will add noise until the new
 
 # Forward diffusion process
 - Image is none-random distribution (an image must follow some distribution - i.e component in a picture must correlated in some sense, not random pixel). 
-- 
+
+# Backward diffusion process
+
+

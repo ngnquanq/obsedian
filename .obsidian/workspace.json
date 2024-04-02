@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "69c4c89b524cb7d2",
+        "id": "b693f9d326d3decf",
         "type": "tabs",
         "children": [
           {
-            "id": "1a7ea6d6adbaea29",
+            "id": "d0098011877a3934",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/Computer Vision/Image generating/Image Inpainting Using DDPMs.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -65,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 373.5
+    "width": 200
   },
   "right": {
     "id": "ef243a321448ce70",
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Data Science/Computer Vision/Image generating/Image Inpainting Using DDPMs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Data Science/Computer Vision/Image generating/Image Inpainting Using DDPMs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Data Science/Computer Vision/Image generating/Image Inpainting Using DDPMs.md"
+              }
             }
           }
         ]
@@ -139,11 +148,17 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "1a7ea6d6adbaea29",
+  "active": "d0098011877a3934",
   "lastOpenFiles": [
+    "Pasted image 20240402142935.png",
+    "Pasted image 20240402135646.png",
+    "Pasted image 20240402135446.png",
+    "Data Science/Computer Vision/Image generating/Image Inpainting Using DDPMs.md",
+    "img/Pasted image 20240402134022.png",
+    "img/Pasted image 20240402134047.png",
+    "Data Science/Computer Vision/Image generating/Diffusion model.md",
     "Data Science/Computer Vision/Generate Image.md",
     "Data Science/Computer Vision/Image generating/Pix2Pix and CycleGAN.md",
-    "Data Science/Computer Vision/Image generating/Diffusion model.md",
     "Data Science/Computer Vision/Image generating",
     "Data Science/MLOps/AIO/Deploy as services.md",
     "Data Science/Basic Deep Learning/Loss function/1. Cross Entropy Loss.md",
@@ -169,9 +184,7 @@
     "Data Science/Statistics/Statistical thinking.md",
     "img",
     "Data Science/Research skills",
-    "img/Pasted image 20240322203919.png",
     "Data Science/Basic Computer Science/Programming lecture/Intro to Triton - A parallel programming compiler and language.md",
-    "img/Pasted image 20240320100136.png",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Docker cheatsheet while studying.md",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Docker CLI cheatsheet.pdf",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Container basic cheatsheet.pdf",
@@ -179,11 +192,8 @@
     "Data Science/Basic Computer Science/Programming lecture/The programming language guide.md",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 2/Introduction to Kubernetes.md",
     "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless",
-    "img/Pasted image 20240319113029.png",
     "Data Science/Statistics/Computational thinking.md",
-    "img/Pasted image 20240318180855.png",
     "Data Science/Basic Computer Science/Others.md",
-    "Data Science/Basic Computer Science/Others/Version Control.md",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 2",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1",
     "Untitled.canvas",
