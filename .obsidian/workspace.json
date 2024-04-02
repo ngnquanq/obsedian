@@ -11,13 +11,8 @@
             "id": "1a7ea6d6adbaea29",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/MLOps/AIO/Deploy as services.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -70,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 373.5
   },
   "right": {
     "id": "ef243a321448ce70",
@@ -87,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/MLOps/AIO/Deploy as services.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/MLOps/AIO/Deploy as services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Data Science/MLOps/AIO/Deploy as services.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -151,8 +141,12 @@
   },
   "active": "1a7ea6d6adbaea29",
   "lastOpenFiles": [
-    "Data Science/Basic Deep Learning/Loss function/1. Cross Entropy Loss.md",
+    "Data Science/Computer Vision/Generate Image.md",
+    "Data Science/Computer Vision/Image generating/Pix2Pix and CycleGAN.md",
+    "Data Science/Computer Vision/Image generating/Diffusion model.md",
+    "Data Science/Computer Vision/Image generating",
     "Data Science/MLOps/AIO/Deploy as services.md",
+    "Data Science/Basic Deep Learning/Loss function/1. Cross Entropy Loss.md",
     "img/Pasted image 20240328105833.png",
     "63d289fbf4787a8054d01c8d_Logarithmic function range.webp",
     "img/log_range.png",
@@ -161,12 +155,10 @@
     "TO LEARN LIST !.md",
     "Data Science/Basic Deep Learning/Loss function.md",
     "Data Science/Data Science.md",
-    "Data Science/Computer Vision/Text To Image.md",
+    "Data Science/Computer Vision/Image generating/Text To Image.md",
     "Data Science/Basic Deep Learning/Loss function",
     "Data Science/Basic Deep Learning",
-    "Data Science/Computer Vision/Diffusion model.md",
-    "Data Science/Computer Vision/Pix2Pix and CycleGAN.md",
-    "Data Science/Computer Vision/GAN and DCGAN.md",
+    "Data Science/Computer Vision/Image generating/GAN and DCGAN.md",
     "img/Pasted image 20240327144108.png",
     "Data Science/Basic Computer Science/Others/Virtual environment.md",
     "Data Science/MLOps/AIO/Web Deployment.md",
@@ -192,11 +184,8 @@
     "img/Pasted image 20240318180855.png",
     "Data Science/Basic Computer Science/Others.md",
     "Data Science/Basic Computer Science/Others/Version Control.md",
-    "Data Science/MLOps/Coursera DevOps/2 - Introduction to Agile Development and Scrum/Week 1/Agile principle.md",
-    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 2/Container Orchestration.md",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 2",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1",
-    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift",
     "Untitled.canvas",
     "Machine Learning and Deep Learning/Untitled.canvas"
   ]
