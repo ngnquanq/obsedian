@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/Week 1/1. Microservices.md",
+                "file": "Data Science/Computer Vision/Image generating/Image colorization.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/Week 1/1. Microservices.md",
+                "file": "Data Science/Computer Vision/Image generating/Image colorization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/Week 1/1. Microservices.md",
+                "file": "Data Science/Computer Vision/Image generating/Image colorization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/Week 1/1. Microservices.md"
+                "file": "Data Science/Computer Vision/Image generating/Image colorization.md"
               }
             }
           }
@@ -151,9 +151,12 @@
   },
   "active": "50d1c4a39ea20d92",
   "lastOpenFiles": [
-    "backend-for-frontend-design-pattern.png",
-    "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/Week 1/1. Microservices.md",
-    "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/Week 1/0. Objective.md",
+    "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/3. Serverless computing.md",
+    "Data Science/Computer Vision/Image generating/Image colorization.md",
+    "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/2. REST API.md",
+    "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/1. Microservices.md",
+    "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/0. Objective.md",
+    "img/backend-for-frontend-design-pattern.png",
     "img/Pasted image 20240402135646.png",
     "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/Week 1",
     "img/Pasted image 20240402142935.png",
@@ -179,7 +182,6 @@
     "Data Science/Basic Deep Learning/Loss function",
     "Data Science/Basic Deep Learning",
     "Data Science/Computer Vision/Image generating/GAN and DCGAN.md",
-    "img/Pasted image 20240327144108.png",
     "Data Science/Basic Computer Science/Others/Virtual environment.md",
     "Data Science/MLOps/AIO/Web Deployment.md",
     "Data Science/Dự án/Fraud Detection using ML.md",
@@ -193,8 +195,6 @@
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Docker CLI cheatsheet.pdf",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Container basic cheatsheet.pdf",
     "Data Science/Dự án/Neural Style Transfer.md",
-    "Data Science/Basic Computer Science/Programming lecture/The programming language guide.md",
-    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 2/Introduction to Kubernetes.md",
     "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 2",
     "Untitled.canvas",
