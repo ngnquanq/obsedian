@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Computer Vision/Image generating/Image colorization.md",
+                "file": "Gaussian Mixture model.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ef243a321448ce70",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Computer Vision/Image generating/Image colorization.md",
+                "file": "Gaussian Mixture model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Computer Vision/Image generating/Image colorization.md",
+                "file": "Gaussian Mixture model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Computer Vision/Image generating/Image colorization.md"
+                "file": "Gaussian Mixture model.md"
               }
             }
           }
@@ -151,6 +150,16 @@
   },
   "active": "50d1c4a39ea20d92",
   "lastOpenFiles": [
+    "Data Science/Data Science.md",
+    "Gaussian Mixture model.md",
+    "Data Science/XAI/Trustworthy and Explainable AI.md",
+    "img/Pasted image 20240404001833.png",
+    "Data Science/Basic Computer Science/Operating system/11 - Virtual Machines.md",
+    "Data Science/XAI",
+    "Data Science/Basic Computer Science/Operating system/14 - Process State.md",
+    "Data Science/Basic Computer Science/Operating system/8 - System Program.md",
+    "Data Science/Basic Computer Science/Operating system/6 - System Call.md",
+    "Data Science/Basic Computer Science/Operating system/29 - Multithreading Models and Hyperthreading.md",
     "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/3. Serverless computing.md",
     "Data Science/Computer Vision/Image generating/Image colorization.md",
     "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/2. REST API.md",
@@ -174,29 +183,19 @@
     "63d289fbf4787a8054d01c8d_Logarithmic function range.webp",
     "img/log_range.png",
     "Data Science/Basic Deep Learning/Loss function/0. Why Loss function.md",
-    "Pasted image 20240329171524.png",
     "TO LEARN LIST !.md",
     "Data Science/Basic Deep Learning/Loss function.md",
-    "Data Science/Data Science.md",
     "Data Science/Computer Vision/Image generating/Text To Image.md",
     "Data Science/Basic Deep Learning/Loss function",
     "Data Science/Basic Deep Learning",
     "Data Science/Computer Vision/Image generating/GAN and DCGAN.md",
     "Data Science/Basic Computer Science/Others/Virtual environment.md",
     "Data Science/MLOps/AIO/Web Deployment.md",
-    "Data Science/Dự án/Fraud Detection using ML.md",
-    "Data Science/Dự án/Danh sách đề tài.md",
-    "Data Science/Research skills/How To Read AI Research Papers Effectively.md",
-    "Data Science/Statistics/Statistical thinking.md",
     "img",
     "Data Science/Research skills",
-    "Data Science/Basic Computer Science/Programming lecture/Intro to Triton - A parallel programming compiler and language.md",
-    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Docker cheatsheet while studying.md",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Docker CLI cheatsheet.pdf",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Container basic cheatsheet.pdf",
-    "Data Science/Dự án/Neural Style Transfer.md",
     "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless",
-    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 2",
     "Untitled.canvas",
     "Machine Learning and Deep Learning/Untitled.canvas"
   ]

@@ -4,6 +4,8 @@
 [[Operating system]]
 
 ## Statistics
+1. [[Gaussian Mixture model]]
+2. 
 
 # Core knowledges
 ## MLOPs
@@ -17,3 +19,6 @@
 1. [[Loss function]]
 2. 
 
+# XAI
+1. [[Trustworthy and Explainable AI]]
+2.  
