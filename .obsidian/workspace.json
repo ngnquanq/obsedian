@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gaussian Mixture model.md",
+                "file": "Data Science/XAI/Trustworthy and Explainable AI.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ef243a321448ce70",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gaussian Mixture model.md",
+                "file": "Data Science/XAI/Trustworthy and Explainable AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gaussian Mixture model.md",
+                "file": "Data Science/XAI/Trustworthy and Explainable AI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gaussian Mixture model.md"
+                "file": "Data Science/XAI/Trustworthy and Explainable AI.md"
               }
             }
           }
@@ -148,10 +149,10 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "50d1c4a39ea20d92",
+  "active": "6a4f1dae87d8f109",
   "lastOpenFiles": [
-    "Data Science/Data Science.md",
     "Gaussian Mixture model.md",
+    "Data Science/Data Science.md",
     "Data Science/XAI/Trustworthy and Explainable AI.md",
     "img/Pasted image 20240404001833.png",
     "Data Science/Basic Computer Science/Operating system/11 - Virtual Machines.md",
