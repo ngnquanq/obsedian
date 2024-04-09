@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/0. Introduction.md",
+                "file": "Data Science/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/1. The value of testing.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/0. Introduction.md",
+                "file": "Data Science/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/1. The value of testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/0. Introduction.md",
+                "file": "Data Science/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/1. The value of testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/0. Introduction.md"
+                "file": "Data Science/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/1. The value of testing.md"
               }
             }
           }
@@ -149,10 +149,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "c22c2d00c010ae92",
+  "active": "6a4f1dae87d8f109",
   "lastOpenFiles": [
-    "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/0. Objective.md",
+    "Pasted image 20240409194302.png",
     "Data Science/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/0. Introduction.md",
+    "Data Science/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/1. The value of testing.md",
+    "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/0. Objective.md",
     "Data Science/Data Science.md",
     "Data Science/MLOps/MLOPs.md",
     "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/5 - Application Development using Microservices.md",
@@ -189,8 +191,6 @@
     "Data Science/MLOps/AIO/Deploy as services.md",
     "Data Science/Basic Deep Learning/Loss function/1. Cross Entropy Loss.md",
     "Data Science/Basic Deep Learning/Loss function/0. Why Loss function.md",
-    "TO LEARN LIST !.md",
-    "Data Science/Basic Deep Learning/Loss function.md",
     "Data Science/Basic Deep Learning/Loss function",
     "Data Science/Basic Deep Learning",
     "img",
