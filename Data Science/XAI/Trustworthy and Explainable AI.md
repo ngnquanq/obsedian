@@ -13,3 +13,25 @@
 -> AI rất mạnh, nhưng với các edge cases thì nó rất dễ đổ vỡ.
 -> Có các pattern đánh bại được rất nhiều model AI (Cho cả CV và NLP)
 -> Rất dễ lừa các mô hình AI (CV: rotation; NLP: shuffle N-gram)
+
+%% CLIP:
+- Symmetric cross entropy
+- Weakness:  %%
+# Explainable AI 
+**Key:**
+- AI là blackbox -> Người không hiểu hết được. 
+- Research: Create an interface (bottleneck XAI) để con người có thể so sánh + đối chiếu giúp con người điều chỉnh hành vi của AI. 
+# Build AIs that human can debug 
+
+# Future XAI 
+Đằng sau AI của tương lai, một là AI có thể truy cập vào internet và các vùng sẵn có để có thể đưa ra quyết định
+
+# Industry
+Càng về sau càng cần explainable AI
+paper: đọc nhanh rồi qua paper khác, đừng có stop quá lâu **đọc nhanh, đọc nhiều, đọc lướt**. 
+**perplexity** giúp mình đọc paper rất nhanh, cân nhắc dùng thử
+feedly
+i.e anthropic
+
+Bắt đầu nguyên cứu xai bằng twitter của giáo sư anh totti nguyen 
+
