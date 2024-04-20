@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "013b0bc52f89ecc5",
+        "id": "fc36882cceae78c2",
         "type": "tabs",
         "children": [
           {
-            "id": "c22c2d00c010ae92",
+            "id": "8015a4bd36aa4efc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/1. The value of testing.md",
+                "file": "Data Science/Advanced Deep Learning/NLP/LLMs/Benchmark.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ef243a321448ce70",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/1. The value of testing.md",
+                "file": "Data Science/Advanced Deep Learning/NLP/LLMs/Benchmark.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/1. The value of testing.md",
+                "file": "Data Science/Advanced Deep Learning/NLP/LLMs/Benchmark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/1. The value of testing.md"
+                "file": "Data Science/Advanced Deep Learning/NLP/LLMs/Benchmark.md"
               }
             }
           }
@@ -149,54 +148,54 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "6a4f1dae87d8f109",
+  "active": "8015a4bd36aa4efc",
   "lastOpenFiles": [
-    "Pasted image 20240409194302.png",
-    "Data Science/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/0. Introduction.md",
-    "Data Science/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/1. The value of testing.md",
-    "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/0. Objective.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMs/LLM Math Solving.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMs/Benchmark.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMs/Building Production-Grade LLM apps.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMs/Aligning LLMs with DPO.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMs/Beyond LLMs - Agents, Emergent Abilities, Intermediate Guided Reasoning, BabyLM.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMs/How to Build, Evaluate, and Iterate on LLM Agents.md",
+    "Data Science/Data Analysis/Power BI/Section 2 - Basic Charts in Power BI Desktop.md",
+    "img/What-device-are-you-using-the-most-Column-chart.png",
+    "Data Science/Data Analysis/Power BI/Section 1 - Introduction.md",
+    "Data Science/Data Analysis/Power BI",
+    "img/Pasted image 20240420185747.png",
+    "Data Science/Data Analysis",
+    "Data Science/Advanced Deep Learning/NLP/NLP.md",
     "Data Science/Data Science.md",
-    "Data Science/MLOps/MLOPs.md",
-    "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/5 - Application Development using Microservices.md",
-    "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/4. IBM Cloud Code Engine.md",
-    "Data Science/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development",
-    "Pasted image 20240409180050.png",
-    "img/Pasted image 20240409174114.png",
-    "img/Pasted image 20240409175051.png",
-    "img/Pasted image 20240409175015.png",
-    "img/Pasted image 20240409171304.png",
-    "img/Pasted image 20240409171612.png",
-    "img/Pasted image 20240409171459.png",
-    "img/Pasted image 20240409171103.png",
-    "img/Pasted image 20240409154954.png",
-    "img/Pasted image 20240409170038.png",
-    "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/3. Serverless computing.md",
-    "Data Science/XAI/Trustworthy and Explainable AI.md",
+    "Data Science/Skills/Innovation/Cloud computing.md",
+    "Data Science/Skills/Innovation",
+    "Data Science/Advanced Deep Learning/NLP/Transformer/Stanford CS25",
+    "Data Science/Advanced Deep Learning/NLP/Transformer",
+    "img/Pasted image 20240417172412.png",
+    "img/Pasted image 20240419161006.png",
+    "img/Pasted image 20240419155747.png",
+    "Data Science/Advanced Deep Learning/NLP/LLMs/Sentiment Analysis With Mamba.md",
+    "img/Pasted image 20240419132927.png",
+    "img/Pasted image 20240419132735.png",
+    "img/Pasted image 20240419132249.png",
+    "img/Pasted image 20240419132108.png",
+    "img/Pasted image 20240419131741.png",
+    "Data Science/Skills/Product sense/Product breakdown.md",
+    "Data Science/Statistics/AB Testing/AB Testing fundamental.md",
+    "Data Science/Skills/Product sense",
+    "Data Science/Statistics/Statistical Concept",
+    "Data Science/Statistics/AB Testing/Ace AB Testing interview Question.md",
+    "Data Science/Statistics/Statistical Experiments and Significance Testing/AB Testing.md",
+    "Data Science/Statistics/AB Testing",
+    "Data Science/Statistics/Computational thinking.md",
+    "Data Science/Statistics/Statistical thinking.md",
+    "Data Science/Skills/Full Stack/Coursera/Course 1/1. Introduction to Cloud Computing.md",
     "Gaussian Mixture model.md",
-    "Data Science/Basic Computer Science/Operating system/11 - Virtual Machines.md",
-    "Data Science/XAI",
-    "Data Science/Basic Computer Science/Operating system/14 - Process State.md",
-    "Data Science/Basic Computer Science/Operating system/8 - System Program.md",
-    "Data Science/Basic Computer Science/Operating system/6 - System Call.md",
-    "Data Science/Basic Computer Science/Operating system/29 - Multithreading Models and Hyperthreading.md",
-    "Data Science/Computer Vision/Image generating/Image colorization.md",
-    "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/2. REST API.md",
-    "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/1. Microservices.md",
-    "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/Week 1",
-    "Data Science/Computer Vision/Image generating/Image Inpainting Using DDPMs.md",
-    "Data Science/Computer Vision/Image generating/Diffusion model.md",
-    "Data Science/Computer Vision/Generate Image.md",
-    "Data Science/Computer Vision/Image generating/Pix2Pix and CycleGAN.md",
-    "Data Science/Computer Vision/Image generating",
-    "Data Science/MLOps/AIO/Deploy as services.md",
-    "Data Science/Basic Deep Learning/Loss function/1. Cross Entropy Loss.md",
-    "Data Science/Basic Deep Learning/Loss function/0. Why Loss function.md",
-    "Data Science/Basic Deep Learning/Loss function",
-    "Data Science/Basic Deep Learning",
-    "img",
-    "Data Science/Research skills",
-    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Docker CLI cheatsheet.pdf",
-    "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 1/Container basic cheatsheet.pdf",
+    "Data Science/Skills",
+    "Data Science/Advanced Deep Learning",
+    "Untitled.md",
+    "Data Science/Advanced Deep Learning/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/5. Running Behave for Behavior Driven Development.md",
+    "Data Science/Advanced Deep Learning/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/4. Behavior Driven Development.md",
+    "Data Science/Advanced Deep Learning/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/0. Introduction.md",
+    "Data Science/Advanced Deep Learning/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/3. Advanced Methods for Test Driven Development.md",
+    "Data Science/Advanced Deep Learning/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/4 - Test and Behavior Driven Development.md",
     "Untitled.canvas",
     "Machine Learning and Deep Learning/Untitled.canvas"
   ]

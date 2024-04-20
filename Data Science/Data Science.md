@@ -5,6 +5,9 @@
 
 ## Statistics
 1. [[Gaussian Mixture model]]
+
+# NLP
+1. [[NLP]]
 2. 
 
 # Core knowledges
