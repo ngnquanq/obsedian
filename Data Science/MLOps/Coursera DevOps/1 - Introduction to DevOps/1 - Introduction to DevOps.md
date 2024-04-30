@@ -20,7 +20,7 @@
 [[Test Driven Development (TDD)]]
 [[Working in small batches]]
 [[Test Driven Development (TDD)]]
-[[Data Science/Advanced Deep Learning/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Summary and Highlights]]
+[[Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Summary and Highlights]]
 
 ### Week 3
 [[Continuous Delivery]]
@@ -28,7 +28,7 @@
 [[Infrastructure as code]]
 [[Required DevOps Behaviors]]
 [[Software Engineering vs Civil Engineering]]
-[[Data Science/Advanced Deep Learning/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 3/Summary and Highlights|Summary and Highlights]]
+[[Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 3/Summary and Highlights|Summary and Highlights]]
 [[Taylorism and Working in Silos]]
 
 ### Week 4
@@ -36,7 +36,7 @@
 [[Everyone is responsible for Success]]
 [[Organizational Impact of DevOps]]
 [[Rewarding for A while hoping for B]]
-[[Data Science/Advanced Deep Learning/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 4/Summary and Highlights|Summary and Highlights]]
+[[Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 4/Summary and Highlights|Summary and Highlights]]
 [[There is No DevOps Team]]
 [[Vanity metrics vs. actionable metrics]]
 

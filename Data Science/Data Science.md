@@ -14,6 +14,8 @@
 ## MLOPs
 [[MLOPs]]
 
+## Data Engineer
+[[Data Engineer]]
 
 # Projects
 [[Danh sách đề tài]]

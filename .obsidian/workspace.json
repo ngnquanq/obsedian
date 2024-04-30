@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fc36882cceae78c2",
+        "id": "49164d51d8d4a71a",
         "type": "tabs",
         "children": [
           {
-            "id": "8015a4bd36aa4efc",
+            "id": "2da99310332ef381",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Advanced Deep Learning/NLP/LLMs/Benchmark.md",
+                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Continuous Integration (CI).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Advanced Deep Learning/NLP/LLMs/Benchmark.md",
+                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Continuous Integration (CI).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Advanced Deep Learning/NLP/LLMs/Benchmark.md",
+                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Continuous Integration (CI).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Advanced Deep Learning/NLP/LLMs/Benchmark.md"
+                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Continuous Integration (CI).md"
               }
             }
           }
@@ -148,54 +148,54 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "8015a4bd36aa4efc",
+  "active": "2da99310332ef381",
   "lastOpenFiles": [
-    "Data Science/Advanced Deep Learning/NLP/LLMs/LLM Math Solving.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMs/Benchmark.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMs/Building Production-Grade LLM apps.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMs/Aligning LLMs with DPO.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMs/Beyond LLMs - Agents, Emergent Abilities, Intermediate Guided Reasoning, BabyLM.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMs/How to Build, Evaluate, and Iterate on LLM Agents.md",
-    "Data Science/Data Analysis/Power BI/Section 2 - Basic Charts in Power BI Desktop.md",
-    "img/What-device-are-you-using-the-most-Column-chart.png",
-    "Data Science/Data Analysis/Power BI/Section 1 - Introduction.md",
-    "Data Science/Data Analysis/Power BI",
-    "img/Pasted image 20240420185747.png",
-    "Data Science/Data Analysis",
-    "Data Science/Advanced Deep Learning/NLP/NLP.md",
-    "Data Science/Data Science.md",
-    "Data Science/Skills/Innovation/Cloud computing.md",
-    "Data Science/Skills/Innovation",
-    "Data Science/Advanced Deep Learning/NLP/Transformer/Stanford CS25",
-    "Data Science/Advanced Deep Learning/NLP/Transformer",
-    "img/Pasted image 20240417172412.png",
-    "img/Pasted image 20240419161006.png",
-    "img/Pasted image 20240419155747.png",
-    "Data Science/Advanced Deep Learning/NLP/LLMs/Sentiment Analysis With Mamba.md",
-    "img/Pasted image 20240419132927.png",
-    "img/Pasted image 20240419132735.png",
-    "img/Pasted image 20240419132249.png",
-    "img/Pasted image 20240419132108.png",
-    "img/Pasted image 20240419131741.png",
-    "Data Science/Skills/Product sense/Product breakdown.md",
-    "Data Science/Statistics/AB Testing/AB Testing fundamental.md",
-    "Data Science/Skills/Product sense",
-    "Data Science/Statistics/Statistical Concept",
-    "Data Science/Statistics/AB Testing/Ace AB Testing interview Question.md",
-    "Data Science/Statistics/Statistical Experiments and Significance Testing/AB Testing.md",
-    "Data Science/Statistics/AB Testing",
-    "Data Science/Statistics/Computational thinking.md",
-    "Data Science/Statistics/Statistical thinking.md",
-    "Data Science/Skills/Full Stack/Coursera/Course 1/1. Introduction to Cloud Computing.md",
-    "Gaussian Mixture model.md",
-    "Data Science/Skills",
-    "Data Science/Advanced Deep Learning",
-    "Untitled.md",
-    "Data Science/Advanced Deep Learning/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/5. Running Behave for Behavior Driven Development.md",
-    "Data Science/Advanced Deep Learning/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/4. Behavior Driven Development.md",
-    "Data Science/Advanced Deep Learning/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/0. Introduction.md",
-    "Data Science/Advanced Deep Learning/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/3. Advanced Methods for Test Driven Development.md",
-    "Data Science/Advanced Deep Learning/MLOps/Coursera DevOps/4 - Test and Behavior Driven Development/4 - Test and Behavior Driven Development.md",
+    "img/Pasted image 20240428000359.png",
+    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Continuous Integration (CI).md",
+    "img/Pasted image 20240430105247.png",
+    "img/Pasted image 20240430104508.png",
+    "img/Pasted image 20240430104423.png",
+    "img/Pasted image 20240430104333.png",
+    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Integration (CI).md",
+    "img/Pasted image 20240430103223.png",
+    "img/Pasted image 20240430103152.png",
+    "img/Pasted image 20240430103110.png",
+    "img/Pasted image 20240430103010.png",
+    "img/Pasted image 20240430102910.png",
+    "img/Pasted image 20240430102822.png",
+    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Welcome.md",
+    "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Introduction to Shell Scripting.md",
+    "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Working with Text Files, Networking and Archiving Commands.md",
+    "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Cheet sheet.md",
+    "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Introduction to Linux and Unix.md",
+    "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Informational, Navigational and Management Commands.md",
+    "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Shell Scripting Basics.md",
+    "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Viewing file content.md",
+    "Data Science/Software Engineer/Coursera/Getting started with Git and GitHub/Git workflows with Git commands.md",
+    "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting",
+    "Data Science/Software Engineer/Coursera/Getting started with Git and GitHub/Branches with GitHub.md",
+    "Data Science/Software Engineer/Coursera/Getting started with Git and GitHub/Cheat Sheet.md",
+    "Data Science/Software Engineer/Coursera/Getting started with Git and GitHub/Getting started with Git and GitHub.md",
+    "Data Science/Software Engineer/Coursera/Getting started with Git and GitHub/Reading.md",
+    "Data Science/Software Engineer/Coursera/Getting started with Git and GitHub",
+    "Data Science/Software Engineer/Coursera",
+    "Data Science/Software Engineer",
+    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Week 1.md",
+    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Week 1",
+    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery",
+    "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Big Data Platforms.md",
+    "Data Science/Data Engineer/Data Engineer.md",
+    "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Data Repositories, Data Pipelines, and Data Integration Platforms.md",
+    "Data Science/Data Engineer/Coursera/Introduction to NoSQL database/Introducing MongoDB.md",
+    "Data Science/Data Engineer/Coursera/Introduction to NoSQL database",
+    "Data Science/Cyber Security/MITM attack.md",
+    "Data Science/Cyber Security",
+    "HTTPs.md",
+    "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Modern Data Ecosystem and role of Data Engineering.md",
+    "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Responsibilities and skillsets of a Data Engineer.md",
+    "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/The Data Ecosystem and Languages for Data Professionals.md",
+    "Data Science/Data Engineer/Coursera/Introduction to Data Engineer",
+    "Data Science/Data Engineer/Coursera",
     "Untitled.canvas",
     "Machine Learning and Deep Learning/Untitled.canvas"
   ]
