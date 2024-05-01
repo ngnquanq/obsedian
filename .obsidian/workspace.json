@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "49164d51d8d4a71a",
+        "id": "394175908e6d4265",
         "type": "tabs",
         "children": [
           {
-            "id": "2da99310332ef381",
+            "id": "eb21fb0d813e33b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Continuous Integration (CI).md",
+                "file": "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Data Engineering Lifecycle.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Social Coding",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ef243a321448ce70",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Continuous Integration (CI).md",
+                "file": "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Data Engineering Lifecycle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Continuous Integration (CI).md",
+                "file": "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Data Engineering Lifecycle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Continuous Integration (CI).md"
+                "file": "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Data Engineering Lifecycle.md"
               }
             }
           }
@@ -148,22 +149,28 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "2da99310332ef381",
+  "active": "eb21fb0d813e33b2",
   "lastOpenFiles": [
-    "img/Pasted image 20240428000359.png",
+    "Pasted image 20240501102353.png",
+    "Pasted image 20240501102133.png",
+    "Pasted image 20240501102012.png",
+    "Pasted image 20240501101708.png",
+    "Pasted image 20240501101306.png",
+    "Pasted image 20240501101147.png",
+    "Pasted image 20240501101039.png",
+    "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/The Data Ecosystem and Languages for Data Professionals.md",
+    "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Data Engineering Lifecycle.md",
     "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Continuous Integration (CI).md",
-    "img/Pasted image 20240430105247.png",
-    "img/Pasted image 20240430104508.png",
-    "img/Pasted image 20240430104423.png",
-    "img/Pasted image 20240430104333.png",
+    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Delivery.md",
+    "img/Pasted image 20240430203942.png",
+    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Pipelines with Tekton.md",
     "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Integration (CI).md",
-    "img/Pasted image 20240430103223.png",
-    "img/Pasted image 20240430103152.png",
-    "img/Pasted image 20240430103110.png",
-    "img/Pasted image 20240430103010.png",
-    "img/Pasted image 20240430102910.png",
-    "img/Pasted image 20240430102822.png",
     "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Welcome.md",
+    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Social Coding Principles.md",
+    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Summary and Highlights.md",
+    "img/Pasted image 20240430203444.png",
+    "img/Pasted image 20240430203407.png",
+    "img/Pasted image 20240430182446.png",
     "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Introduction to Shell Scripting.md",
     "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Working with Text Files, Networking and Archiving Commands.md",
     "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Cheet sheet.md",
@@ -186,14 +193,8 @@
     "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Big Data Platforms.md",
     "Data Science/Data Engineer/Data Engineer.md",
     "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Data Repositories, Data Pipelines, and Data Integration Platforms.md",
-    "Data Science/Data Engineer/Coursera/Introduction to NoSQL database/Introducing MongoDB.md",
     "Data Science/Data Engineer/Coursera/Introduction to NoSQL database",
-    "Data Science/Cyber Security/MITM attack.md",
     "Data Science/Cyber Security",
-    "HTTPs.md",
-    "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Modern Data Ecosystem and role of Data Engineering.md",
-    "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Responsibilities and skillsets of a Data Engineer.md",
-    "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/The Data Ecosystem and Languages for Data Professionals.md",
     "Data Science/Data Engineer/Coursera/Introduction to Data Engineer",
     "Data Science/Data Engineer/Coursera",
     "Untitled.canvas",
