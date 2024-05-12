@@ -1,4 +1,7 @@
 # Fundamental knowledges
+
+## Programming Lanuages
+[[Languages]]
 ## Basic Computer Science
 [[Computer system]]
 [[Operating system]]
@@ -8,7 +11,7 @@
 
 # NLP
 1. [[NLP]]
-2. 
+
 
 # Core knowledges
 ## MLOPs

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "394175908e6d4265",
+        "id": "97aced84c3d6d840",
         "type": "tabs",
         "children": [
           {
-            "id": "eb21fb0d813e33b2",
+            "id": "47951dc4a59c963c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
+                "file": "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Dupont",
+                "query": "rust",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,12 +66,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ef243a321448ce70",
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
+                "file": "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
+                "file": "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md"
+                "file": "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md"
               }
             }
           }
@@ -149,24 +149,37 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "eb21fb0d813e33b2",
+  "active": "47951dc4a59c963c",
   "lastOpenFiles": [
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Introduction to Retrieval Augmented Generation.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/AI Pair Programming from CodeWhisperer to Prompt Engineering.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Developing Serverless Solutions for Data, ML and AI.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS",
+    "Pasted image 20240512174819.png",
+    "Data Science/Languages/RUST/RUST.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Set Up AI Focused Development Environments.md",
+    "Data Science/Data Science.md",
+    "Data Science/Languages/Languages.md",
+    "Data Science/Languages/RUST",
+    "img/Pasted image 20240512121545.png",
+    "Data Science/Languages",
+    "img/Pasted image 20240512140101.png",
+    "img/Pasted image 20240512140004.png",
+    "img/Pasted image 20240512135515.png",
+    "img/Pasted image 20240512124658.png",
+    "img/Pasted image 20240512124518.png",
+    "img/Pasted image 20240512123200.png",
+    "img/Pasted image 20240512122818.png",
+    "img/Pasted image 20240512122531.png",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/PromptEngineering.pdf",
+    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
     "Data Science/Advanced Deep Learning/NLP/LLMs/Multi-Agent LLMs.md",
-    "Pasted image 20240510202656.png",
-    "Pasted image 20240510202148.png",
-    "Pasted image 20240510201810.png",
-    "Pasted image 20240510201228.png",
-    "Pasted image 20240510200642.png",
     "Data Science/Advanced Deep Learning/NLP/NLP.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/AI Pair Programming from CodeWhisperer to Prompt Engineering.md",
-    "Pasted image 20240510163242.png",
     "Data Science/Basic Computer Science/Others/Virtual environment.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/Getting Started with Developing on AWS for AI.md",
-    "img/Pasted image 20240509094708.png",
-    "img/Pasted image 20240510143321.png",
-    "img/Pasted image 20240510142952.png",
-    "img/Pasted image 20240510141317.png",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/AWS CAF-AI.pdf",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Getting Started with Developing on AWS for AI.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/AWS CAF-AI.pdf",
     "Data Science/Advanced Deep Learning/NLP/LLMs/Sentiment Analysis With Mamba.md",
     "Data Science/Advanced Deep Learning/Open Source/HuggingFace open source.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI and LLMs on AWS",
@@ -183,19 +196,7 @@
     "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Welcome.md",
     "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Social Coding Principles.md",
     "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Summary and Highlights.md",
-    "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Introduction to Shell Scripting.md",
-    "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Working with Text Files, Networking and Archiving Commands.md",
-    "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Cheet sheet.md",
-    "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Introduction to Linux and Unix.md",
-    "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Informational, Navigational and Management Commands.md",
-    "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Shell Scripting Basics.md",
-    "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Viewing file content.md",
     "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting",
-    "Data Science/Software Engineer/Coursera/Getting started with Git and GitHub",
-    "Data Science/Software Engineer/Coursera",
-    "Data Science/Software Engineer",
-    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Week 1",
-    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery",
     "Untitled.canvas",
     "Machine Learning and Deep Learning/Untitled.canvas"
   ]
