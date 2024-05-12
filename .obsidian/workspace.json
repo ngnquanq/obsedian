@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Data Engineering Lifecycle.md",
+                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Social Coding",
+                "query": "Dupont",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,12 +66,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ef243a321448ce70",
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Data Engineering Lifecycle.md",
+                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Data Engineering Lifecycle.md",
+                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Data Engineering Lifecycle.md"
+                "file": "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md"
               }
             }
           }
@@ -151,26 +151,38 @@
   },
   "active": "eb21fb0d813e33b2",
   "lastOpenFiles": [
-    "Pasted image 20240501102353.png",
-    "Pasted image 20240501102133.png",
-    "Pasted image 20240501102012.png",
-    "Pasted image 20240501101708.png",
-    "Pasted image 20240501101306.png",
-    "Pasted image 20240501101147.png",
-    "Pasted image 20240501101039.png",
-    "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/The Data Ecosystem and Languages for Data Professionals.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMs/Multi-Agent LLMs.md",
+    "Pasted image 20240510202656.png",
+    "Pasted image 20240510202148.png",
+    "Pasted image 20240510201810.png",
+    "Pasted image 20240510201228.png",
+    "Pasted image 20240510200642.png",
+    "Data Science/Advanced Deep Learning/NLP/NLP.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/AI Pair Programming from CodeWhisperer to Prompt Engineering.md",
+    "Pasted image 20240510163242.png",
+    "Data Science/Basic Computer Science/Others/Virtual environment.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Getting Started with Developing on AWS for AI.md",
+    "img/Pasted image 20240509094708.png",
+    "img/Pasted image 20240510143321.png",
+    "img/Pasted image 20240510142952.png",
+    "img/Pasted image 20240510141317.png",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/AWS CAF-AI.pdf",
+    "Data Science/Advanced Deep Learning/NLP/LLMs/Sentiment Analysis With Mamba.md",
+    "Data Science/Advanced Deep Learning/Open Source/HuggingFace open source.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI and LLMs on AWS",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps",
+    "Data Science/Advanced Deep Learning/NLP/LLMs/LLM Deployment.md",
+    "Data Science/Advanced Deep Learning/GNN/Advanced GNN.md",
+    "Data Science/Advanced Deep Learning/GNN",
     "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Data Engineering Lifecycle.md",
+    "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/The Data Ecosystem and Languages for Data Professionals.md",
     "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Continuous Integration (CI).md",
     "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Delivery.md",
-    "img/Pasted image 20240430203942.png",
     "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Pipelines with Tekton.md",
     "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Integration (CI).md",
     "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Welcome.md",
     "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Social Coding Principles.md",
     "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Summary and Highlights.md",
-    "img/Pasted image 20240430203444.png",
-    "img/Pasted image 20240430203407.png",
-    "img/Pasted image 20240430182446.png",
     "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Introduction to Shell Scripting.md",
     "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Working with Text Files, Networking and Archiving Commands.md",
     "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Cheet sheet.md",
@@ -178,25 +190,12 @@
     "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Informational, Navigational and Management Commands.md",
     "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Shell Scripting Basics.md",
     "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting/Viewing file content.md",
-    "Data Science/Software Engineer/Coursera/Getting started with Git and GitHub/Git workflows with Git commands.md",
     "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting",
-    "Data Science/Software Engineer/Coursera/Getting started with Git and GitHub/Branches with GitHub.md",
-    "Data Science/Software Engineer/Coursera/Getting started with Git and GitHub/Cheat Sheet.md",
-    "Data Science/Software Engineer/Coursera/Getting started with Git and GitHub/Getting started with Git and GitHub.md",
-    "Data Science/Software Engineer/Coursera/Getting started with Git and GitHub/Reading.md",
     "Data Science/Software Engineer/Coursera/Getting started with Git and GitHub",
     "Data Science/Software Engineer/Coursera",
     "Data Science/Software Engineer",
-    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Week 1.md",
     "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Week 1",
     "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery",
-    "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Big Data Platforms.md",
-    "Data Science/Data Engineer/Data Engineer.md",
-    "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Data Repositories, Data Pipelines, and Data Integration Platforms.md",
-    "Data Science/Data Engineer/Coursera/Introduction to NoSQL database",
-    "Data Science/Cyber Security",
-    "Data Science/Data Engineer/Coursera/Introduction to Data Engineer",
-    "Data Science/Data Engineer/Coursera",
     "Untitled.canvas",
     "Machine Learning and Deep Learning/Untitled.canvas"
   ]
