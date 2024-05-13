@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md",
+                "file": "Data Science/Cyber Security/CTD UEH/Network.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rust",
+                "query": "LoRA",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ef243a321448ce70",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md",
+                "file": "Data Science/Cyber Security/CTD UEH/Network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md",
+                "file": "Data Science/Cyber Security/CTD UEH/Network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md"
+                "file": "Data Science/Cyber Security/CTD UEH/Network.md"
               }
             }
           }
@@ -151,8 +150,16 @@
   },
   "active": "47951dc4a59c963c",
   "lastOpenFiles": [
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Introduction to Retrieval Augmented Generation.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMs/LLM Math Solving.md",
+    "Data Science/Cyber Security/CTD UEH/Network.md",
+    "Data Science/Cyber Security/Cyber Security.md",
+    "Data Science/Cyber Security/CTD UEH/Information Security Basics.md",
+    "Data Science/Advanced Deep Learning/XAI/Trustworthy and Explainable AI.md",
+    "Pasted image 20240513105953.png",
+    "Data Science/Cyber Security/CTD UEH/Hacker.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md",
+    "Data Science/Cyber Security/CTD UEH",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Introduction to Retrieval Augmented Generation.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/AI Pair Programming from CodeWhisperer to Prompt Engineering.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Developing Serverless Solutions for Data, ML and AI.md",
@@ -172,7 +179,6 @@
     "img/Pasted image 20240512124518.png",
     "img/Pasted image 20240512123200.png",
     "img/Pasted image 20240512122818.png",
-    "img/Pasted image 20240512122531.png",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/PromptEngineering.pdf",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
     "Data Science/Advanced Deep Learning/NLP/LLMs/Multi-Agent LLMs.md",
@@ -190,13 +196,6 @@
     "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Data Engineering Lifecycle.md",
     "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/The Data Ecosystem and Languages for Data Professionals.md",
     "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Continuous Integration (CI).md",
-    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Delivery.md",
-    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Pipelines with Tekton.md",
-    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Integration (CI).md",
-    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Welcome.md",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Social Coding Principles.md",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Summary and Highlights.md",
-    "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting",
     "Untitled.canvas",
     "Machine Learning and Deep Learning/Untitled.canvas"
   ]
