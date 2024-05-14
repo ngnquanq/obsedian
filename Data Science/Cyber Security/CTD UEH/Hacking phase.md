@@ -41,3 +41,21 @@ Việc tấn công sẽ sinh ra trước, việc phòng thủ thường sẽ đi
 Phải biết có lỗ hổng thì mới vá được 
 
 Người tấn công luôn ở thế chủ động trong khi người phòng thủ thì luôn ở thế bị động => unfair
+
+# Hacker's Modus Operandi
+Không chỉ là xâm phạm diện network-based
+Social Engineering (tấn công phi kĩ thuật):
+- Thu thập thông tin:
+	- Xử dụng các thông tin open-source, ví dụ như danh bạ, email, và từ những thông tin đó, sẽ có cách hoạt động khác nhau. 
+- Đánh vào tâm lý con người để làm những hành động xấu
+- Xâm nhập trực tiếp: Đánh trực diện
+Các kĩ năng cần thiết: 
+- Communication skills: kĩ năng giao tiếp (để lừa đảo)
+- Deception
+- Strength/Stamina 
+# Purpose and type of attack
+- Mục đích dựa trên động cơ
+- Khi objective thay đổi, mục tiêu và cách thức tấn công thay đổi
+1. Host: Liên quan đến việc mục tiêu tấn công sẽ là server, bên cạnh đó là việc hậu xử lí để che đít.
+2. Network: DoS attack, network eavesdropping
+3. Application: Web application attacks  

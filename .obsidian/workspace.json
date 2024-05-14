@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Cyber Security/CTD UEH/Hacking phase.md",
+                "file": "Data Science/Cyber Security/CTD UEH/Malware.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Cyber Security/CTD UEH/Hacking phase.md",
+                "file": "Data Science/Cyber Security/CTD UEH/Malware.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Cyber Security/CTD UEH/Hacking phase.md",
+                "file": "Data Science/Cyber Security/CTD UEH/Malware.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Cyber Security/CTD UEH/Hacking phase.md"
+                "file": "Data Science/Cyber Security/CTD UEH/Malware.md"
               }
             }
           }
@@ -151,6 +151,7 @@
   "active": "47951dc4a59c963c",
   "lastOpenFiles": [
     "Data Science/Cyber Security/CTD UEH/Hacking phase.md",
+    "Data Science/Cyber Security/CTD UEH/Malware.md",
     "Data Science/Advanced Deep Learning/NLP/NLP.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/LLMOps.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Generative AI Applications.md",
@@ -194,7 +195,6 @@
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI and LLMs on AWS",
     "Data Science/Advanced Deep Learning/NLP/LLMOps",
     "Data Science/Advanced Deep Learning/NLP/LLMs/LLM Deployment.md",
-    "Data Science/Advanced Deep Learning/GNN/Advanced GNN.md",
     "Data Science/Advanced Deep Learning/GNN",
     "Untitled.canvas",
     "Machine Learning and Deep Learning/Untitled.canvas"
