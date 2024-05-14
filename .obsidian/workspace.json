@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Cyber Security/CTD UEH/Network.md",
+                "file": "Data Science/Cyber Security/CTD UEH/Hacking phase.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 359.5
   },
   "right": {
     "id": "ef243a321448ce70",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Cyber Security/CTD UEH/Network.md",
+                "file": "Data Science/Cyber Security/CTD UEH/Hacking phase.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Cyber Security/CTD UEH/Network.md",
+                "file": "Data Science/Cyber Security/CTD UEH/Hacking phase.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Cyber Security/CTD UEH/Network.md"
+                "file": "Data Science/Cyber Security/CTD UEH/Hacking phase.md"
               }
             }
           }
@@ -150,8 +150,13 @@
   },
   "active": "47951dc4a59c963c",
   "lastOpenFiles": [
-    "Data Science/Advanced Deep Learning/NLP/LLMs/LLM Math Solving.md",
+    "Data Science/Cyber Security/CTD UEH/Hacking phase.md",
+    "Data Science/Advanced Deep Learning/NLP/NLP.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/LLMOps.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Generative AI Applications.md",
+    "Pasted image 20240514084600.png",
     "Data Science/Cyber Security/CTD UEH/Network.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMs/LLM Math Solving.md",
     "Data Science/Cyber Security/Cyber Security.md",
     "Data Science/Cyber Security/CTD UEH/Information Security Basics.md",
     "Data Science/Advanced Deep Learning/XAI/Trustworthy and Explainable AI.md",
@@ -178,11 +183,9 @@
     "img/Pasted image 20240512124658.png",
     "img/Pasted image 20240512124518.png",
     "img/Pasted image 20240512123200.png",
-    "img/Pasted image 20240512122818.png",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/PromptEngineering.pdf",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
     "Data Science/Advanced Deep Learning/NLP/LLMs/Multi-Agent LLMs.md",
-    "Data Science/Advanced Deep Learning/NLP/NLP.md",
     "Data Science/Basic Computer Science/Others/Virtual environment.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Getting Started with Developing on AWS for AI.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/AWS CAF-AI.pdf",
@@ -193,9 +196,6 @@
     "Data Science/Advanced Deep Learning/NLP/LLMs/LLM Deployment.md",
     "Data Science/Advanced Deep Learning/GNN/Advanced GNN.md",
     "Data Science/Advanced Deep Learning/GNN",
-    "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Data Engineering Lifecycle.md",
-    "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/The Data Ecosystem and Languages for Data Professionals.md",
-    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Continuous Integration (CI).md",
     "Untitled.canvas",
     "Machine Learning and Deep Learning/Untitled.canvas"
   ]

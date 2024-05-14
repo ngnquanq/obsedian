@@ -9,5 +9,5 @@
 8. [[Multi-Agent LLMs]]
 
 # LLMOps
-1. [[Getting Started with Developing on AWS for AI]]
+1. [[LLMOps]]
 2. 
