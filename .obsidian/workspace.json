@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Cyber Security/CTD UEH/Malware.md",
+                "file": "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 359.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ef243a321448ce70",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Cyber Security/CTD UEH/Malware.md",
+                "file": "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Cyber Security/CTD UEH/Malware.md",
+                "file": "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Cyber Security/CTD UEH/Malware.md"
+                "file": "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md"
               }
             }
           }
@@ -150,22 +151,24 @@
   },
   "active": "47951dc4a59c963c",
   "lastOpenFiles": [
-    "Data Science/Cyber Security/CTD UEH/Hacking phase.md",
+    "Pasted image 20240515084518.png",
+    "Pasted image 20240515084423.png",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Generative AI Applications.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Introduction to Retrieval Augmented Generation.md",
     "Data Science/Cyber Security/CTD UEH/Malware.md",
+    "Data Science/Cyber Security/CTD UEH/Information Security Basics.md",
+    "Data Science/Cyber Security/CTD UEH/Network.md",
+    "Data Science/Cyber Security/Cyber Security.md",
+    "Data Science/Cyber Security/CTD UEH/Hacking phase.md",
     "Data Science/Advanced Deep Learning/NLP/NLP.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/LLMOps.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Generative AI Applications.md",
     "Pasted image 20240514084600.png",
-    "Data Science/Cyber Security/CTD UEH/Network.md",
     "Data Science/Advanced Deep Learning/NLP/LLMs/LLM Math Solving.md",
-    "Data Science/Cyber Security/Cyber Security.md",
-    "Data Science/Cyber Security/CTD UEH/Information Security Basics.md",
     "Data Science/Advanced Deep Learning/XAI/Trustworthy and Explainable AI.md",
     "Pasted image 20240513105953.png",
     "Data Science/Cyber Security/CTD UEH/Hacker.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md",
     "Data Science/Cyber Security/CTD UEH",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Introduction to Retrieval Augmented Generation.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/AI Pair Programming from CodeWhisperer to Prompt Engineering.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Developing Serverless Solutions for Data, ML and AI.md",
@@ -183,7 +186,6 @@
     "img/Pasted image 20240512135515.png",
     "img/Pasted image 20240512124658.png",
     "img/Pasted image 20240512124518.png",
-    "img/Pasted image 20240512123200.png",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/PromptEngineering.pdf",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
     "Data Science/Advanced Deep Learning/NLP/LLMs/Multi-Agent LLMs.md",
@@ -194,7 +196,6 @@
     "Data Science/Advanced Deep Learning/Open Source/HuggingFace open source.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI and LLMs on AWS",
     "Data Science/Advanced Deep Learning/NLP/LLMOps",
-    "Data Science/Advanced Deep Learning/NLP/LLMs/LLM Deployment.md",
     "Data Science/Advanced Deep Learning/GNN",
     "Untitled.canvas",
     "Machine Learning and Deep Learning/Untitled.canvas"
