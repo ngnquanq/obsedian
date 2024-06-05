@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "97aced84c3d6d840",
+        "id": "394175908e6d4265",
         "type": "tabs",
         "children": [
           {
-            "id": "47951dc4a59c963c",
+            "id": "eb21fb0d813e33b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md",
+                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Delivery.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rust",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md",
+                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Delivery.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md",
+                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Delivery.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md"
+                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Delivery.md"
               }
             }
           }
@@ -149,22 +149,16 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "47951dc4a59c963c",
+  "active": "eb21fb0d813e33b2",
   "lastOpenFiles": [
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Introduction to Retrieval Augmented Generation.md",
+    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Integration (CI).md",
+    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Welcome.md",
+    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Delivery.md",
+    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Pipelines with Tekton.md",
+    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Continuous Integration (CI).md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/AI Pair Programming from CodeWhisperer to Prompt Engineering.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Developing Serverless Solutions for Data, ML and AI.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS",
-    "Pasted image 20240512174819.png",
-    "Data Science/Languages/RUST/RUST.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Set Up AI Focused Development Environments.md",
-    "Data Science/Data Science.md",
-    "Data Science/Languages/Languages.md",
-    "Data Science/Languages/RUST",
-    "img/Pasted image 20240512121545.png",
-    "Data Science/Languages",
+    "img/Pasted image 20240512174819.png",
+    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
     "img/Pasted image 20240512140101.png",
     "img/Pasted image 20240512140004.png",
     "img/Pasted image 20240512135515.png",
@@ -173,13 +167,26 @@
     "img/Pasted image 20240512123200.png",
     "img/Pasted image 20240512122818.png",
     "img/Pasted image 20240512122531.png",
+    "img/Pasted image 20240512121545.png",
+    "Data Science/Languages/RUST/RUST.md",
+    "Data Science/Languages/Languages.md",
+    "Data Science/Languages/RUST",
+    "Data Science/Languages",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Introduction to Retrieval Augmented Generation.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Set Up AI Focused Development Environments.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/PromptEngineering.pdf",
-    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Getting Started with Developing on AWS for AI.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Developing Serverless Solutions for Data, ML and AI.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/AWS CAF-AI.pdf",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/AI Pair Programming from CodeWhisperer to Prompt Engineering.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS",
     "Data Science/Advanced Deep Learning/NLP/LLMs/Multi-Agent LLMs.md",
     "Data Science/Advanced Deep Learning/NLP/NLP.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/AI Pair Programming from CodeWhisperer to Prompt Engineering.md",
     "Data Science/Basic Computer Science/Others/Virtual environment.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Getting Started with Developing on AWS for AI.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/AWS CAF-AI.pdf",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Getting Started with Developing on AWS for AI.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/AWS CAF-AI.pdf",
     "Data Science/Advanced Deep Learning/NLP/LLMs/Sentiment Analysis With Mamba.md",
     "Data Science/Advanced Deep Learning/Open Source/HuggingFace open source.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI and LLMs on AWS",
@@ -189,14 +196,6 @@
     "Data Science/Advanced Deep Learning/GNN",
     "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Data Engineering Lifecycle.md",
     "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/The Data Ecosystem and Languages for Data Professionals.md",
-    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Continuous Integration (CI).md",
-    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Delivery.md",
-    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Pipelines with Tekton.md",
-    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Integration (CI).md",
-    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Welcome.md",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Social Coding Principles.md",
-    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 2/Summary and Highlights.md",
-    "Data Science/Data Engineer/Coursera/Hands-on Introduction to Linux Commands and Shell Scripting",
     "Untitled.canvas",
     "Machine Learning and Deep Learning/Untitled.canvas"
   ]
