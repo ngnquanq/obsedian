@@ -21,8 +21,11 @@ All of these working as one
 We will use a Repository on GitHub
 https://github.com/alfredodeza/azure-rag
 # Deployment overview
-
+![[Pasted image 20240515084423 1.png]]
+![[Pasted image 20240515084518 1.png]]
+This is a horizontal scaling system (we can scale for more users as we wished to).
 # Setting up cloud components
-
+Actually in the repo, every information is being provided in the `.github\workflows\main.yaml`
 # Using the Azure cloud for deployment
+
 

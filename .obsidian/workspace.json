@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Delivery.md",
+                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Pipelines with Tekton.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ef243a321448ce70",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Delivery.md",
+                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Pipelines with Tekton.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Delivery.md",
+                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Pipelines with Tekton.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Delivery.md"
+                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Pipelines with Tekton.md"
               }
             }
           }
@@ -151,23 +150,39 @@
   },
   "active": "eb21fb0d813e33b2",
   "lastOpenFiles": [
-    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Integration (CI).md",
-    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Welcome.md",
     "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Delivery.md",
+    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Integration (CI).md",
     "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Pipelines with Tekton.md",
     "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Continuous Integration (CI).md",
+    "Data Science/MLOps/MLOPs.md",
+    "img/Pasted image 20240513105953 1.png",
+    "img/Pasted image 20240513105953.png",
+    "img/Pasted image 20240515201509 1.png",
+    "img/Pasted image 20240515084518 1.png",
+    "img/Pasted image 20240515084423 1.png",
+    "img/Pasted image 20240514084600 1.png",
+    "Data Science/Cyber Security/Cyber Security.md",
+    "Data Science/Cyber Security/CTD UEH/Network.md",
+    "Data Science/Cyber Security/CTD UEH/Malware.md",
+    "Data Science/Cyber Security/CTD UEH/Information Security Basics.md",
+    "Data Science/Cyber Security/CTD UEH/Information Gathering.md",
+    "Data Science/Cyber Security/CTD UEH/Hacker.md",
+    "Data Science/Cyber Security/CTD UEH/Hacking phase.md",
+    "Data Science/Cyber Security/CTD UEH/Attack on the Host.md",
+    "Data Science/Cyber Security/CTD UEH",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/Introduction to LLMOps.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/LLM deployment options in Azure.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/Introduction to Azure and its AI Services.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/LLMOps.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Generative AI Applications.md",
+    "img/Pasted image 20240515201509.png",
+    "img/Pasted image 20240515084518.png",
+    "img/Pasted image 20240515084423.png",
+    "img/Pasted image 20240514084600.png",
+    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Welcome.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md",
-    "img/Pasted image 20240512174819.png",
     "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
-    "img/Pasted image 20240512140101.png",
-    "img/Pasted image 20240512140004.png",
-    "img/Pasted image 20240512135515.png",
-    "img/Pasted image 20240512124658.png",
-    "img/Pasted image 20240512124518.png",
-    "img/Pasted image 20240512123200.png",
-    "img/Pasted image 20240512122818.png",
-    "img/Pasted image 20240512122531.png",
-    "img/Pasted image 20240512121545.png",
     "Data Science/Languages/RUST/RUST.md",
     "Data Science/Languages/Languages.md",
     "Data Science/Languages/RUST",
@@ -177,25 +192,10 @@
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Set Up AI Focused Development Environments.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/PromptEngineering.pdf",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Getting Started with Developing on AWS for AI.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Developing Serverless Solutions for Data, ML and AI.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/AWS CAF-AI.pdf",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/AI Pair Programming from CodeWhisperer to Prompt Engineering.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS",
-    "Data Science/Advanced Deep Learning/NLP/LLMs/Multi-Agent LLMs.md",
-    "Data Science/Advanced Deep Learning/NLP/NLP.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/AI Pair Programming from CodeWhisperer to Prompt Engineering.md",
-    "Data Science/Basic Computer Science/Others/Virtual environment.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/Getting Started with Developing on AWS for AI.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/AWS CAF-AI.pdf",
-    "Data Science/Advanced Deep Learning/NLP/LLMs/Sentiment Analysis With Mamba.md",
-    "Data Science/Advanced Deep Learning/Open Source/HuggingFace open source.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI and LLMs on AWS",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps",
-    "Data Science/Advanced Deep Learning/NLP/LLMs/LLM Deployment.md",
-    "Data Science/Advanced Deep Learning/GNN/Advanced GNN.md",
-    "Data Science/Advanced Deep Learning/GNN",
-    "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Data Engineering Lifecycle.md",
-    "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/The Data Ecosystem and Languages for Data Professionals.md",
     "Untitled.canvas",
     "Machine Learning and Deep Learning/Untitled.canvas"
   ]

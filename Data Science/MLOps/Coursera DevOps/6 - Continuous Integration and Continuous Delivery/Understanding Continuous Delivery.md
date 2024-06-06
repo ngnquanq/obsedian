@@ -70,3 +70,24 @@ If a build breaks:
 - **Travis CI** - CI tool that had CD capabilities, but isn't feature-rich
 - **Tekton** - can build, test, and deploy to Kubernetes, offers modularity 
 - **Go CD** - easy pipeline setup, native Docker and Kubernetes support, build pipelines with YAML, JSON or GUI
+- **Argo CD** - well-designed UI, easy to use, integrates with various CI tools
+### What to look for
+- Feature richness
+- Compatibility 
+- Ease of use/setup
+- Maintenance effort 
+### Tasks in a CD pipeline 
+- Security scanning
+- Vulnerability scanning 
+- Secret scanning
+- Static Application Security Testing (SAST)
+- Dynamic Application Security Testing (DAST)
+- Deployment
+### Argo CD overview
+- Declarative Continuous Delivery tool
+- Follows GitOps 
+- Implemented as Kubernetes controller
+### Tektok overview
+- A flexible, open source framework 
+- Standardized tooling and processes 
+- Made for reuseability 
