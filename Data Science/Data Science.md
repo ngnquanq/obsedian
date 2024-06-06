@@ -12,7 +12,9 @@
 # NLP
 1. [[NLP]]
 
-
+# Cyber Security
+1. [[Cyber Security]]
+2. 
 # Core knowledges
 ## MLOPs
 [[MLOPs]]
