@@ -7,7 +7,8 @@
 1. [[Introduction to Azure and its AI Services]]
 2. [[Introduction to LLMOps]]
 3. [[LLM deployment options in Azure]]
-4. 
+4. [[LLM with Azure]]
+
 # Introduction to Generative AI
 1. [[Exploring a cloud-based Generative AI Application]]
 2. [[Generative AI Applications]]

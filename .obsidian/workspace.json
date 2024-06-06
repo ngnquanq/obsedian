@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Cyber Security/CTD UEH/Attack on the Host.md",
+                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Integration (CI).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cookie",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Cyber Security/CTD UEH/Attack on the Host.md",
+                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Integration (CI).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Cyber Security/CTD UEH/Attack on the Host.md",
+                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Integration (CI).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Cyber Security/CTD UEH/Attack on the Host.md"
+                "file": "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Integration (CI).md"
               }
             }
           }
@@ -149,16 +148,23 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "977dd6fcc1af971c",
+  "active": "ac13fb77f37b8328",
   "lastOpenFiles": [
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/LLM deployment options in Azure.md",
-    "Data Science/Cyber Security/CTD UEH/Attack on the Host.md",
+    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Understanding Continuous Delivery.md",
+    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Pipelines with Tekton.md",
+    "Data Science/Data Science.md",
+    "Data Science/Cyber Security/CTD UEH/Erase Trace.md",
+    "Data Science/Cyber Security/Cyber Security.md",
+    "Data Science/Cyber Security/CTD UEH/Maintain access rights.md",
+    "Data Science/Advanced Deep Learning/Computer Vision/Image generating/GAN and DCGAN.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/LLM with Azure.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/LLMOps.md",
+    "Data Science/Cyber Security/CTD UEH/Attack on the Host.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/LLM deployment options in Azure.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/Introduction to LLMOps.md",
     "Pasted image 20240515201509.png",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/Introduction to Azure and its AI Services.md",
     "Data Science/Cyber Security/CTD UEH/Information Gathering.md",
-    "Data Science/Cyber Security/Cyber Security.md",
     "Data Science/Cyber Security/CTD UEH/Hacking phase.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md",
@@ -178,13 +184,8 @@
     "Data Science/Cyber Security/CTD UEH",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/Introduction to Generative AI",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/AI Pair Programming from CodeWhisperer to Prompt Engineering.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Developing Serverless Solutions for Data, ML and AI.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS",
     "Pasted image 20240512174819.png",
-    "Data Science/Languages/RUST/RUST.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Set Up AI Focused Development Environments.md",
-    "Data Science/Data Science.md",
-    "Data Science/Languages/Languages.md",
     "Data Science/Languages/RUST",
     "img/Pasted image 20240512121545.png",
     "Data Science/Languages",
@@ -192,8 +193,6 @@
     "img/Pasted image 20240512140004.png",
     "img/Pasted image 20240512135515.png",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/PromptEngineering.pdf",
-    "Finance/Tài chính doanh nghiệp/1. Tổng quan/Content/Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMs/Multi-Agent LLMs.md",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/AWS CAF-AI.pdf",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI and LLMs on AWS",
     "Data Science/Advanced Deep Learning/NLP/LLMOps",
