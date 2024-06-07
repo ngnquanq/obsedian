@@ -1,7 +1,7 @@
 # What is information security
 Bảo tồn tính "confidentiality", "integrity" và "availability" của thông tin 
 # 3 Major Requirements for Information Security
-![[Pasted image 20240513105953.png]]
+![[Pasted image 20240513105953 1.png]]
 Liên tưởng tới cái rương, chỉ những người sở hữu chìa khóa mới mở được rương. 
 - Confidentiality: Chỉ những người có quyền truy cập (chìa khóa trong trường hợp này) mới mở được rương. 
 - Integrity: không thay đổi được nội dung bên trong cái rương.

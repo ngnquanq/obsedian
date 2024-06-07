@@ -32,6 +32,6 @@
 **TLDR:** based on the prompt, the framework decide what ML model to solve the problem (kinda like agent ngl)
 
 Kindof a trade of, a person know wide dont know deep
-![[Pasted image 20240514084600.png]]
+![[Pasted image 20240514084600 1.png]]
 
 Idea: trying to combine human resource management with deep learning model (LLMs in this case)
