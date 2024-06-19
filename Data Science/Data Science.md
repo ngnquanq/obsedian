@@ -31,4 +31,9 @@
 
 # XAI
 1. [[Trustworthy and Explainable AI]]
-2.  
+
+# Project
+1. [[Enefit]] - Energy consuming 
+2. [[Fraud Detection using ML]]
+3. [[Neural Style Transfer]]
+4. 

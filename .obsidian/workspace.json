@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 2/Preliminary.md",
+                "file": "Data Science/Dự án/Neural Style Transfer.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "visual",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "e493d818a4937115",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 2/Preliminary.md",
+                "file": "Data Science/Dự án/Neural Style Transfer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 2/Preliminary.md",
+                "file": "Data Science/Dự án/Neural Style Transfer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 2/Preliminary.md"
+                "file": "Data Science/Dự án/Neural Style Transfer.md"
               }
             }
           }
@@ -149,6 +148,11 @@
   },
   "active": "a0377a0d73d4a662",
   "lastOpenFiles": [
+    "Data Science/Dự án/Fraud Detection using ML.md",
+    "Data Science/Dự án/Mở đầu..md",
+    "Data Science/Dự án/Enefit.md",
+    "Data Science/Data Science.md",
+    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Implementing Pipelines with Tekton.md",
     "Data Science/MLOps/Coursera DevOps/3 - Introduction to Containers w Docker, Kubernetes and OpenShift/Week 2/Preliminary.md"
   ]
 }
