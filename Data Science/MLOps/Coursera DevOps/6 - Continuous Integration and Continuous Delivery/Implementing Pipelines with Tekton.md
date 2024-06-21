@@ -1,5 +1,6 @@
 ## Introduction to Tekton and Pipelines
 - Tekton is flexible, open source framework for creating CI/CD pipelines. 
+<<<<<<< HEAD
 - Allows dev to build, test and deploy applications automatically. 
 - Works across both cloud providers and on-premises systems.
 ### Benefits of Tekton
@@ -13,3 +14,8 @@
 - Task: a task comprises one or more steps
 - Step: procedure that can be executed within a task 
 ### Physical building blocks 
+=======
+- Allows dev to build, test and deploy applications. 
+- Works across both cloud providers and on-premises systems
+### Physical building blocks
+>>>>>>> 659b538b67cd47a12ffc2029caf552af666193ad
