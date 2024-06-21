@@ -5,6 +5,10 @@
 3. [[Responsibilities and skillsets of a Data Engineer]]
 4. [[The Data Ecosystem and Languages for Data Professionals]]
 5. [[Big Data Platforms]]
-6. 
+6. [[Career Opportunities and Learning Paths]]
+
+## Relational Database Administration (DBA)
+1. [[Introduction to Database Management]]
+2. 
 ## Introduction to NoSQL database
 1. [[Introducing MongoDB]]

@@ -61,8 +61,7 @@ Container orchestration is a critical part of an organizations's orchestration, 
 ![[Pasted image 20240318180855.png]]
 
 ## Container orchestration benefits
-Container orchestration helps to meet business goals and increase profitability by using automation
-
+Container orchestration helps to meet business goals and increase profitability by using automation.
 - Benefits:
 	- Increased Production
 	- Faster Deployment
