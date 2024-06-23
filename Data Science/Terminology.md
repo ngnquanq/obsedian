@@ -1,0 +1,2 @@
+1. **Data Catalog**: A Data Catalog is a collection of metadata, combined with data management and search tools, that helps analysts and other data users to find the data that they need, serves as an inventory of available data, and provides information to evaluate fitness of data for intended uses.
+2. **Metadata**: Often referred to as data that describes other data, metadata is structured reference data that helps to sort and identify attributes of the information it describes.

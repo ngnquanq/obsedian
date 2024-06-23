@@ -1,19 +1,31 @@
 {
   "main": {
-    "id": "68496bbbbfc99079",
+    "id": "e31ac4be8e46bf56",
     "type": "split",
     "children": [
       {
-        "id": "9a85c0077c986f8e",
+        "id": "6934fbc8f1071d17",
         "type": "tabs",
         "children": [
           {
-            "id": "e0e01f535a0409f5",
+            "id": "99bf1fe207dafaff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Data Science/Data Engineer/Coursera/Relational Database Administration (DBA)/Introduction to Database Management.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "953ac6e821ea51a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/Terminology.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +37,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "03cfef6f64f6a5dd",
+    "id": "b44c5737cc0d1375",
     "type": "split",
     "children": [
       {
-        "id": "8b53e3da44117a0a",
+        "id": "1afdd252c7f8cfcc",
         "type": "tabs",
         "children": [
           {
-            "id": "5859216716324738",
+            "id": "82253be8e80a1c29",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,12 +55,12 @@
             }
           },
           {
-            "id": "2bc148ee8b81e0e5",
+            "id": "d2901eb8976b601c",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "microservices",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +70,7 @@
             }
           },
           {
-            "id": "47498e143e46ba0e",
+            "id": "7d81a2ac96969c63",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -73,15 +85,15 @@
     "collapsed": true
   },
   "right": {
-    "id": "7a753d0654ee5630",
+    "id": "9af1ced4eb2369eb",
     "type": "split",
     "children": [
       {
-        "id": "864ad15b08c61cad",
+        "id": "0b7c5543b8985a0b",
         "type": "tabs",
         "children": [
           {
-            "id": "2a3a45a7c1959ee3",
+            "id": "788285a4c78e5c41",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -98,7 +110,7 @@
             }
           },
           {
-            "id": "9fa61424c96125b1",
+            "id": "bf0611da34801db5",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -110,7 +122,7 @@
             }
           },
           {
-            "id": "2885473f64247ce2",
+            "id": "219c4b5ef770a5e2",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -121,7 +133,7 @@
             }
           },
           {
-            "id": "9dd9259fcd268062",
+            "id": "0ccd1f852f200b85",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -147,17 +159,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0e01f535a0409f5",
+  "active": "99bf1fe207dafaff",
   "lastOpenFiles": [
-    "Pasted image 20240622113537.png",
+    "Pasted image 20240623142717.png",
+    "Pasted image 20240623142655.png",
+    "Pasted image 20240623141950.png",
+    "Pasted image 20240623141919.png",
+    "Pasted image 20240623141829.png",
+    "Data Science/Terminology.md",
+    "Data Science/Data Engineer/Coursera/Relational Database Administration (DBA)/Introduction to Database Management.md",
+    "img/Pasted image 20240622113537.png",
+    "img/Pasted image 20240623124023.png",
+    "img/Pasted image 20240623123239.png",
+    "img/Pasted image 20240623123202.png",
     "Data Science/Data Engineer/Data Engineer.md",
-    "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/1. Microservices.md",
-    "Data Science/Skills/Full Stack/Coursera/Course 1/1. Introduction to Cloud Computing.md",
     "Data Science/Machine Learning/Machine Learning.md",
     "Data Science/Machine Learning/Regression algorithm/Regression Algorithm.md",
     "Data Science/Machine Learning/Regression algorithm/Metrics.md",
-    "Data Science/Machine Learning/Clustering algorithm/Clustering Algorithm.md",
-    "Data Science/Machine Learning/Clustering algorithm/Metrics.md",
-    "Data Science/Machine Learning/Regression algorithm"
+    "Data Science/Machine Learning/Regression algorithm",
+    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Docker/History and motivation.md",
+    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Docker/Question.md",
+    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Docker"
   ]
 }

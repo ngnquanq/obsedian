@@ -64,9 +64,54 @@ So, let's get started!
 ## Database Objects
 ### Database Hierarchy 
 ![[Pasted image 20240622113537.png]]
-RDBMS contain many objects that DE and DBA must organize. Storing table, constraint, storing in a hierarchical manner allows DE and DBA to preserve Security, Maintainence and Accessability.
+RDBMS contain many objects that DE and DBA must organize. Storing table, constraint,  in a hierarchical manner allows DE and DBA to preserve Security, Maintainence and Accessability.
 
+![[Pasted image 20240623123202.png]]
+
+### Instances
+![[Pasted image 20240623123239.png]]
+### Schema
+![[Pasted image 20240623124023.png]]
+By default, the database was created based on the user schema within that user login. Meanwhile, system schemas store those things. 
+### Database Objects
+Database design includes defining database objects and their relationship with each other. 
+We can create and manage with graphical tools, scripting and APIs.
+### Common database objects 
+- Tables
+- Constraints 
+- Indexes: Set of pointer use to improve performance and ensure uniqueness. 
+- Keys
+- Views
+- Aliases: alternative name for an object
+- Events: DML or DDL action on a database object which initiate a trigger. 
+- Trigger: set of action perform in response to an insert, update, del on specify table
+- Log files: information about transaction in a database. 
 ## System Objects and Database Configuration
-
+### System objects
+- Store database metadata in special objects.
+- Known as system database, system schema, catalog or dictionary.
+- Query to retrieve data 
+### Db2 system objects
+![[Pasted image 20240623141829.png]]
+### MySQL system objects
+![[Pasted image 20240623141919.png]]
+### PostgreSQL system objects 
+![[Pasted image 20240623141950.png]]
+### Configuration files 
+- Set configuration parameters during installation
+- Save into files
+	- Configuration files (`.conf`, .`cfg`)
+	- Initialization files (`.ini`)
+### Common configuration settings
+- Initial configuration settings for a database can include
+- Location of data files and log files 
+- Port the server listens on
+- Memory allocation
+- Connection timeout
+- Maximum packet size 
+### Configuration file examples
+![[Pasted image 20240623142655.png]]
+### How to configure databases
+![[Pasted image 20240623142717.png]]
 ## Database Storage
 
