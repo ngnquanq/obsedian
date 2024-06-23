@@ -62,6 +62,9 @@ So, let's get started!
 	- Maintain database permissions - grant/revoke access
 # Server Objects and Hierarchy
 ## Database Objects
+### Database Hierarchy 
+![[Pasted image 20240622113537.png]]
+RDBMS contain many objects that DE and DBA must organize. Storing table, constraint, storing in a hierarchical manner allows DE and DBA to preserve Security, Maintainence and Accessability.
 
 ## System Objects and Database Configuration
 
