@@ -114,4 +114,36 @@ We can create and manage with graphical tools, scripting and APIs.
 ### How to configure databases
 ![[Pasted image 20240623142717.png]]
 ## Database Storage
+### Plan database storage
+- Determine capacity to plan for growth
+- Scale cloud storage easily
+- Plan storage for performance
+- Physical storage separated from the logical database design
+### Tablespaces and Containers
+![[Pasted image 20240625175256.png]]Tablespaces separate logical database storage separate from physical storage
+### Tablespace benefits
+Tablespaces separate logical database storage separate form physical storage
+- Performance: Optimize performance - place a heavily used files on fast media.
+- Recoverability: Make backup and restore operations more convenient.
+- Storage management: Extend the datafiles or containers as required.
+### Storage groups
+![[Pasted image 20240625180101.png]]
+Temperature references to the temperature of the data access (Hot mean frequent, Warm mean normal and cold mean not too frequent).
+### Database partitions 
+- Data is managed across multiple partitions
+- Split tables that contain very large quantities of data 
+- Partitions hold a subset of the data
+- Common in data warehousing
+## Reading: Storage Engines in MySQL
+https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTS1EQjAyMzFFTi1Ta2lsbHNOZXR3b3JrL1JlYWRpbmdzL0RFOS4yMDAyODJfTXlTUUxfU3RvcmFnZV9FbmdpbmVzLm1kIiwidG9vbF90eXBlIjoiaW5zdHJ1Y3Rpb25hbC1sYWIiLCJhZG1pbiI6ZmFsc2UsImlhdCI6MTcxMTQyNTQxNX0.k5fD-0usPNAg_oHh-5heIrqGdMyr6poALY55EniHZMs
+## Summary and Highlights
+Congratulations! You have completed this lesson! At this point, you know: 
 
+- An instance is a logical boundary for a database or set of databases where you organize database objects and set configuration parameters. 
+    
+- Common database objects are items that exist within the database such as tables, constraints, indexes, keys, views, aliases, triggers, events, and log files.
+    
+- Different RDBMSs use different names for their system objects. Most use the terms system schema, system tables, catalog, or directory.
+    
+- Database storage is managed through logical database objects and physical storage.
+- 

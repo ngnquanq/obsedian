@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Data Engineer/Coursera/Relational Database Administration (DBA)/Introduction to Database Management.md",
+                "file": "Data Science/Data Engineer/Data Engineer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2cdb50b86fdbd0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Science/Data Engineer/Coursera/Introduction to relational Databases (RDBMS)/Relational Database Concepts.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "9af1ced4eb2369eb",
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Data Engineer/Coursera/Relational Database Administration (DBA)/Introduction to Database Management.md",
+                "file": "Data Science/Data Engineer/Coursera/Introduction to relational Databases (RDBMS)/Relational Database Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Data Engineer/Coursera/Relational Database Administration (DBA)/Introduction to Database Management.md",
+                "file": "Data Science/Data Engineer/Coursera/Introduction to relational Databases (RDBMS)/Relational Database Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Data Engineer/Coursera/Relational Database Administration (DBA)/Introduction to Database Management.md"
+                "file": "Data Science/Data Engineer/Coursera/Introduction to relational Databases (RDBMS)/Relational Database Concepts.md"
               }
             }
           }
@@ -159,20 +171,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "99bf1fe207dafaff",
+  "active": "a2cdb50b86fdbd0f",
   "lastOpenFiles": [
-    "Pasted image 20240623142717.png",
-    "Pasted image 20240623142655.png",
-    "Pasted image 20240623141950.png",
-    "Pasted image 20240623141919.png",
-    "Pasted image 20240623141829.png",
-    "Data Science/Terminology.md",
-    "Data Science/Data Engineer/Coursera/Relational Database Administration (DBA)/Introduction to Database Management.md",
-    "img/Pasted image 20240622113537.png",
-    "img/Pasted image 20240623124023.png",
-    "img/Pasted image 20240623123239.png",
-    "img/Pasted image 20240623123202.png",
+    "Pasted image 20240626075524.png",
+    "Pasted image 20240626075458.png",
+    "Pasted image 20240626075426.png",
+    "Pasted image 20240626075404.png",
+    "Pasted image 20240625220651.png",
+    "Pasted image 20240625220630.png",
+    "Pasted image 20240625220609.png",
+    "Pasted image 20240625220518.png",
+    "Pasted image 20240625220459.png",
+    "Pasted image 20240625220420.png",
+    "Pasted image 20240625220343.png",
+    "Data Science/Data Engineer/Coursera/Introduction to relational Databases (RDBMS)/Using Relational Databases.md",
+    "Data Science/Data Engineer/Coursera/Introduction to relational Databases (RDBMS)/Relational Database Concepts.md",
+    "Data Science/Data Engineer/Coursera/Introduction to relational Databases (RDBMS)/MySQL and PostgreSQL.md",
     "Data Science/Data Engineer/Data Engineer.md",
+    "Data Science/Data Engineer/Coursera/Introduction to NoSQL database/Introducing MongoDB.md",
+    "Data Science/Data Engineer/Coursera/Introduction to relational Databases (RDBMS)",
+    "Data Science/Data Engineer/Coursera/Relational Database Administration (DBA)/Introduction to Database Management.md",
+    "Data Science/Data Engineer/Coursera/Relational Database Administration (DBA)/Backup and Restore Databases.md",
+    "Data Science/Data Engineer/Coursera/Relational Database Administration (DBA)/Security and User Management.md",
+    "Data Science/Terminology.md",
     "Data Science/Machine Learning/Machine Learning.md",
     "Data Science/Machine Learning/Regression algorithm/Regression Algorithm.md",
     "Data Science/Machine Learning/Regression algorithm/Metrics.md",
