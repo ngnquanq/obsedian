@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "6934fbc8f1071d17",
+        "id": "d06aed73a4d91b06",
         "type": "tabs",
         "children": [
           {
-            "id": "99bf1fe207dafaff",
+            "id": "f30c34e8cc5cd490",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/Data Engineer/Data Engineer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a2cdb50b86fdbd0f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/Data Engineer/Coursera/Introduction to relational Databases (RDBMS)/Relational Database Concepts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "953ac6e821ea51a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Science/Terminology.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 347.5
   },
   "right": {
     "id": "9af1ced4eb2369eb",
@@ -110,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Data Engineer/Coursera/Introduction to relational Databases (RDBMS)/Relational Database Concepts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Data Engineer/Coursera/Introduction to relational Databases (RDBMS)/Relational Database Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Data Science/Data Engineer/Coursera/Introduction to relational Databases (RDBMS)/Relational Database Concepts.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -171,35 +138,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a2cdb50b86fdbd0f",
+  "active": "f30c34e8cc5cd490",
   "lastOpenFiles": [
-    "Pasted image 20240626075524.png",
-    "Pasted image 20240626075458.png",
-    "Pasted image 20240626075426.png",
-    "Pasted image 20240626075404.png",
-    "Pasted image 20240625220651.png",
-    "Pasted image 20240625220630.png",
-    "Pasted image 20240625220609.png",
-    "Pasted image 20240625220518.png",
-    "Pasted image 20240625220459.png",
-    "Pasted image 20240625220420.png",
-    "Pasted image 20240625220343.png",
-    "Data Science/Data Engineer/Coursera/Introduction to relational Databases (RDBMS)/Using Relational Databases.md",
-    "Data Science/Data Engineer/Coursera/Introduction to relational Databases (RDBMS)/Relational Database Concepts.md",
-    "Data Science/Data Engineer/Coursera/Introduction to relational Databases (RDBMS)/MySQL and PostgreSQL.md",
     "Data Science/Data Engineer/Data Engineer.md",
+    "Data Science/Data Engineer/Coursera/Machine Learning with Apache Spark/Data Engineering for Machine Learning using Apache Spark.md",
+    "Data Science/Data Engineer/Coursera/Machine Learning with Apache Spark/Machine Learning with Apache Spark.md",
+    "Data Science/Data Engineer/Coursera/Machine Learning with Apache Spark/Get Started with Machine Learning.md",
+    "Data Science/Data Engineer/Coursera/Databases and SQL for Data Science with Python/Advanced SQL for Data Engineer.md",
+    "Data Science/Data Engineer/Coursera/Databases and SQL for Data Science with Python/Accessing Databases using Python.md",
+    "Data Science/Data Engineer/Coursera/Databases and SQL for Data Science with Python/Intermediate SQL.md",
+    "Data Science/Data Engineer/Coursera/Databases and SQL for Data Science with Python/Introduction to Relational Databases and Tables.md",
+    "Data Science/Data Engineer/Coursera/Databases and SQL for Data Science with Python/Getting Started with SQL.md",
+    "Data Science/Data Engineer/Coursera/Databases and SQL for Data Science with Python",
+    "Data Science/Data Engineer/Coursera/Python project for Data Engineering/Python coding practices and Packaging Concepts.md",
+    "Data Science/Data Engineer/Coursera/Python project for Data Engineering/Extract, Transform and Load (ETL).md",
+    "img/Pasted image 20240626100700.png",
+    "Data Science/Data Engineer/Coursera/Machine Learning with Apache Spark",
+    "Data Science/Data Engineer/Coursera/Python for Data Science, AI and Deployment",
+    "Data Science/Data Engineer/Coursera/Python project for Data Engineering",
+    "Data Science/Data Engineer/Coursera/Introduction to relational Databases (RDBMS)/Relational Database Concepts.md",
+    "Data Science/Data Engineer/Coursera/Introduction to relational Databases (RDBMS)/Using Relational Databases.md",
+    "img/Pasted image 20240627103923.png",
+    "img/Pasted image 20240627103908.png",
+    "img/Pasted image 20240627103840.png",
+    "img/Pasted image 20240627103828.png",
+    "img/Pasted image 20240627103324.png",
+    "img/Pasted image 20240627103257.png",
+    "img/Pasted image 20240627102954.png",
+    "img/Pasted image 20240627102732.png",
+    "img/Pasted image 20240627101938.png",
+    "Data Science/Data Engineer/Coursera/Introduction to relational Databases (RDBMS)/MySQL and PostgreSQL.md",
+    "Data Science/Data Engineer/Coursera/Introduction to Data Engineer/Data Repositories, Data Pipelines, and Data Integration Platforms.md",
     "Data Science/Data Engineer/Coursera/Introduction to NoSQL database/Introducing MongoDB.md",
+    "Data Science/Skills/Full Stack/Coursera/Course 1/1. Introduction to Cloud Computing.md",
+    "Data Science/Software Engineer/Coursera/Getting started with Git and GitHub/Reading.md",
+    "Data Science/Software Engineer/Coursera/Getting started with Git and GitHub/Git workflows with Git commands.md",
+    "Data Science/Software Engineer/Coursera/Getting started with Git and GitHub/Cheat Sheet.md",
+    "Data Science/Software Engineer/Coursera/Getting started with Git and GitHub/Branches with GitHub.md",
+    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 1/Business case for DevOps.md",
+    "Data Science/MLOps/Coursera DevOps/1 - Introduction to DevOps/Week 1/Brief History of DevOPs.md",
+    "Data Science/MLOps/AIO/Web Deployment.md",
+    "Data Science/MLOps/AIO/Model Pruning.md",
+    "Data Science/MLOps/AIO/Deploy as services.md",
+    "Mathematics/Statistics",
+    "Mathematics/Probability Theory",
+    "Mathematics/Calculus",
+    "Mathematics/Linear Algebra",
     "Data Science/Data Engineer/Coursera/Introduction to relational Databases (RDBMS)",
-    "Data Science/Data Engineer/Coursera/Relational Database Administration (DBA)/Introduction to Database Management.md",
-    "Data Science/Data Engineer/Coursera/Relational Database Administration (DBA)/Backup and Restore Databases.md",
-    "Data Science/Data Engineer/Coursera/Relational Database Administration (DBA)/Security and User Management.md",
-    "Data Science/Terminology.md",
-    "Data Science/Machine Learning/Machine Learning.md",
-    "Data Science/Machine Learning/Regression algorithm/Regression Algorithm.md",
-    "Data Science/Machine Learning/Regression algorithm/Metrics.md",
-    "Data Science/Machine Learning/Regression algorithm",
-    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Docker/History and motivation.md",
-    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Docker/Question.md",
-    "Data Science/MLOps/Coursera DevOps/6 - Continuous Integration and Continuous Delivery/Docker"
+    "Data Science/Machine Learning/Regression algorithm"
   ]
 }
