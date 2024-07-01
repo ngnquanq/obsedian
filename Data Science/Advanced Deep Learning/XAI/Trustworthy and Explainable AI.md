@@ -35,3 +35,27 @@ i.e anthropic
 
 Bắt đầu nguyên cứu xai bằng twitter của giáo sư anh totti nguyen 
 
+# Case Study: Enefit
+1. Business understanding
+2. Data understanding
+3. Feature selection 
+4. Chọn mô hình 
+5. Giải thích mô hình (GOAL)
+Các mô hình cũ cũng được, nhưng vấn đề là có giá trị thực tiễn khi giải quyết được ván đề của doanh nghiệp. Nên ưu tiên. 
+
+Sử dụng SHAP như là một xAI
+
+Hoặc là sử dụng các mô hình có tính can thiệp cao để chọn ra các feature hữu dụng. 
+
+Hoặc sử dụng các mô hình có tính can thiệp cao. 
+Như là mô hình cây hoặc là mô hình hồi quy truyền thống. 
+
+ Không quăng giá trị NaN vô được, do đó mới cắt giảm đầu (tức là lấy từ 2022 => giải quyết được time lag => giải quyết được giá trị Null và NaN ).
+
+Business objective: dự đoán lượng điện mà người dân sẽ dùng hoặc tạo ra theo thời điểm. 
+
+Quyết định thuật toán encode trước + sử dụng deep learning. 
+
+Sử dụng các mô hình machine learning để mã hóa luôn. Kiểu kiểu trích đặc trưng dùng LSTM hoặc GRU. Dùng cấu trúc autoencoder truyền thống để train, xong rồi lấy vector từ cái embedding space là đủ.
+
+Hoặc là sử dụng các phương pháp encode có sử dụng sequential encoding

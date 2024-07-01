@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "e31ac4be8e46bf56",
+    "id": "a22b62ef0d9938d7",
     "type": "split",
     "children": [
       {
-        "id": "d06aed73a4d91b06",
+        "id": "7245f31a05355054",
         "type": "tabs",
         "children": [
           {
-            "id": "f30c34e8cc5cd490",
+            "id": "58573e18f2d19b59",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/Building an End-to-End LLM application in Azure.md",
+                "file": "Data Science/Data Engineer/Data Engineer.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "b44c5737cc0d1375",
+    "id": "9b4c80778c24ed17",
     "type": "split",
     "children": [
       {
-        "id": "1afdd252c7f8cfcc",
+        "id": "3a3dad6bdde52342",
         "type": "tabs",
         "children": [
           {
-            "id": "82253be8e80a1c29",
+            "id": "01f299130ab03555",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +43,7 @@
             }
           },
           {
-            "id": "d2901eb8976b601c",
+            "id": "ad990776796eaf3b",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +58,7 @@
             }
           },
           {
-            "id": "7d81a2ac96969c63",
+            "id": "2122732f10df54ef",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -69,24 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "9af1ced4eb2369eb",
+    "id": "7eddd666c44c65fe",
     "type": "split",
     "children": [
       {
-        "id": "0b7c5543b8985a0b",
+        "id": "d9b48469bf1e3b00",
         "type": "tabs",
         "children": [
           {
-            "id": "788285a4c78e5c41",
+            "id": "4b1180aac0d8724e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/Building an End-to-End LLM application in Azure.md",
+                "file": "Data Science/Data Engineer/Data Engineer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,19 +97,19 @@
             }
           },
           {
-            "id": "bf0611da34801db5",
+            "id": "89578bbb4ef2ffa2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/Building an End-to-End LLM application in Azure.md",
+                "file": "Data Science/Data Engineer/Data Engineer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "219c4b5ef770a5e2",
+            "id": "a1d2a10325f0a1b8",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -121,12 +120,12 @@
             }
           },
           {
-            "id": "0ccd1f852f200b85",
+            "id": "f7d59dbaaa8503b2",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/Building an End-to-End LLM application in Azure.md"
+                "file": "Data Science/Data Engineer/Data Engineer.md"
               }
             }
           }
@@ -147,53 +146,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f30c34e8cc5cd490",
-  "lastOpenFiles": [
-    "Pasted image 20240701101938.png",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/Introduction to LLMOps with Azure.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/Extending with Functions and Plugins.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/Building an End-to-End LLM application in Azure.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/LLMOps.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/LLM with Azure.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/LLM deployment options in Azure.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/Introduction to LLMOps.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/Introduction to Azure and its AI Services.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Set Up AI Focused Development Environments.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/PromptEngineering.pdf",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Getting Started with Developing on AWS for AI.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Developing Serverless Solutions for Data, ML and AI.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/AWS CAF-AI.pdf",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/AI Pair Programming from CodeWhisperer to Prompt Engineering.md",
-    "Data Science/Data Engineer/Data Engineer.md",
-    "Data Science/Data Engineer/AWS",
-    "Data Science/Data Engineer/IBM/Machine Learning with Apache Spark/Data Engineering for Machine Learning using Apache Spark.md",
-    "Data Science/Data Engineer/IBM/Machine Learning with Apache Spark/Machine Learning with Apache Spark.md",
-    "Data Science/Data Engineer/IBM/Machine Learning with Apache Spark/Get Started with Machine Learning.md",
-    "Data Science/Data Engineer/IBM/Databases and SQL for Data Science with Python/Advanced SQL for Data Engineer.md",
-    "Data Science/Data Engineer/IBM/Databases and SQL for Data Science with Python/Accessing Databases using Python.md",
-    "Data Science/Data Engineer/IBM/Databases and SQL for Data Science with Python/Intermediate SQL.md",
-    "Data Science/Data Engineer/IBM/Databases and SQL for Data Science with Python/Introduction to Relational Databases and Tables.md",
-    "Data Science/Data Engineer/IBM/Databases and SQL for Data Science with Python/Getting Started with SQL.md",
-    "Data Science/Data Engineer/IBM/Databases and SQL for Data Science with Python",
-    "Data Science/Data Engineer/IBM/Python project for Data Engineering/Python coding practices and Packaging Concepts.md",
-    "Data Science/Data Engineer/IBM/Python project for Data Engineering/Extract, Transform and Load (ETL).md",
-    "img/Pasted image 20240626100700.png",
-    "Data Science/Data Engineer/IBM/Machine Learning with Apache Spark",
-    "Data Science/Data Engineer/IBM/Python for Data Science, AI and Deployment",
-    "Data Science/Data Engineer/IBM/Python project for Data Engineering",
-    "Data Science/Data Engineer/IBM/Introduction to relational Databases (RDBMS)/Relational Database Concepts.md",
-    "Data Science/Data Engineer/IBM/Introduction to relational Databases (RDBMS)/Using Relational Databases.md",
-    "img/Pasted image 20240627103923.png",
-    "img/Pasted image 20240627103908.png",
-    "img/Pasted image 20240627103840.png",
-    "img/Pasted image 20240627103828.png",
-    "img/Pasted image 20240627103324.png",
-    "img/Pasted image 20240627103257.png",
-    "img/Pasted image 20240627102954.png",
-    "img/Pasted image 20240627102732.png",
-    "img/Pasted image 20240627101938.png",
-    "Mathematics/Statistics",
-    "Mathematics/Probability Theory",
-    "Mathematics/Calculus"
-  ]
+  "active": "58573e18f2d19b59",
+  "lastOpenFiles": []
 }

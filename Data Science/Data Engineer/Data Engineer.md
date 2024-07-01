@@ -41,5 +41,9 @@
 3. [[Introduction to Linux and Unix]]
 4. [[Introduction to Shell Scripting]]
 5. [[Working with Text Files, Networking and Archiving Commands]]
-
 # AWS
+## AWS Cloud Technical Essentials
+1. [[AWS Overview and Security]]
+2. [[Compute and Networking]]
+3. [[Monitoring and Optimization]]
+4. [[Storage and Databases on AWS]]
