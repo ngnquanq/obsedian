@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/AWS Overview and Security.md",
+                "file": "Data Science/Data Engineer/Data Engineer.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "9af1ced4eb2369eb",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/AWS Overview and Security.md",
+                "file": "Data Science/Data Engineer/Data Engineer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/AWS Overview and Security.md",
+                "file": "Data Science/Data Engineer/Data Engineer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/AWS Overview and Security.md"
+                "file": "Data Science/Data Engineer/Data Engineer.md"
               }
             }
           }
@@ -149,10 +148,10 @@
   },
   "active": "f30c34e8cc5cd490",
   "lastOpenFiles": [
+    "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/AWS Overview and Security.md",
     "Pasted image 20240629164926.png",
     "Y5qYKwMnQKq_ZFAtJ-8zPg_d612840a6c9d46f6bb1569298ec06ff1_Course2Roadmap.jpg",
     "Data Science/Data Engineer/Data Engineer.md",
-    "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/AWS Overview and Security.md",
     "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/Monitoring and Optimization.md",
     "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/Storage and Databases on AWS.md",
     "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/Compute and Networking.md",
@@ -188,7 +187,6 @@
     "Data Science/Data Engineer/Coursera/Python for Data Science, AI and Deployment",
     "Data Science/Data Engineer/IBM/Python project for Data Engineering",
     "img/Pasted image 20240627103923.png",
-    "img/Pasted image 20240627103908.png",
     "Data Science/Data Engineer/IBM/Introduction to relational Databases (RDBMS)/MySQL and PostgreSQL.md",
     "Data Science/Data Engineer/IBM/Introduction to Data Engineer/Data Repositories, Data Pipelines, and Data Integration Platforms.md",
     "Data Science/Data Engineer/IBM/Introduction to NoSQL database/Introducing MongoDB.md",
