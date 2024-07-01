@@ -234,5 +234,37 @@ Depends on factors:
 ![[Pasted image 20240627103828.png]]
 ![[Pasted image 20240627103840.png]]
 ### Types of database architecture
+#### Shared disk architecture
 ![[Pasted image 20240627103908.png]]
 ![[Pasted image 20240627103923.png]]
+Advantages:
+- Ensures effective workload distribution
+- Ensure scalability as demand grows
+- Reroutes clients during server failures
+- Maintains high availability
+#### Shared nothing architecture
+![[Pasted image 20240627141202.png]]
+### Combination and specialized architectures
+- Employ combination of: 
+	- Shared disk
+	- Shared nothing
+	- Replication or partitioning techniques
+- Integrate specialized hardware components
+### Common techniques
+![[Pasted image 20240627141325.png]]
+#### Database replication
+![[Pasted image 20240627141405.png]]
+If something went wrong, the system redirects clients to HA replica
+#### Database partitioning and Sharding 
+![[Pasted image 20240627141537.png]]
+Advantages:
+- Handle data warehousing and business intelligence
+- Handle extensive volumes of data
+
+## Database Usage Patterns
+### Key user roles
+![[Pasted image 20240627141729.png]]
+## Introduction to Relational Database Offerings 
+![[Pasted image 20240629145759.png]]
+
+## Db2

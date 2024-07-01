@@ -1,4 +1,4 @@
-# Coursera
+# IBM
 ## Introduction to Data Engineer
 1. [[Data Repositories, Data Pipelines, and Data Integration Platforms]]
 2. [[Modern Data Ecosystem and role of Data Engineering]]
@@ -41,4 +41,9 @@
 3. [[Introduction to Linux and Unix]]
 4. [[Introduction to Shell Scripting]]
 5. [[Working with Text Files, Networking and Archiving Commands]]
-6. 
+# AWS
+## AWS Cloud Technical Essentials
+1. [[AWS Overview and Security]]
+2. [[Compute and Networking]]
+3. [[Monitoring and Optimization]]
+4. [[Storage and Databases on AWS]]
