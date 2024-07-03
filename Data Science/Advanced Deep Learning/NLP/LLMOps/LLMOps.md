@@ -4,10 +4,11 @@
 3. [[Getting Started with Developing on AWS for AI]]
 4. [[Set Up AI Focused Development Environments]]
 # Operationalizing with Azure
-1. [[Introduction to Azure and its AI Services]]
-2. [[Introduction to LLMOps]]
-3. [[LLM deployment options in Azure]]
-4. [[LLM with Azure]]
+1. [[Introduction to LLMOps with Azure]]
+2. [[LLM with Azure]]
+3. [[Extending with Functions and Plugins]]
+4. [[Building an End-to-End LLM application in Azure]]
+5. 
 
 # Introduction to Generative AI
 1. [[Exploring a cloud-based Generative AI Application]]
