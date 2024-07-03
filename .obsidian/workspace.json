@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Data Engineer/Data Engineer.md",
+                "file": "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/AWS Overview and Security.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Data Engineer/Data Engineer.md",
+                "file": "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/AWS Overview and Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Data Engineer/Data Engineer.md",
+                "file": "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/AWS Overview and Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Data Engineer/Data Engineer.md"
+                "file": "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/AWS Overview and Security.md"
               }
             }
           }
@@ -148,19 +148,31 @@
   },
   "active": "f30c34e8cc5cd490",
   "lastOpenFiles": [
-    "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/AWS Overview and Security.md",
-    "Pasted image 20240629164926.png",
     "Y5qYKwMnQKq_ZFAtJ-8zPg_d612840a6c9d46f6bb1569298ec06ff1_Course2Roadmap.jpg",
-    "Data Science/Data Engineer/Data Engineer.md",
-    "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/Monitoring and Optimization.md",
-    "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/Storage and Databases on AWS.md",
+    "Pasted image 20240629164926.png",
+    "Pasted image 20240629145759.png",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/LLM deployment options in Azure.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/Introduction to LLMOps.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/Introduction to Azure and its AI Services.md",
     "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/Compute and Networking.md",
+    "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/AWS Overview and Security.md",
+    "img/Pasted image 20240629145759.png",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/Extending with Functions and Plugins.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/Introduction to LLMOps with Azure.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/LLM with Azure.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/LLMOps.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/Operationalizing on Azure/Building an End-to-End LLM application in Azure.md",
+    "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/Monitoring and Optimization.md",
+    "Data Science/Data Engineer/Data Engineer.md",
+    "img/Pasted image 20240701101938.png",
+    "img/Pasted image 20240629164926.png",
+    "img/Y5qYKwMnQKq_ZFAtJ-8zPg_d612840a6c9d46f6bb1569298ec06ff1_Course2Roadmap.jpg",
+    "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/Storage and Databases on AWS.md",
     "Data Science/Data Engineer/AWS Fundamentals Specialization/Untitled/Untitled",
     "Data Science/Data Engineer/IBM/Introduction to relational Databases (RDBMS)/Relational Database Concepts.md",
     "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials",
     "Data Science/Data Engineer/IBM/Untitled",
     "Data Science/Data Engineer/AWS Fundamentals Specialization",
-    "Pasted image 20240629145759.png",
     "Data Science/Data Engineer/IBM/Introduction to relational Databases (RDBMS)/Using Relational Databases.md",
     "Data Science/Data Science.md",
     "img/Pasted image 20240627141202.png",
@@ -172,25 +184,14 @@
     "img/Pasted image 20240627141729.png",
     "img/Pasted image 20240627141537.png",
     "img/Pasted image 20240627141405.png",
-    "img/Pasted image 20240627141325.png",
     "Data Science/Data Engineer/IBM/Machine Learning with Apache Spark/Data Engineering for Machine Learning using Apache Spark.md",
     "Data Science/Data Engineer/IBM/Machine Learning with Apache Spark/Machine Learning with Apache Spark.md",
     "Data Science/Data Engineer/IBM/Machine Learning with Apache Spark/Get Started with Machine Learning.md",
     "Data Science/Data Engineer/IBM/Databases and SQL for Data Science with Python/Intermediate SQL.md",
-    "Data Science/Data Engineer/IBM/Databases and SQL for Data Science with Python/Introduction to Relational Databases and Tables.md",
-    "Data Science/Data Engineer/IBM/Databases and SQL for Data Science with Python/Getting Started with SQL.md",
     "Data Science/Data Engineer/IBM/Databases and SQL for Data Science with Python",
-    "Data Science/Data Engineer/IBM/Python project for Data Engineering/Python coding practices and Packaging Concepts.md",
-    "Data Science/Data Engineer/IBM/Python project for Data Engineering/Extract, Transform and Load (ETL).md",
-    "img/Pasted image 20240626100700.png",
     "Data Science/Data Engineer/IBM/Machine Learning with Apache Spark",
     "Data Science/Data Engineer/Coursera/Python for Data Science, AI and Deployment",
     "Data Science/Data Engineer/IBM/Python project for Data Engineering",
-    "img/Pasted image 20240627103923.png",
-    "Data Science/Data Engineer/IBM/Introduction to relational Databases (RDBMS)/MySQL and PostgreSQL.md",
-    "Data Science/Data Engineer/IBM/Introduction to Data Engineer/Data Repositories, Data Pipelines, and Data Integration Platforms.md",
-    "Data Science/Data Engineer/IBM/Introduction to NoSQL database/Introducing MongoDB.md",
-    "Data Science/Skills/Full Stack/Coursera/Course 1/1. Introduction to Cloud Computing.md",
     "Mathematics/Statistics",
     "Mathematics/Probability Theory"
   ]
