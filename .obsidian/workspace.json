@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Data Engineer/Data Engineer.md",
+                "file": "Data Science/Advanced Deep Learning/NLP/LLMs/Building Production-Grade LLM apps.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Data Engineer/Data Engineer.md",
+                "file": "Data Science/Advanced Deep Learning/NLP/LLMs/Building Production-Grade LLM apps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Data Engineer/Data Engineer.md",
+                "file": "Data Science/Advanced Deep Learning/NLP/LLMs/Building Production-Grade LLM apps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Data Engineer/Data Engineer.md"
+                "file": "Data Science/Advanced Deep Learning/NLP/LLMs/Building Production-Grade LLM apps.md"
               }
             }
           }
@@ -147,5 +147,11 @@
     }
   },
   "active": "58573e18f2d19b59",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Data Science/Advanced Deep Learning/NLP/LLMs/Beyond LLMs - Agents, Emergent Abilities, Intermediate Guided Reasoning, BabyLM.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMs/Benchmark.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMs/Aligning LLMs with DPO.md",
+    "Data Science/Advanced Deep Learning/NLP/LLMOps/LLMOps.md",
+    "Data Science/Data Engineer/Data Engineer.md"
+  ]
 }
