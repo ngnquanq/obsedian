@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Science/Data Engineer/Data Engineer.md",
+                "file": "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Introduction to Amazon Web Services, Compute in the Cloud.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7eddd666c44c65fe",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Science/Data Engineer/Data Engineer.md",
+                "file": "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Introduction to Amazon Web Services, Compute in the Cloud.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Science/Data Engineer/Data Engineer.md",
+                "file": "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Introduction to Amazon Web Services, Compute in the Cloud.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Science/Data Engineer/Data Engineer.md"
+                "file": "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Introduction to Amazon Web Services, Compute in the Cloud.md"
               }
             }
           }
@@ -148,13 +149,22 @@
   },
   "active": "58573e18f2d19b59",
   "lastOpenFiles": [
+    "Data Science/Skills/Innovation/Cloud computing.md",
+    "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Introduction to Amazon Web Services, Compute in the Cloud.md",
+    "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/AWS Certified Cloud Practitioner Basics.md",
+    "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Migration and Innovation, the Cloud Journey.md",
+    "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Monitoring and Analytics, Pricing and Support.md",
+    "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Security.md",
+    "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Storage and Databases.md",
+    "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Global Infrastructure and Reliability, Networking.md",
     "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/AWS Overview and Security.md",
+    "Data Science/Data Engineer/AWS Cloud Practitioner Essentials",
+    "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/Compute and Networking.md",
+    "Data Science/Data Engineer/Data Engineer.md",
     "Pasted image 20240629164926.png",
     "Y5qYKwMnQKq_ZFAtJ-8zPg_d612840a6c9d46f6bb1569298ec06ff1_Course2Roadmap.jpg",
-    "Data Science/Data Engineer/Data Engineer.md",
     "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/Monitoring and Optimization.md",
     "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/Storage and Databases on AWS.md",
-    "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/Compute and Networking.md",
     "Data Science/Data Engineer/AWS Fundamentals Specialization/Untitled/Untitled",
     "Data Science/Data Engineer/IBM/Introduction to relational Databases (RDBMS)/Relational Database Concepts.md",
     "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials",
@@ -178,20 +188,12 @@
     "Data Science/Data Engineer/IBM/Machine Learning with Apache Spark/Get Started with Machine Learning.md",
     "Data Science/Data Engineer/IBM/Databases and SQL for Data Science with Python/Intermediate SQL.md",
     "Data Science/Data Engineer/IBM/Databases and SQL for Data Science with Python/Introduction to Relational Databases and Tables.md",
-    "Data Science/Data Engineer/IBM/Databases and SQL for Data Science with Python/Getting Started with SQL.md",
     "Data Science/Data Engineer/IBM/Databases and SQL for Data Science with Python",
-    "Data Science/Data Engineer/IBM/Python project for Data Engineering/Python coding practices and Packaging Concepts.md",
-    "Data Science/Data Engineer/IBM/Python project for Data Engineering/Extract, Transform and Load (ETL).md",
     "img/Pasted image 20240626100700.png",
     "Data Science/Data Engineer/IBM/Machine Learning with Apache Spark",
     "Data Science/Data Engineer/Coursera/Python for Data Science, AI and Deployment",
     "Data Science/Data Engineer/IBM/Python project for Data Engineering",
     "img/Pasted image 20240627103923.png",
-    "Data Science/Data Engineer/IBM/Introduction to relational Databases (RDBMS)/MySQL and PostgreSQL.md",
-    "Data Science/Data Engineer/IBM/Introduction to Data Engineer/Data Repositories, Data Pipelines, and Data Integration Platforms.md",
-    "Data Science/Data Engineer/IBM/Introduction to NoSQL database/Introducing MongoDB.md",
-    "Data Science/Skills/Full Stack/Coursera/Course 1/1. Introduction to Cloud Computing.md",
-    "Mathematics/Statistics",
-    "Mathematics/Probability Theory"
+    "Mathematics/Statistics"
   ]
 }
