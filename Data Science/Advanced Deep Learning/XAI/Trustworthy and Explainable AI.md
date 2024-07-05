@@ -59,3 +59,12 @@ Quyết định thuật toán encode trước + sử dụng deep learning.
 Sử dụng các mô hình machine learning để mã hóa luôn. Kiểu kiểu trích đặc trưng dùng LSTM hoặc GRU. Dùng cấu trúc autoencoder truyền thống để train, xong rồi lấy vector từ cái embedding space là đủ.
 
 Hoặc là sử dụng các phương pháp encode có sử dụng sequential encoding
+
+# SHAP
+Đọc ở đây
+https://www.aidancooper.co.uk/a-non-technical-guide-to-interpreting-shap-analyses/
+
+Bài nghiên cứu gốc của chỉ số SHAP
+https://proceedings.neurips.cc/paper_files/paper/2017/file/8a20a8621978632d76c43dfd28b67767-Paper.pdf
+
+Cân nhắc giữa yếu tố local và yếu tố global khi sử dụng SHAP. 
