@@ -27,13 +27,14 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/FSDS-module2/Source System/SourceSystems.excalidraw.md"
+                "file": "Excalidraw/FSDS-module2/DataStorage/DataStorage.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "SourceSystems.excalidraw"
+              "title": "DataStorage.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,12 +87,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7eddd666c44c65fe",
@@ -182,11 +183,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8e0e6b1deed91fd4",
+  "active": "0f771c99f1912934",
   "lastOpenFiles": [
-    "Pasted image 20250427062828.png",
     "Excalidraw/FSDS-module2/Source System/SourceSystems.excalidraw.md",
     "FSDS-module2/Source System.md",
+    "Excalidraw/FSDS-module2/DataStorage/DataStorage.excalidraw.md",
+    "img/Pasted Image 20250427181217_205.png",
+    "img/Pasted Image 20250427173938_294.png",
+    "img/Pasted image 20250427062828.png",
+    "Excalidraw/FSDS-module2/DataStorage",
     "Excalidraw/FSDS-module2/Data Architecture/DataArchitecture.excalidraw.md",
     "FSDS-module2/Data Architecture.md",
     "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/1. Microservices.md",
@@ -213,22 +218,17 @@
     "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Monitoring and Analytics, Pricing and Support.md",
     "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Migration and Innovation, the Cloud Journey.md",
     "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Introduction to Amazon Web Services, Compute in the Cloud.md",
-    "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Global Infrastructure and Reliability, Networking.md",
     "Data Engineer",
     "Excalidraw",
     "Data Science/Business Intelligence/Business Intelligence Glossary.docx",
     "Business Intelligence Glossary.docx",
     "Data Science/Business Intelligence/Course 1 - Foundation of Business Intelligence/M56bOO_cSVORaP4Cq9r-fA_3fab5a0b88c14e31a071df0d355de7f1_Business-Intelligence-Certificate-glossary 1.docx",
-    "Data Science/Business Intelligence/Course 1 - Foundation of Business Intelligence/M56bOO_cSVORaP4Cq9r-fA_3fab5a0b88c14e31a071df0d355de7f1_Business-Intelligence-Certificate-glossary.docx",
     "img/Pasted image 20240629145759.png",
     "img/Pasted image 20240629164926.png",
     "img/Y5qYKwMnQKq_ZFAtJ-8zPg_d612840a6c9d46f6bb1569298ec06ff1_Course2Roadmap.jpg",
     "img/Pasted image 20240627141202.png",
     "img/Pasted image 20240627141729.png",
     "img/Pasted image 20240627141537.png",
-    "img/Pasted image 20240627141405.png",
-    "img/Pasted image 20240627141325.png",
-    "img/Pasted image 20240626100700.png",
-    "img/Pasted image 20240627103923.png"
+    "img/Pasted image 20240627141405.png"
   ]
 }
