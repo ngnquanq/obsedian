@@ -1,0 +1,2 @@
+Consider this situation:
+![[DataLakeMinIO.excalidraw]]Use case: We want to build a **data platform with 2 data sources**, which are **Amazon S3** and **Application**. The end-user **want to have platform to build report** but we can not let them access to our object storage or database. They **want a place to write query from these 2 data sources.** 
