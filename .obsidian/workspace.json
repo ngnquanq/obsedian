@@ -4,37 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "7245f31a05355054",
+        "id": "db3c44fa82480a75",
         "type": "tabs",
         "children": [
           {
-            "id": "8e0e6b1deed91fd4",
+            "id": "81c755db03626732",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FSDS-module2/Source System.md",
+                "file": "FSDS/FSDS-module1/Kubernetes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Source System"
-            }
-          },
-          {
-            "id": "0f771c99f1912934",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/FSDS-module2/DataStorage/DataStorage.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "DataStorage.excalidraw"
+              "title": "Kubernetes"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -87,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,55 +166,57 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "0f771c99f1912934",
+  "active": "81c755db03626732",
   "lastOpenFiles": [
-    "Excalidraw/FSDS-module2/Source System/SourceSystems.excalidraw.md",
-    "FSDS-module2/Source System.md",
+    "Excalidraw/FSDS-module1/k8sPort.excalidraw.md",
+    "FSDS/FSDS-module1/Kubernetes.md",
+    "Pasted Image 20250430200323_701.png",
+    "Pasted Image 20250430195656_876.png",
+    "Excalidraw/FSDS-module1/LoggingArchitecture.excalidraw.md",
+    "Excalidraw/FSDS-module3/TrainingAndInference.excalidraw.md",
+    "FSDS/FSDS-module3/High Performance Python.md",
+    "Excalidraw/FSDS-module4/DistributedTraining.excalidraw.md",
+    "Excalidraw/FSDS-module4/DataHub.excalidraw.md",
+    "Excalidraw/FSDS-module4/LLMOps.excalidraw.md",
+    "Excalidraw/FSDS-module4/DesignPatterns.excalidraw.md",
+    "Excalidraw/FSDS-module3/HighPerfPython.excalidraw.md",
+    "Pasted Image 20250430062657_528.png",
+    "Pasted Image 20250430053441_314.png",
+    "Pasted Image 20250430053114_413.png",
+    "Data Science/Machine Learning/Clustering algorithm/Metrics.md",
+    "Data Science/Machine Learning/Clustering algorithm/Clustering Algorithm.md",
+    "Data Science/Basic Deep Learning/Loss function/1. Cross Entropy Loss.md",
+    "Data Science/Basic Deep Learning/Loss function/0. Why Loss function.md",
+    "Excalidraw/FSDS-module4/DatabaseManipulation.excalidraw.md",
+    "Excalidraw/FSDS-module4/Untitled.md",
+    "Excalidraw/FSDS-module4",
+    "Excalidraw/FSDS-module1",
+    "FSDS/FSDS-module1",
+    "FSDS/FSDS-module4",
     "Excalidraw/FSDS-module2/DataStorage/DataStorage.excalidraw.md",
+    "FSDS/FSDS-module2/Source System.md",
+    "FSDS/FSDS-module3",
+    "FSDS",
+    "Excalidraw/FSDS-module3",
+    "Excalidraw/FSDS-module2/Source System/SourceSystems.excalidraw.md",
     "img/Pasted Image 20250427181217_205.png",
     "img/Pasted Image 20250427173938_294.png",
     "img/Pasted image 20250427062828.png",
     "Excalidraw/FSDS-module2/DataStorage",
     "Excalidraw/FSDS-module2/Data Architecture/DataArchitecture.excalidraw.md",
-    "FSDS-module2/Data Architecture.md",
+    "FSDS/FSDS-module2/Data Architecture.md",
     "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/1. Microservices.md",
     "Excalidraw/FSDS-module2/Source System",
-    "FSDS-module2/Untitled.md",
+    "FSDS/FSDS-module2/Untitled.md",
     "Excalidraw/FSDS-module2/Data Architecture/DataLakeMinIO.excalidraw.md",
     "Excalidraw/FSDS-module2/Data Architecture/DataProcessingArchitect.excalidraw.md",
     "Excalidraw/FSDS-module2/Data Architecture",
-    "Excalidraw/FSDS-module2",
     "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Developing Serverless Solutions for Data, ML and AI.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/LLMOps.md",
-    "Data Science/Business Intelligence/Course 1 - Foundation of Business Intelligence/A. Get started with Business Intelligence.md",
-    "Data Engineer/Drawing 2025-04-26 21.07.46.excalidraw.md",
-    "FSDS-module2",
-    "Data Engineer/Drawing 2025-04-26 21.07.32.excalidraw.md",
-    "Data Science/Data Engineer/IBM/Hands-on Introduction to Linux Commands and Shell Scripting/Informational, Navigational and Management Commands.md",
-    "Data Science/Data Engineer/IBM/Hands-on Introduction to Linux Commands and Shell Scripting/Cheet sheet.md",
-    "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/Storage and Databases on AWS.md",
-    "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/Monitoring and Optimization.md",
-    "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/Compute and Networking.md",
-    "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/AWS Overview and Security.md",
-    "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Storage and Databases.md",
-    "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Security.md",
-    "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Monitoring and Analytics, Pricing and Support.md",
-    "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Migration and Innovation, the Cloud Journey.md",
-    "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Introduction to Amazon Web Services, Compute in the Cloud.md",
-    "Data Engineer",
-    "Excalidraw",
-    "Data Science/Business Intelligence/Business Intelligence Glossary.docx",
-    "Business Intelligence Glossary.docx",
-    "Data Science/Business Intelligence/Course 1 - Foundation of Business Intelligence/M56bOO_cSVORaP4Cq9r-fA_3fab5a0b88c14e31a071df0d355de7f1_Business-Intelligence-Certificate-glossary 1.docx",
     "img/Pasted image 20240629145759.png",
-    "img/Pasted image 20240629164926.png",
-    "img/Y5qYKwMnQKq_ZFAtJ-8zPg_d612840a6c9d46f6bb1569298ec06ff1_Course2Roadmap.jpg",
-    "img/Pasted image 20240627141202.png",
-    "img/Pasted image 20240627141729.png",
-    "img/Pasted image 20240627141537.png",
-    "img/Pasted image 20240627141405.png"
+    "img/Pasted image 20240629164926.png"
   ]
 }
