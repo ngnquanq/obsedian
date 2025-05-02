@@ -11,17 +11,52 @@
             "id": "81c755db03626732",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "FSDS/FSDS-module1/Kubernetes.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/FSDS-module2/Data Architecture/DataLakeMinIO.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Kubernetes"
+              "icon": "excalidraw-icon",
+              "title": "DataLakeMinIO.excalidraw"
+            }
+          },
+          {
+            "id": "5ee4c06e0769cf1e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/FSDS-module2/BatchProcessing/SparkProcessing.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "SparkProcessing.excalidraw"
+            }
+          },
+          {
+            "id": "55d718eb661e11d1",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/FSDS-module2/StreamProcessing/StreamProcessing.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "StreamProcessing.excalidraw"
+            }
+          },
+          {
+            "id": "f0e29c585d68f31f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/FSDS-module2/PipelineOrchestration/PipelineOrchestration.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "PipelineOrchestration.excalidraw"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -78,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 314.5,
+    "collapsed": true
   },
   "right": {
     "id": "7eddd666c44c65fe",
@@ -170,10 +206,26 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "81c755db03626732",
+  "active": "f0e29c585d68f31f",
   "lastOpenFiles": [
-    "Excalidraw/FSDS-module1/k8sPort.excalidraw.md",
+    "Excalidraw/FSDS-module2/PipelineOrchestration/PipelineOrchestration.excalidraw.md",
+    "Excalidraw/FSDS-module2/StreamProcessing/StreamProcessing.excalidraw.md",
+    "Excalidraw/FSDS-module2/PipelineOrchestration",
+    "Pasted Image 20250502042025_523.png",
+    "Pasted Image 20250502041121_308.png",
+    "Pasted Image 20250502041045_124.png",
+    "Pasted Image 20250502041017_298.png",
+    "Excalidraw/FSDS-module2/BatchProcessing/SparkProcessing.excalidraw.md",
+    "Excalidraw/FSDS-module2/StreamProcessing",
+    "Pasted Image 20250501201050_753.png",
+    "Excalidraw/FSDS-module2/Data Architecture/DataLakeMinIO.excalidraw.md",
+    "Excalidraw/FSDS-module2/Data Architecture/DataProcessingArchitect.excalidraw.md",
+    "Excalidraw/FSDS-module2/Source System/SourceSystems.excalidraw.md",
+    "Excalidraw/FSDS-module2/BatchProcessing",
+    "Excalidraw/FSDS-module2/DataStorage/DataStorage.excalidraw.md",
+    "FSDS/FSDS-module2/Untitled.md",
     "FSDS/FSDS-module1/Kubernetes.md",
+    "Excalidraw/FSDS-module1/k8sPort.excalidraw.md",
     "Pasted Image 20250430200323_701.png",
     "Pasted Image 20250430195656_876.png",
     "Excalidraw/FSDS-module1/LoggingArchitecture.excalidraw.md",
@@ -197,26 +249,10 @@
     "Excalidraw/FSDS-module1",
     "FSDS/FSDS-module1",
     "FSDS/FSDS-module4",
-    "Excalidraw/FSDS-module2/DataStorage/DataStorage.excalidraw.md",
     "FSDS/FSDS-module2/Source System.md",
     "FSDS/FSDS-module3",
     "FSDS",
     "Excalidraw/FSDS-module3",
-    "Excalidraw/FSDS-module2/Source System/SourceSystems.excalidraw.md",
-    "img/Pasted Image 20250427181217_205.png",
-    "img/Pasted Image 20250427173938_294.png",
-    "img/Pasted image 20250427062828.png",
-    "Excalidraw/FSDS-module2/DataStorage",
-    "Excalidraw/FSDS-module2/Data Architecture/DataArchitecture.excalidraw.md",
-    "FSDS/FSDS-module2/Data Architecture.md",
-    "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/1. Microservices.md",
-    "Excalidraw/FSDS-module2/Source System",
-    "FSDS/FSDS-module2/Untitled.md",
-    "Excalidraw/FSDS-module2/Data Architecture/DataLakeMinIO.excalidraw.md",
-    "Excalidraw/FSDS-module2/Data Architecture/DataProcessingArchitect.excalidraw.md",
-    "Excalidraw/FSDS-module2/Data Architecture",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Developing Serverless Solutions for Data, ML and AI.md",
-    "img/Pasted image 20240629145759.png",
-    "img/Pasted image 20240629164926.png"
+    "Excalidraw/FSDS-module2/Data Architecture/DataArchitecture.excalidraw.md"
   ]
 }
