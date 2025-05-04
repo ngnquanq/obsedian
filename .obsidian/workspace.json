@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7245f31a05355054",
+        "id": "db3c44fa82480a75",
         "type": "tabs",
         "children": [
           {
-            "id": "8e0e6b1deed91fd4",
+            "id": "81c755db03626732",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -20,19 +20,43 @@
             }
           },
           {
-            "id": "fb8212c972a45b25",
+            "id": "5ee4c06e0769cf1e",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Alteryx/InDB-Stream.excalidraw.md"
+                "file": "Excalidraw/FSDS-module2/BatchProcessing/SparkProcessing.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "InDB-Stream.excalidraw"
+              "title": "SparkProcessing.excalidraw"
+            }
+          },
+          {
+            "id": "55d718eb661e11d1",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/FSDS-module2/StreamProcessing/StreamProcessing.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "StreamProcessing.excalidraw"
+            }
+          },
+          {
+            "id": "f0e29c585d68f31f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/FSDS-module2/PipelineOrchestration/PipelineOrchestration.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "PipelineOrchestration.excalidraw"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -89,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 314.5,
     "collapsed": true
   },
   "right": {
@@ -178,55 +202,57 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "fb8212c972a45b25",
+  "active": "f0e29c585d68f31f",
   "lastOpenFiles": [
-    "Excalidraw/Alteryx/InDB-Stream.excalidraw.md",
+    "Excalidraw/FSDS-module2/PipelineOrchestration/PipelineOrchestration.excalidraw.md",
+    "Excalidraw/FSDS-module2/StreamProcessing/StreamProcessing.excalidraw.md",
+    "Excalidraw/FSDS-module2/PipelineOrchestration",
+    "Pasted Image 20250502042025_523.png",
+    "Pasted Image 20250502041121_308.png",
+    "Pasted Image 20250502041045_124.png",
+    "Pasted Image 20250502041017_298.png",
+    "Excalidraw/FSDS-module2/BatchProcessing/SparkProcessing.excalidraw.md",
+    "Excalidraw/FSDS-module2/StreamProcessing",
+    "Pasted Image 20250501201050_753.png",
     "Excalidraw/FSDS-module2/Data Architecture/DataLakeMinIO.excalidraw.md",
-    "uuid-4e0452cb-2a36-353f-92d7-bbb6032ab143.png",
-    "uuid-44c7f9d3-5dab-b8e3-89e0-b62d271e5a7d.png",
-    "Excalidraw/Alteryx",
-    "Excalidraw/FSDS-module2/Data Architecture/DataArchitecture.excalidraw.md",
-    "FSDS-module2/Source System.md",
-    "Excalidraw/FSDS-module2/Source System/SourceSystems.excalidraw.md",
-    "Excalidraw/FSDS-module2/DataStorage/DataStorage.excalidraw.md",
-    "img/Pasted Image 20250427181217_205.png",
-    "img/Pasted Image 20250427173938_294.png",
-    "img/Pasted image 20250427062828.png",
-    "Excalidraw/FSDS-module2/DataStorage",
-    "FSDS-module2/Data Architecture.md",
-    "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/1. Microservices.md",
-    "Excalidraw/FSDS-module2/Source System",
-    "FSDS-module2/Untitled.md",
     "Excalidraw/FSDS-module2/Data Architecture/DataProcessingArchitect.excalidraw.md",
-    "Excalidraw/FSDS-module2/Data Architecture",
-    "Excalidraw/FSDS-module2",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/GenAI with AWS/Developing Serverless Solutions for Data, ML and AI.md",
-    "Data Science/Advanced Deep Learning/NLP/LLMOps/LLMOps.md",
-    "Data Science/Business Intelligence/Course 1 - Foundation of Business Intelligence/A. Get started with Business Intelligence.md",
-    "Data Engineer/Drawing 2025-04-26 21.07.46.excalidraw.md",
-    "FSDS-module2",
-    "Data Engineer/Drawing 2025-04-26 21.07.32.excalidraw.md",
-    "Data Science/Data Engineer/IBM/Hands-on Introduction to Linux Commands and Shell Scripting/Informational, Navigational and Management Commands.md",
-    "Data Science/Data Engineer/IBM/Hands-on Introduction to Linux Commands and Shell Scripting/Cheet sheet.md",
-    "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/Storage and Databases on AWS.md",
-    "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/Monitoring and Optimization.md",
-    "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/Compute and Networking.md",
-    "Data Science/Data Engineer/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/AWS Overview and Security.md",
-    "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Storage and Databases.md",
-    "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Security.md",
-    "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Monitoring and Analytics, Pricing and Support.md",
-    "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Migration and Innovation, the Cloud Journey.md",
-    "Data Engineer",
-    "Excalidraw",
-    "Data Science/Business Intelligence/Business Intelligence Glossary.docx",
-    "Business Intelligence Glossary.docx",
-    "img/Pasted image 20240629145759.png",
-    "img/Pasted image 20240629164926.png",
-    "img/Y5qYKwMnQKq_ZFAtJ-8zPg_d612840a6c9d46f6bb1569298ec06ff1_Course2Roadmap.jpg",
-    "img/Pasted image 20240627141202.png",
-    "img/Pasted image 20240627141729.png"
+    "Excalidraw/FSDS-module2/Source System/SourceSystems.excalidraw.md",
+    "Excalidraw/FSDS-module2/BatchProcessing",
+    "Excalidraw/FSDS-module2/DataStorage/DataStorage.excalidraw.md",
+    "FSDS/FSDS-module2/Untitled.md",
+    "FSDS/FSDS-module1/Kubernetes.md",
+    "Excalidraw/FSDS-module1/k8sPort.excalidraw.md",
+    "Pasted Image 20250430200323_701.png",
+    "Pasted Image 20250430195656_876.png",
+    "Excalidraw/FSDS-module1/LoggingArchitecture.excalidraw.md",
+    "Excalidraw/FSDS-module3/TrainingAndInference.excalidraw.md",
+    "FSDS/FSDS-module3/High Performance Python.md",
+    "Excalidraw/FSDS-module4/DistributedTraining.excalidraw.md",
+    "Excalidraw/FSDS-module4/DataHub.excalidraw.md",
+    "Excalidraw/FSDS-module4/LLMOps.excalidraw.md",
+    "Excalidraw/FSDS-module4/DesignPatterns.excalidraw.md",
+    "Excalidraw/FSDS-module3/HighPerfPython.excalidraw.md",
+    "Pasted Image 20250430062657_528.png",
+    "Pasted Image 20250430053441_314.png",
+    "Pasted Image 20250430053114_413.png",
+    "Data Science/Machine Learning/Clustering algorithm/Metrics.md",
+    "Data Science/Machine Learning/Clustering algorithm/Clustering Algorithm.md",
+    "Data Science/Basic Deep Learning/Loss function/1. Cross Entropy Loss.md",
+    "Data Science/Basic Deep Learning/Loss function/0. Why Loss function.md",
+    "Excalidraw/FSDS-module4/DatabaseManipulation.excalidraw.md",
+    "Excalidraw/FSDS-module4/Untitled.md",
+    "Excalidraw/FSDS-module4",
+    "Excalidraw/FSDS-module1",
+    "FSDS/FSDS-module1",
+    "FSDS/FSDS-module4",
+    "FSDS/FSDS-module2/Source System.md",
+    "FSDS/FSDS-module3",
+    "FSDS",
+    "Excalidraw/FSDS-module3",
+    "Excalidraw/FSDS-module2/Data Architecture/DataArchitecture.excalidraw.md"
   ]
 }
