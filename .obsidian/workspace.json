@@ -49,14 +49,50 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/FSDS-module2/PipelineOrchestration/PipelineOrchestration.excalidraw.md"
+                "file": "Excalidraw/Alteryx/InDB-Stream.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "PipelineOrchestration.excalidraw"
+              "title": "InDB-Stream.excalidraw"
+            }
+          },
+          {
+            "id": "e6c17d0ca0c907fc",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Alteryx/Macros.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Macros.excalidraw"
+            }
+          },
+          {
+            "id": "307bfe3196b2afe2",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "img/Pasted Image 20250504123110_573.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted Image 20250504123110_573"
+            }
+          },
+          {
+            "id": "0392e89b24563084",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "img/Pasted Image 20250504131053_853.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted Image 20250504131053_853"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -113,8 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5,
-    "collapsed": true
+    "width": 314.5
   },
   "right": {
     "id": "7eddd666c44c65fe",
@@ -202,22 +237,28 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "copilot:Open Copilot Chat": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f0e29c585d68f31f",
+  "active": "0392e89b24563084",
   "lastOpenFiles": [
+    "img/Pasted Image 20250504123110_573.png",
+    "Excalidraw/Alteryx/Macros.excalidraw.md",
+    "img/Pasted Image 20250504131053_853.png",
+    "img/Pasted Image 20250504124304_879.png",
+    "Excalidraw/Alteryx/InDB-Stream.excalidraw.md",
+    "img/uuid-44c7f9d3-5dab-b8e3-89e0-b62d271e5a7d.png",
+    "img/uuid-4e0452cb-2a36-353f-92d7-bbb6032ab143.png",
+    "img/Pasted Image 20250502041121_308.png",
+    "img/Pasted Image 20250502041045_124.png",
+    "img/Pasted Image 20250501201050_753.png",
     "Excalidraw/FSDS-module2/PipelineOrchestration/PipelineOrchestration.excalidraw.md",
     "Excalidraw/FSDS-module2/StreamProcessing/StreamProcessing.excalidraw.md",
     "Excalidraw/FSDS-module2/PipelineOrchestration",
-    "Pasted Image 20250502042025_523.png",
-    "Pasted Image 20250502041121_308.png",
-    "Pasted Image 20250502041045_124.png",
-    "Pasted Image 20250502041017_298.png",
+    "img/Pasted Image 20250502042025_523.png",
+    "img/Pasted Image 20250502041017_298.png",
     "Excalidraw/FSDS-module2/BatchProcessing/SparkProcessing.excalidraw.md",
     "Excalidraw/FSDS-module2/StreamProcessing",
-    "Pasted Image 20250501201050_753.png",
     "Excalidraw/FSDS-module2/Data Architecture/DataLakeMinIO.excalidraw.md",
     "Excalidraw/FSDS-module2/Data Architecture/DataProcessingArchitect.excalidraw.md",
     "Excalidraw/FSDS-module2/Source System/SourceSystems.excalidraw.md",
@@ -226,8 +267,6 @@
     "FSDS/FSDS-module2/Untitled.md",
     "FSDS/FSDS-module1/Kubernetes.md",
     "Excalidraw/FSDS-module1/k8sPort.excalidraw.md",
-    "Pasted Image 20250430200323_701.png",
-    "Pasted Image 20250430195656_876.png",
     "Excalidraw/FSDS-module1/LoggingArchitecture.excalidraw.md",
     "Excalidraw/FSDS-module3/TrainingAndInference.excalidraw.md",
     "FSDS/FSDS-module3/High Performance Python.md",
@@ -236,23 +275,17 @@
     "Excalidraw/FSDS-module4/LLMOps.excalidraw.md",
     "Excalidraw/FSDS-module4/DesignPatterns.excalidraw.md",
     "Excalidraw/FSDS-module3/HighPerfPython.excalidraw.md",
-    "Pasted Image 20250430062657_528.png",
-    "Pasted Image 20250430053441_314.png",
-    "Pasted Image 20250430053114_413.png",
     "Data Science/Machine Learning/Clustering algorithm/Metrics.md",
     "Data Science/Machine Learning/Clustering algorithm/Clustering Algorithm.md",
     "Data Science/Basic Deep Learning/Loss function/1. Cross Entropy Loss.md",
     "Data Science/Basic Deep Learning/Loss function/0. Why Loss function.md",
     "Excalidraw/FSDS-module4/DatabaseManipulation.excalidraw.md",
-    "Excalidraw/FSDS-module4/Untitled.md",
     "Excalidraw/FSDS-module4",
     "Excalidraw/FSDS-module1",
     "FSDS/FSDS-module1",
     "FSDS/FSDS-module4",
-    "FSDS/FSDS-module2/Source System.md",
     "FSDS/FSDS-module3",
     "FSDS",
-    "Excalidraw/FSDS-module3",
-    "Excalidraw/FSDS-module2/Data Architecture/DataArchitecture.excalidraw.md"
+    "Excalidraw/FSDS-module3"
   ]
 }
