@@ -11,26 +11,24 @@
             "id": "8e0e6b1deed91fd4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "FSDS-module2/Source System.md",
-                "mode": "source",
-                "source": false
+                "file": "Excalidraw/FSDS-module2/Data Architecture/DataLakeMinIO.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "Source System"
+              "icon": "excalidraw-icon",
+              "title": "DataLakeMinIO.excalidraw"
             }
           },
           {
-            "id": "0f771c99f1912934",
+            "id": "fb8212c972a45b25",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/FSDS-module2/DataStorage/DataStorage.excalidraw.md"
+                "file": "Excalidraw/Alteryx/InDB-Stream.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "DataStorage.excalidraw"
+              "title": "InDB-Stream.excalidraw"
             }
           }
         ],
@@ -87,12 +85,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7eddd666c44c65fe",
@@ -183,21 +181,25 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0f771c99f1912934",
+  "active": "fb8212c972a45b25",
   "lastOpenFiles": [
-    "Excalidraw/FSDS-module2/Source System/SourceSystems.excalidraw.md",
+    "Excalidraw/Alteryx/InDB-Stream.excalidraw.md",
+    "Excalidraw/FSDS-module2/Data Architecture/DataLakeMinIO.excalidraw.md",
+    "uuid-4e0452cb-2a36-353f-92d7-bbb6032ab143.png",
+    "uuid-44c7f9d3-5dab-b8e3-89e0-b62d271e5a7d.png",
+    "Excalidraw/Alteryx",
+    "Excalidraw/FSDS-module2/Data Architecture/DataArchitecture.excalidraw.md",
     "FSDS-module2/Source System.md",
+    "Excalidraw/FSDS-module2/Source System/SourceSystems.excalidraw.md",
     "Excalidraw/FSDS-module2/DataStorage/DataStorage.excalidraw.md",
     "img/Pasted Image 20250427181217_205.png",
     "img/Pasted Image 20250427173938_294.png",
     "img/Pasted image 20250427062828.png",
     "Excalidraw/FSDS-module2/DataStorage",
-    "Excalidraw/FSDS-module2/Data Architecture/DataArchitecture.excalidraw.md",
     "FSDS-module2/Data Architecture.md",
     "Data Science/MLOps/Coursera DevOps/5 - Application Development using Microservices and Serverless/1. Microservices.md",
     "Excalidraw/FSDS-module2/Source System",
     "FSDS-module2/Untitled.md",
-    "Excalidraw/FSDS-module2/Data Architecture/DataLakeMinIO.excalidraw.md",
     "Excalidraw/FSDS-module2/Data Architecture/DataProcessingArchitect.excalidraw.md",
     "Excalidraw/FSDS-module2/Data Architecture",
     "Excalidraw/FSDS-module2",
@@ -217,18 +219,14 @@
     "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Security.md",
     "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Monitoring and Analytics, Pricing and Support.md",
     "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Migration and Innovation, the Cloud Journey.md",
-    "Data Science/Data Engineer/AWS Cloud Practitioner Essentials/Introduction to Amazon Web Services, Compute in the Cloud.md",
     "Data Engineer",
     "Excalidraw",
     "Data Science/Business Intelligence/Business Intelligence Glossary.docx",
     "Business Intelligence Glossary.docx",
-    "Data Science/Business Intelligence/Course 1 - Foundation of Business Intelligence/M56bOO_cSVORaP4Cq9r-fA_3fab5a0b88c14e31a071df0d355de7f1_Business-Intelligence-Certificate-glossary 1.docx",
     "img/Pasted image 20240629145759.png",
     "img/Pasted image 20240629164926.png",
     "img/Y5qYKwMnQKq_ZFAtJ-8zPg_d612840a6c9d46f6bb1569298ec06ff1_Course2Roadmap.jpg",
     "img/Pasted image 20240627141202.png",
-    "img/Pasted image 20240627141729.png",
-    "img/Pasted image 20240627141537.png",
-    "img/Pasted image 20240627141405.png"
+    "img/Pasted image 20240627141729.png"
   ]
 }
