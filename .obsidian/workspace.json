@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Engineering/Coursera/Getting started with Git and GitHub/Git workflows with Git commands.md",
+                "file": "MLOps/AIO/Web Deployment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git workflows with Git commands"
+              "title": "Web Deployment"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Engineering/Coursera/Getting started with Git and GitHub/Git workflows with Git commands.md",
+                "file": "MLOps/AIO/Web Deployment.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Git workflows with Git commands"
+              "title": "Outline of Web Deployment"
             }
           }
         ],
@@ -174,6 +174,25 @@
   },
   "active": "fa242a15b2f8c7ba",
   "lastOpenFiles": [
+    "MLOps/AIO/Model Quantization.md",
+    "MLOps/AIO/Model Pruning.md",
+    "Terminology.md",
+    "attachments/Pasted image 20240314133654.png",
+    "attachments/TaxTable.png",
+    "attachments/pro_forma7.png",
+    "attachments/pro_forma6.png",
+    "attachments/pro_forma5.tif",
+    "attachments/pro_forma5.png",
+    "attachments/pro_forma4.png",
+    "attachments/pro_forma3.png",
+    "attachments/pro_forma2.png",
+    "attachments/pro_forma1.png",
+    "attachments/pro_forma0.png",
+    "Software Engineering/Coursera/Getting started with Git and GitHub/Git workflows with Git commands.md",
+    "attachments/For fun/Invitation making app.md",
+    "attachments/images",
+    "attachments/For fun",
+    "attachments",
     "Projects/Project List.md",
     "Projects/Introduction.md",
     "Finance/Bank Management and Strategy.md",
@@ -196,29 +215,10 @@
     "Finance/Corporate Finance/7. Short-term Finance/Content/Chapter 26 - Short-term Finance and Planning.md",
     "Finance/Corporate Finance/5. Long-term Financing/Content/Chapter 19 - Dividends and Other Payouts.md",
     "Finance/Corporate Finance/4. Capital Structure and Dividend Policy/Content/Chapter 16 - Capital Structure.md",
-    "Finance/Corporate Finance/4. Capital Structure and Dividend Policy/Content/Chapter 15 - Long-term Financing.md",
-    "Finance/Corporate Finance/2. Valuation and Capital Budgeting/Images/BCDKT-TT.png",
-    "Finance/Corporate Finance/1. Overview/Images/pro_forma7.png",
-    "Finance/Corporate Finance/1. Overview/Images/pro_forma6.png",
     "Finance/Corporate Finance/1. Overview/Images/pro_forma5.tif",
-    "Finance/Corporate Finance/1. Overview/Images/pro_forma5.png",
-    "Finance/Corporate Finance/1. Overview/Images/pro_forma4.png",
-    "Finance/Corporate Finance/1. Overview/Images/pro_forma3.png",
-    "Finance/Corporate Finance/1. Overview/Images/pro_forma2.png",
-    "Finance/Corporate Finance/1. Overview/Images/pro_forma1.png",
-    "Finance/Corporate Finance/1. Overview/Images/pro_forma0.png",
-    "Finance/Corporate Finance/1. Overview/Images/TaxTable.png",
-    "Finance/Corporate Finance/1. Overview/Content/Chapter 3 - Financial Statement Analysis and Financial Models.md",
-    "Finance/Corporate Finance/1. Overview/Content/Chapter 2 - Financial Statements and Cash Flow.md",
-    "Finance/Corporate Finance/1. Overview/Content/Chapter 1 - Introduction to Corporate Finance.md",
-    "Finance/Corporate Finance/7. Short-term Finance/Short-term Finance.md",
     "Finance/Corporate Finance/7. Short-term Finance/Content",
     "Finance/Corporate Finance/5. Long-term Financing/Content",
     "Finance/Corporate Finance/4. Capital Structure and Dividend Policy/Content",
-    "Finance/Corporate Finance/2. Valuation and Capital Budgeting/Images",
-    "Finance/Corporate Finance/1. Overview/Images",
-    "Finance/Corporate Finance/1. Overview/Content",
-    "Finance/Corporate Finance/7. Short-term Finance",
-    "Finance/Corporate Finance/5. Long-term Financing"
+    "Finance/Corporate Finance/2. Valuation and Capital Budgeting/Images"
   ]
 }
