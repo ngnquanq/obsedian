@@ -4,87 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "db3c44fa82480a75",
+        "id": "5f3ef5ec494b5072",
         "type": "tabs",
         "children": [
           {
-            "id": "60ce93d1caa9ffda",
+            "id": "fa242a15b2f8c7ba",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "img/Pasted Image 20250430053114_413.png"
+                "file": "Finance/Quản trị và chiến lược ngân hàng/Chương 2 - Tác động của chính sách và quy định của chính phủ đối với ngành dịch vụ tài chính..md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted Image 20250430053114_413"
-            }
-              "icon": "excalidraw-icon",
-              "title": "SparkProcessing.excalidraw"
-            }
-          },
-          {
-            "id": "55d718eb661e11d1",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/FSDS-module2/StreamProcessing/StreamProcessing.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "StreamProcessing.excalidraw"
-            }
-          },
-          {
-            "id": "f0e29c585d68f31f",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Alteryx/InDB-Stream.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "InDB-Stream.excalidraw"
-            }
-          },
-          {
-            "id": "e6c17d0ca0c907fc",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Alteryx/Macros.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Macros.excalidraw"
-            }
-          },
-          {
-            "id": "307bfe3196b2afe2",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "img/Pasted Image 20250504123110_573.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted Image 20250504123110_573"
-            }
-          },
-          {
-            "id": "0392e89b24563084",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "img/Pasted Image 20250504131053_853.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted Image 20250504131053_853"
+              "icon": "lucide-file",
+              "title": "Chương 2 - Tác động của chính sách và quy định của chính phủ đối với ngành dịch vụ tài chính."
             }
           }
         ]
-        ],
-        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -116,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#excalidraw",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -141,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 200
   },
   "right": {
     "id": "7eddd666c44c65fe",
@@ -157,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FSDS-module2/Source System.md",
+                "file": "Untitled 3.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Source System"
+              "title": "Backlinks for Untitled 3"
             }
           },
           {
@@ -205,16 +142,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FSDS-module2/Source System.md",
+                "file": "Finance/Quản trị và chiến lược ngân hàng/Chương 2 - Tác động của chính sách và quy định của chính phủ đối với ngành dịch vụ tài chính..md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Source System"
+              "title": "Outline of Chương 2 - Tác động của chính sách và quy định của chính phủ đối với ngành dịch vụ tài chính."
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -223,70 +161,64 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "01f299130ab03555",
-  "active": "0392e89b24563084",
+  "active": "fa242a15b2f8c7ba",
   "lastOpenFiles": [
-    "img/Pasted Image 20250504123110_573.png",
-    "Excalidraw/Alteryx/Macros.excalidraw.md",
-    "img/Pasted Image 20250504131053_853.png",
-    "img/Pasted Image 20250504124304_879.png",
-    "Excalidraw/Alteryx/InDB-Stream.excalidraw.md",
-    "img/uuid-44c7f9d3-5dab-b8e3-89e0-b62d271e5a7d.png",
-    "img/uuid-4e0452cb-2a36-353f-92d7-bbb6032ab143.png",
-    "img/Pasted Image 20250502041121_308.png",
-    "img/Pasted Image 20250502041045_124.png",
-    "img/Pasted Image 20250501201050_753.png",
-    "Excalidraw/FSDS-module2/PipelineOrchestration/PipelineOrchestration.excalidraw.md",
-    "Excalidraw/FSDS-module2/BatchProcessing/SparkProcessing.excalidraw.md",
-    "Excalidraw/FSDS-module2/FeatureStore",
-    "img/Pasted Image 20250502185521_850.png",
-    "Excalidraw/FSDS-module2/StreamProcessing/StreamProcessing.excalidraw.md",
-    "Excalidraw/FSDS-module2/PipelineOrchestration",
-    "img/Pasted Image 20250502042025_523.png",
-    "img/Pasted Image 20250502041121_308.png",
-    "img/Pasted Image 20250502041045_124.png",
-    "img/Pasted Image 20250502041017_298.png",
-    "img/Pasted Image 20250502042025_523.png",
-    "img/Pasted Image 20250502041017_298.png",
-    "Excalidraw/FSDS-module2/BatchProcessing/SparkProcessing.excalidraw.md",
-    "Excalidraw/FSDS-module2/StreamProcessing",
-    "img/Pasted Image 20250501201050_753.png",
-    "Excalidraw/FSDS-module2/Data Architecture/DataLakeMinIO.excalidraw.md",
-    "Excalidraw/FSDS-module2/Data Architecture/DataProcessingArchitect.excalidraw.md",
-    "Excalidraw/FSDS-module2/Source System/SourceSystems.excalidraw.md",
-    "Excalidraw/FSDS-module2/BatchProcessing",
-    "Excalidraw/FSDS-module2/DataStorage/DataStorage.excalidraw.md",
-    "FSDS/FSDS-module2/Untitled.md",
-    "FSDS/FSDS-module1/Kubernetes.md",
-    "Excalidraw/FSDS-module1/k8sPort.excalidraw.md",
+    "Data Science/Cyber Security/CISSP/Domain 5 - Identity and Access Management/Domain 5 - IAM.md.tmp.57632.ae983b6bb5ce",
+    "Data Science/Cyber Security/CISSP/Domain 5 - Identity and Access Management/Domain 5 - IAM.md.tmp.57632.60ea68577abf",
+    "Data Science/Cyber Security/CISSP/Domain 5 - Identity and Access Management/Domain 5 - IAM.md.tmp.57632.633a0d2fcd1e",
+    "Data Science/Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/AD-Application-Integration.md.tmp.57632.aed02cecd9a7",
+    "Data Science/Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/AD-Application-Integration.md.tmp.57632.9028e838f2cc",
+    "Data Science/Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/AD-File-Shares-NAS-DFS.md",
+    "Data Science/Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/AD-File-Shares-NAS-DFS.md.tmp.57632.232a2d23050d",
+    "Finance/Quản trị và chiến lược ngân hàng.md",
+    "Finance/Quản trị và chiến lược ngân hàng/Chương 5 - Báo cáo tài chính của các ngân hàng và đối thủ cạnh tranh của họ..md",
+    "Finance/Quản trị học.md",
+    "Finance/Lý thuyết trò chơi.md",
+    "Data Science/Basic Computer Science/Operating system/35 - Preemptive and Non-Preemptive Scheduling.md",
+    "Data Science/Business Intelligence/Course 1 - Foundation of Business Intelligence/A. Get started with Business Intelligence.md",
+    "sqlQueryProcess.png",
+    "Untitled 3.base",
+    "Untitled 4.base",
+    "Untitled.base",
+    "Untitled 2.base",
+    "Untitled 1.base",
+    "Untitled.md",
+    "Pasted Image 20250830155944_974.png",
+    "Pasted Image 20250830155542_410.png",
+    "Pasted Image 20250630220706_856.png",
+    "Excalidraw/FSDS-module1/Obseravation.excalidraw.md",
     "Excalidraw/FSDS-module1/LoggingArchitecture.excalidraw.md",
-    "Excalidraw/FSDS-module3/TrainingAndInference.excalidraw.md",
-    "FSDS/FSDS-module3/High Performance Python.md",
-    "Excalidraw/FSDS-module4/DistributedTraining.excalidraw.md",
-    "Excalidraw/FSDS-module4/DataHub.excalidraw.md",
-    "Excalidraw/FSDS-module4/LLMOps.excalidraw.md",
-    "Excalidraw/FSDS-module4/DesignPatterns.excalidraw.md",
-    "Excalidraw/FSDS-module3/HighPerfPython.excalidraw.md",
-    "Data Science/Machine Learning/Clustering algorithm/Metrics.md",
-    "Data Science/Machine Learning/Clustering algorithm/Clustering Algorithm.md",
-    "Data Science/Basic Deep Learning/Loss function/1. Cross Entropy Loss.md",
-    "Data Science/Basic Deep Learning/Loss function/0. Why Loss function.md",
-    "Excalidraw/FSDS-module4/DatabaseManipulation.excalidraw.md",
-    "Excalidraw/FSDS-module4",
-    "Excalidraw/FSDS-module1",
-    "FSDS/FSDS-module1",
-    "FSDS/FSDS-module4",
-    "FSDS/FSDS-module3",
-    "FSDS",
-    "Excalidraw/FSDS-module3"
+    "Excalidraw/FSDS-module1/k8sPort.excalidraw.md",
+    "img/Pasted Image 20250430195656_876.png",
+    "Data Science/Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/AD-LDAP-Fundamentals.md",
+    "Data Science/Cyber Security/CISSP/Domain 5 - Identity and Access Management/Domain 5 - IAM.md",
+    "Data Science/Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/IAM-Overview.md",
+    "Data Science/Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/AD-Domain-Forest-Trusts.md",
+    "Data Science/Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/AD-Application-Integration.md",
+    "Data Science/Network Engineering/fundamentalNetworking.md",
+    "Data Science/Cyber Security/Cyber Security.md",
+    "Data Science/Cyber Security/MITM attack.md",
+    "Data Science/Cyber Security/CTD UEH/Network.md",
+    "Data Science/Cyber Security/CTD UEH/Malware.md",
+    "Data Science/Cyber Security/CTD UEH/Maintain access rights.md",
+    "Data Science/Cyber Security/CTD UEH/Information Security Basics.md",
+    "Data Science/Cyber Security/CTD UEH/Hacking phase.md",
+    "Data Science/Cyber Security/CTD UEH/Erase Trace.md",
+    "img/Pasted image 20240328105833.png",
+    "img/Pasted image 20240409170038.png",
+    "img/Pasted image 20240409155048.png",
+    "img/Pasted image 20240318180855.png",
+    "img/Databases_and_SQL.svg"
   ]
 }

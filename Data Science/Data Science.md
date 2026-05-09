@@ -32,12 +32,11 @@
 # XAI
 1. [[Trustworthy and Explainable AI]]
 
-<<<<<<< HEAD
 # Machine Learning
-=======
-# Project
+1. [[Machine Learning]]
+
+# Projects
 1. [[Enefit]] - Energy consuming 
 2. [[Fraud Detection using ML]]
 3. [[Neural Style Transfer]]
-4. 
-
+4. [[Danh sách đề tài]]
