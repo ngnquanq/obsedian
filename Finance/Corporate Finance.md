@@ -1,11 +1,9 @@
-[[Tổng quan]]
+[[Overview]]
 
-[[Định giá và hoạch định ngân sách vốn]]
+[[Valuation and Capital Budgeting]]
 
-[[Cấu trúc vốn và chính sách cổ tức]]
+[[Capital Structure and Dividend Policy]]
 
-[[Tài trợ dài hạn]]
+[[Long-term Financing]]
 
-[[Tài chính ngắn hạn]]
-
-
+[[Short-term Finance]]

@@ -1,3 +1,3 @@
-[[Chương 15 - Tài trợ dài hạn]]
+[[Chapter 15 - Long-term Financing]]
 
-[[Chương 16 - Cấu trúc vốn]]
+[[Chapter 16 - Capital Structure]]

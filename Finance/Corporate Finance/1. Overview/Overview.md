@@ -1,8 +1,5 @@
-[[Chương 1 - Giới thiệu về tài chính doanh nghiệp]]
+[[Chapter 1 - Introduction to Corporate Finance]]
 
-[[Chương 2 - Các báo cáo tài chính và dòng tiền]]
+[[Chapter 2 - Financial Statements and Cash Flow]]
 
-[[Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính]]
-
-
-
+[[Chapter 3 - Financial Statement Analysis and Financial Models]]

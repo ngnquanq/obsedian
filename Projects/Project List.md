@@ -1,5 +1,5 @@
 
-Before heading to this, please read the [[Mở đầu.]] for more information. 
+Before heading to this, please read the [[Introduction]] for more information. 
 ## 1. NLP
 * Machine Translation
 * Chatbot

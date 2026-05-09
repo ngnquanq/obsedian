@@ -1,2 +1,1 @@
-[[Chương 26 - Tài chính ngắn hạn và lập kế hoạch tài chính ngắn hạn (Short-Tẻm Finance and Planning)]]
-
+[[Chapter 26 - Short-term Finance and Planning]]

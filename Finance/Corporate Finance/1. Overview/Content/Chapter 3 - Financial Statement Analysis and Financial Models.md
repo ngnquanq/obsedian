@@ -186,7 +186,7 @@ $$
 $$
 \text{Tỷ suất sinh lợi trên vốn chủ sở hữu} = \frac{\text{Lợi nhuận ròng}}{\text{Vốn chủ sở hữu}}
 $$
-Một lưu ý khác cần được lưu tâm đó là việc công ty có [[Chương 3 - Phân tích báo cáo tài chính và các mô hình tài chính]]
+Một lưu ý khác cần được lưu tâm đó là việc công ty có [[Chapter 3 - Financial Statement Analysis and Financial Models]]
 
 **Chứng minh:**
 

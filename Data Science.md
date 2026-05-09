@@ -23,7 +23,7 @@
 [[Data Engineer]]
 
 # Projects
-[[Danh sách đề tài]]
+[[Project List]]
 
 # Basic Deep Learning
 1. [[Loss function]]
@@ -39,4 +39,4 @@
 1. [[Enefit]] - Energy consuming 
 2. [[Fraud Detection using ML]]
 3. [[Neural Style Transfer]]
-4. [[Danh sách đề tài]]
+4. [[Project List]]
