@@ -99,7 +99,7 @@ When you access a file share over the network, two separate permission layers ar
 - Three coarse-grained options: **Full Control**, **Change**, **Read**
 - Applies to the entire share — no per-folder granularity
 
-### NTFS Permissions
+### NTFS (New Technology File System) Permissions
 
 - Stored in the **file system** itself (in the file/folder's ACL on disk)
 - Enforced for **both local and network access**
@@ -181,7 +181,7 @@ If the NAS is in `corp.example.com` and you need contractors from `partner.examp
 "DFS" is two separate Microsoft technologies that share a name and are often deployed together but are architecturally independent.
 
 ### DFS Namespace (DFS-N)
-
+	
 DFS Namespace creates a **virtual folder tree** that maps user-facing paths to real shares on real servers.
 
 ```

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5f3ef5ec494b5072",
+        "id": "05d9b594be1c685c",
         "type": "tabs",
         "children": [
           {
-            "id": "fa242a15b2f8c7ba",
+            "id": "9619f01a9191ff96",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Cyber Security/CISSP/Domain 5 - Identity and Access Management/Domain 5 - IAM.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Domain 5 - IAM"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#excalidraw",
+                "query": "nab",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "7eddd666c44c65fe",
@@ -138,12 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Cyber Security/CISSP/Domain 5 - Identity and Access Management/Domain 5 - IAM.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Domain 5 - IAM"
             }
           }
         ],
@@ -167,12 +173,42 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "fa242a15b2f8c7ba",
+  "active": "9619f01a9191ff96",
   "lastOpenFiles": [
-    "MLOps/AIO/Web Deployment.md",
-    "MLOps/AIO/Model Quantization.md",
-    "MLOps/AIO/Model Pruning.md",
-    "Terminology.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/AD-File-Shares-NAS-DFS.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/06-reference/further-reading.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/06-reference/common-error-codes.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/06-reference",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/05-dashboard-guide/system-health-dashboard.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/05-dashboard-guide/session-monitoring-dashboard.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/05-dashboard-guide/power-bi-integration.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/05-dashboard-guide/password-management-dashboard.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/05-dashboard-guide/key-metrics-and-kpis.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/05-dashboard-guide/compliance-dashboard.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/05-dashboard-guide",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/04-glossary/glossary.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/04-glossary",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/03-key-entities/users-and-groups.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/03-key-entities/sessions.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/03-key-entities/safes.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/03-key-entities/policies-and-permissions.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/03-key-entities/platforms.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/03-key-entities/accounts.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/03-key-entities",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/02-architecture/pvwa.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/02-architecture/pta.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/02-architecture/psm.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/02-architecture/overview.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/02-architecture/digital-vault.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/02-architecture/deployment-models.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/02-architecture/cpm.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/02-architecture/aam-ccp.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/02-architecture",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/01-core-concepts/why-pam-matters.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/01-core-concepts/what-is-pam.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/01-core-concepts",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM",
+    "Untitled.base",
     "attachments/Pasted image 20240314133654.png",
     "attachments/TaxTable.png",
     "attachments/pro_forma7.png",
@@ -184,36 +220,6 @@
     "attachments/pro_forma2.png",
     "attachments/pro_forma1.png",
     "attachments/pro_forma0.png",
-    "Software Engineering/Coursera/Getting started with Git and GitHub/Git workflows with Git commands.md",
-    "attachments/For fun/Invitation making app.md",
-    "attachments/images",
-    "attachments/For fun",
-    "attachments",
-    "Projects/Project List.md",
-    "Projects/Introduction.md",
-    "Finance/Bank Management and Strategy.md",
-    "Finance/Bank Management and Strategy/Chapter 7 - Managing Interest Rate Risk - Asset-Liability and Duration Management Techniques.md",
-    "Finance/Bank Management and Strategy/Chapter 6 - Measuring and Evaluating the Performance of Banks and Their Competitors.md",
-    "Finance/Bank Management and Strategy/Chapter 5 - Financial Statements of Banks and Their Competitors.md",
-    "Finance/Bank Management and Strategy/Chapter 4 - Establishing New Banks, Branches, ATMs, Telephone Services and Websites.md",
-    "Finance/Bank Management and Strategy/Chapter 3 - Organization and Structure of the Banking and Financial Services Industry.md",
-    "Finance/Bank Management and Strategy/Chapter 2 - Impact of Government Policy and Regulation on the Financial Services Industry.md",
-    "Finance/Bank Management and Strategy/Chapter 1 - Overview of the Changing Financial Services Industry.md",
-    "Finance/Bank Management and Strategy",
-    "Finance/Quản trị và chiến lược ngân hàng/Chapter 7 - Managing Interest Rate Risk - Asset-Liability and Duration Management Techniques.md",
-    "Finance/Quản trị và chiến lược ngân hàng/Chapter 6 - Measuring and Evaluating the Performance of Banks and Their Competitors.md",
-    "Finance/Quản trị và chiến lược ngân hàng/Chapter 5 - Financial Statements of Banks and Their Competitors.md",
-    "Finance/Quản trị và chiến lược ngân hàng/Chapter 4 - Establishing New Banks, Branches, ATMs, Telephone Services and Websites.md",
-    "Finance/Quản trị và chiến lược ngân hàng/Chapter 3 - Organization and Structure of the Banking and Financial Services Industry.md",
-    "Finance/Quản trị và chiến lược ngân hàng/Chapter 2 - Impact of Government Policy and Regulation on the Financial Services Industry.md",
-    "Finance/Quản trị và chiến lược ngân hàng/Chapter 1 - Overview of the Changing Financial Services Industry.md",
-    "Finance/Corporate Finance.md",
-    "Finance/Corporate Finance/7. Short-term Finance/Content/Chapter 26 - Short-term Finance and Planning.md",
-    "Finance/Corporate Finance/5. Long-term Financing/Content/Chapter 19 - Dividends and Other Payouts.md",
-    "Finance/Corporate Finance/1. Overview/Images/pro_forma5.tif",
-    "Finance/Corporate Finance/7. Short-term Finance/Content",
-    "Finance/Corporate Finance/5. Long-term Financing/Content",
-    "Finance/Corporate Finance/4. Capital Structure and Dividend Policy/Content",
-    "Finance/Corporate Finance/2. Valuation and Capital Budgeting/Images"
+    "attachments/images"
   ]
 }

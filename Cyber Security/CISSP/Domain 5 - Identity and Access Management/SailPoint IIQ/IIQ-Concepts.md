@@ -92,7 +92,7 @@ When account aggregation runs:
 5. Entitlements previously seen but now absent are marked `aggregation_state = 'Disconnected'`
 6. Results are logged in `spt_task_result`
 
-**What this means for your data**: IIQ data is only as fresh as the last aggregation. The `spt_link.last_refresh` and `spt_identity.last_refresh` timestamps tell you when data was last pulled. If an aggregation hasn't run in a week, the entitlement data is a week old. IIQ is a **snapshot**, not a real-time mirror. See [IIQ-Data-Flows.md — Aggregation Flow](IIQ-Data-Flows.md#1-aggregation-flow) for the complete step-by-step process.
+**What this means for your data**: IIQ data is only as fresh as the last aggregation. The `spt_link.last_refresh` and `spt_identity.last_refresh` timestamps tell you when data was last pulled. If an aggregation hasn't run in a week, the entitlement data is a week old. The cube is a **mutable current-state store, overwritten on every aggregation** — it is neither a real-time mirror of the target systems nor a historical record of what they used to be. See [IIQ-Data-Flows.md — Aggregation Flow](IIQ-Data-Flows.md#1-aggregation-flow) for the complete step-by-step process.
 
 ### Correlation
 
@@ -257,9 +257,14 @@ Every timestamp in IIQ is a `BIGINT` storing **milliseconds since January 1, 197
 
 All primary keys are `VARCHAR(128)` containing GUIDs like `2c9084ee8234ab01018234b5c6700012`. They are not sequential, not sortable by creation order, and not predictable. Use `created` timestamps to determine chronological order, not ID values.
 
-### "Snapshots, not real-time"
+### "Current-state, not real-time and not historical"
 
-IIQ data reflects the state of connected systems **at the time of the last aggregation**. Between aggregations, reality and the IIQ database can diverge. A common mistake is treating IIQ data as current — always ask "when was this last aggregated?" before drawing conclusions.
+IIQ's cube tables (`spt_identity`, `spt_link`, `spt_identity_entitlement`, `spt_bundle`) are **mutable current-state stores**, not snapshots. Each aggregation **overwrites** the previous values; removed entitlements are hard-deleted; there is no `valid_from`/`valid_to`. This produces two distinct failure modes the analyst must keep separate:
+
+- **Not real-time** — between aggregations, reality and the cube diverge. An entitlement created on the target 30 minutes ago will not appear until the next aggregation. Always check `spt_link.last_refresh` before treating cube data as authoritative.
+- **Not historical** — once the next aggregation runs, the previous cube state is gone. The cube cannot answer *"what did Jane have last quarter?"* because that information has been overwritten. Historical reconstruction requires the optional archive layer (`spt_identity_snapshot` if enabled) or replay from the event tables (`spt_provisioning_transaction`, `spt_audit_event`). See [IIQ-Analyst-Playbook.md — Point-in-time access reconstruction](IIQ-Analyst-Playbook.md#point-in-time-access-reconstruction).
+
+The colloquial phrase "IIQ shows you a snapshot" describes how the cube *looks* at any given moment, but it misleads stakeholders into thinking IIQ *stores* snapshots — it does not. A true snapshot system preserves point-in-time copies; IIQ's cube preserves only the most recent overwrite. Use **"current-state"** or **"last-write-wins"** with anyone making retention or audit decisions.
 
 ### "Absence of evidence is not evidence of absence"
 

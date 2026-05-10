@@ -300,6 +300,277 @@ GROUP BY pt.operation, pt.status, pt.source
 ORDER BY action_count DESC;
 ```
 
+### Point-in-time access reconstruction
+
+**Context**: An auditor, regulator, or investigator asks "what logical access did each employee have on date `T`?" IIQ's cube tables (`spt_identity_entitlement`, `spt_link`, etc.) are **mutable current-state stores** — each aggregation overwrites the previous values, with no historical preservation. (See [IIQ-Concepts.md — Current-state, not real-time and not historical](IIQ-Concepts.md#current-state-not-real-time-and-not-historical) for why this matters.) Reconstruction is possible but the approach depends on what your deployment retains in its **archive layer** or **event layer**. Choose by decision tree:
+
+```
+Q: Does spt_identity_snapshot contain rows on or before T?
+   YES  → Approach A: parse the snapshot XML        (most accurate)
+   NO   → Q: Does spt_certification_archive cover T?
+          YES  → Approach B: extract from cert archive (coarse but reliable, scoped)
+          NO   → Q: Does spt_provisioning_transaction retention reach T?
+                 YES  → Approach C: reverse-walk current state with deltas
+                 NO   → Reconstruction is NOT POSSIBLE from IIQ alone.
+                        Fall back to target-system audit logs.
+```
+
+#### Step 1 — Pre-flight: confirm retention covers your target date
+
+Run **before** promising anything to the requester. If the oldest row in any source is *after* `T`, that source can't help.
+
+```sql
+/* (A) Identity snapshots — best source if enabled */
+SELECT 'identity_snapshot' AS source, COUNT(*) AS row_count,
+       TO_DATE('1970-01-01','YYYY-MM-DD') + (MIN(created) / 1000 / 86400) AS oldest,
+       TO_DATE('1970-01-01','YYYY-MM-DD') + (MAX(created) / 1000 / 86400) AS newest
+FROM spt_identity_snapshot
+UNION ALL
+SELECT 'certification_archive', COUNT(*),
+       TO_DATE('1970-01-01','YYYY-MM-DD') + (MIN(created) / 1000 / 86400),
+       TO_DATE('1970-01-01','YYYY-MM-DD') + (MAX(created) / 1000 / 86400)
+FROM spt_certification_archive
+UNION ALL
+SELECT 'provisioning_transaction', COUNT(*),
+       TO_DATE('1970-01-01','YYYY-MM-DD') + (MIN(created) / 1000 / 86400),
+       TO_DATE('1970-01-01','YYYY-MM-DD') + (MAX(created) / 1000 / 86400)
+FROM spt_provisioning_transaction
+UNION ALL
+SELECT 'audit_event', COUNT(*),
+       TO_DATE('1970-01-01','YYYY-MM-DD') + (MIN(created) / 1000 / 86400),
+       TO_DATE('1970-01-01','YYYY-MM-DD') + (MAX(created) / 1000 / 86400)
+FROM spt_audit_event;
+```
+
+#### Approach A — Identity snapshot (best case)
+
+Use when `spt_identity_snapshot` has rows on or before `T`. For each identity, find the most recent snapshot at or before `T` and parse the embedded XML.
+
+```sql
+/* Find the closest snapshot per identity at or before the target date.
+   Replace <TARGET_EPOCH_MS> with: 
+     (TO_DATE('2026-01-31','YYYY-MM-DD') - TO_DATE('1970-01-01','YYYY-MM-DD')) * 86400 * 1000
+*/
+WITH closest AS (
+    SELECT s.identity_id, MAX(s.created) AS snapshot_created
+    FROM   spt_identity_snapshot s
+    WHERE  s.created <= <TARGET_EPOCH_MS>
+    GROUP  BY s.identity_id
+)
+SELECT
+    i.name                                                                AS identity_name,
+    i.display_name,
+    TO_DATE('1970-01-01','YYYY-MM-DD') + (s.created / 1000 / 86400)       AS snapshot_date,
+    s.attributes                                                          AS snapshot_xml /* CLOB — parse below */
+FROM spt_identity_snapshot s
+JOIN closest      c ON c.identity_id = s.identity_id AND c.snapshot_created = s.created
+JOIN spt_identity i ON s.identity_id = i.id
+WHERE i.correlated = 1 AND i.is_workgroup = 0;
+```
+
+Then parse the snapshot XML to extract account-level entitlements. Schemas vary slightly by version — validate the path against one sample row before bulk-parsing:
+
+```sql
+/* Oracle XMLTABLE parse — adjust XPath for your snapshot schema.
+   The typical structure is:
+     <IdentitySnapshot>
+       <links>
+         <AccountSnapshot application="...">
+           <attributes><Map><entry key="..."><value>...</value></entry></Map></attributes>
+         </AccountSnapshot>
+       </links>
+     </IdentitySnapshot>
+*/
+SELECT
+    i.name                                                                AS identity_name,
+    TO_DATE('1970-01-01','YYYY-MM-DD') + (s.created / 1000 / 86400)       AS snapshot_date,
+    xt.application,
+    xt.attribute_name,
+    xt.attribute_value
+FROM spt_identity_snapshot s
+JOIN spt_identity i ON s.identity_id = i.id,
+     XMLTABLE(
+         '/IdentitySnapshot/links/AccountSnapshot/attributes/Map/entry'
+         PASSING xmltype(s.attributes)
+         COLUMNS
+             application     VARCHAR2(256)  PATH 'ancestor::AccountSnapshot/@application',
+             attribute_name  VARCHAR2(256)  PATH '@key',
+             attribute_value VARCHAR2(2000) PATH 'value'
+     ) xt
+WHERE s.created BETWEEN <TARGET_EPOCH_MS> - 86400000 AND <TARGET_EPOCH_MS>
+ORDER BY identity_name, application, attribute_name;
+```
+
+**Practical notes**: XML parsing across millions of CLOBs is slow — stage the result into a flat reporting table once, query that. Only group memberships and role-related attributes are usually needed; filter `attribute_name IN ('memberOf', 'groups', 'roles', ...)` to your environment's relevant entitlement attributes.
+
+#### Approach B — Certification archive (coarse fallback)
+
+Use when no snapshot exists but a certification campaign was archived around `T`. Each archive captures who had what *within campaign scope* at campaign start.
+
+```sql
+/* List archives near T to pick the most relevant one */
+SELECT
+    ca.name                                                                AS campaign_name,
+    ca.parent                                                              AS definition_id,
+    TO_DATE('1970-01-01','YYYY-MM-DD') + (ca.created / 1000 / 86400)       AS archive_date,
+    LENGTH(ca.contents)                                                    AS archive_xml_size
+FROM spt_certification_archive ca
+WHERE ca.created BETWEEN <TARGET_EPOCH_MS> - 90 * 86400000
+                     AND <TARGET_EPOCH_MS> + 90 * 86400000
+ORDER BY ABS(ca.created - <TARGET_EPOCH_MS>);
+```
+
+Then parse `ca.contents` (compressed XML — your DBA may need to decompress with `UTL_COMPRESS` or equivalent first):
+
+```sql
+/* Adjust XPath for your IIQ version. Items live at:
+   /CertificationArchive/Certification/items/CertificationItem
+   with attributes describing the entitlement under review. */
+SELECT
+    ca.name AS campaign_name,
+    xt.reviewed_identity,
+    xt.application,
+    xt.attribute_name,
+    xt.attribute_value,
+    xt.action_status                                  /* Approved/Remediated when decided */
+FROM spt_certification_archive ca,
+     XMLTABLE(
+         '//CertificationItem'
+         PASSING xmltype(ca.contents)
+         COLUMNS
+             reviewed_identity VARCHAR2(256)  PATH '@parent',
+             application       VARCHAR2(256)  PATH 'exceptionEntitlements/Permission/@application',
+             attribute_name    VARCHAR2(256)  PATH 'exceptionEntitlements/Permission/@target',
+             attribute_value   VARCHAR2(2000) PATH 'exceptionEntitlements/Permission/rights',
+             action_status     VARCHAR2(64)   PATH 'action/@status'
+     ) xt
+WHERE ca.id = '<archive_id_from_previous_query>';
+```
+
+**How to read**: an entitlement appearing in the archive means the holder had it at campaign-creation time. **Caveat**: only entitlements *in the campaign scope* are present — out-of-scope applications are invisible.
+
+#### Approach C — Reverse-walk current state with provisioning deltas
+
+The most common workable approach when neither snapshot nor archive exists. Take today's state and back out every change that happened between `T` and now.
+
+```sql
+/* Step C1: Stage current state. This is your starting point. */
+CREATE TABLE rpt_pit_current AS
+SELECT
+    i.name        AS identity_name,
+    app.name      AS application_name,
+    ie.name       AS attribute_name,
+    ie.value      AS attribute_value,
+    'CURRENT'     AS state_source
+FROM spt_identity i
+JOIN spt_identity_entitlement ie ON i.id = ie.identity_id
+JOIN spt_application app ON ie.application = app.id
+WHERE i.correlated = 1 AND i.is_workgroup = 0
+  AND ie.aggregation_state = 'Connected';
+
+/* Step C2: Stage successful provisioning deltas in (T, NOW].
+   pt.attribute_request is a CLOB containing an AttributeRequest XML.
+   Typical structure:
+     <AttributeRequest name="memberOf" op="Add" value="CN=SAP_Approvers,..."/>
+*/
+CREATE TABLE rpt_pit_deltas AS
+SELECT
+    pt.identity_name,
+    pt.application_name,
+    pt.native_identity,
+    pt.operation                                                           AS account_op,    /* Create/Modify/Delete */
+    xt.attr_name,
+    xt.attr_op                                                             AS entitlement_op, /* Add/Remove/Set */
+    xt.attr_value,
+    pt.status,
+    TO_DATE('1970-01-01','YYYY-MM-DD') + (pt.created / 1000 / 86400)       AS action_date
+FROM spt_provisioning_transaction pt,
+     XMLTABLE(
+         '//AttributeRequest'
+         PASSING xmltype(pt.attribute_request)
+         COLUMNS
+             attr_name  VARCHAR2(256)  PATH '@name',
+             attr_op    VARCHAR2(32)   PATH '@op',
+             attr_value VARCHAR2(2000) PATH '@value'
+     ) xt
+WHERE pt.status = 'Committed'
+  AND pt.created > <TARGET_EPOCH_MS>
+  AND pt.created <= (SYSDATE - TO_DATE('1970-01-01','YYYY-MM-DD')) * 86400 * 1000;
+
+CREATE INDEX ix_pit_deltas ON rpt_pit_deltas(identity_name, application_name, attr_name, attr_value);
+
+/* Step C3: Reconstruct T-state. Logic:
+     T_state = CURRENT
+              MINUS  every (Add) between T and NOW   /* shouldn't have been there at T */
+              UNION  every (Remove) between T and NOW /* should have been there at T */
+*/
+CREATE TABLE rpt_pit_reconstructed AS
+SELECT identity_name, application_name, attribute_name AS attr_name, attribute_value AS attr_value
+FROM   rpt_pit_current
+MINUS
+SELECT identity_name, application_name, attr_name, attr_value
+FROM   rpt_pit_deltas
+WHERE  entitlement_op = 'Add'
+UNION
+SELECT identity_name, application_name, attr_name, attr_value
+FROM   rpt_pit_deltas
+WHERE  entitlement_op = 'Remove';
+
+/* Step C4: Final answer */
+SELECT * FROM rpt_pit_reconstructed
+WHERE identity_name = 'jsmith' /* filter as needed */
+ORDER BY identity_name, application_name, attr_name;
+```
+
+**How to read**: each row in `rpt_pit_reconstructed` represents an entitlement the identity *should have held* on date `T`, based on IIQ's record of changes since then.
+
+**Practical notes**:
+- `pt.attribute_request` XML schema varies — check one row of your data and adjust the XPath in Step C2.
+- For account-level events (`pt.operation IN ('Create','Delete')`), an account creation after `T` means the entire `spt_link` shouldn't have existed at `T`; an account deletion after `T` means the account's last-known entitlements should be added back. Handle these cases separately from per-attribute deltas.
+- Modifications to identity attributes (department, manager) need `spt_audit_event` to reverse — provisioning transactions only cover account/entitlement deltas.
+- Performance: stage everything, never join `spt_provisioning_transaction` directly to `spt_identity_entitlement` in a single query.
+
+#### The blind spot — disclose this to the requester
+
+> [!warning] Reconstruction is not forensic-grade
+> Whichever approach you use, reconstruction has a **fundamental gap**: any change made directly on a target system (an AD admin manually adding a user to a group, an SAP basis admin granting a transaction code) **bypasses IIQ entirely**. It only surfaces when the next aggregation runs, with no event timestamp other than "discovered at aggregation time T+n." The reconstruction will be wrong for any window that contains direct-target activity.
+>
+> **Disclosure template for the requester:**
+>
+> > *"The reconstruction reflects logical access as recorded by IIQ, based on \[snapshot / certification archive / current state ± provisioning deltas]. Direct administrative changes made on the target systems outside the IIQ workflow are not captured here and may have caused brief discrepancies between actual access and recorded access during the requested window. For forensic-grade reconstruction, this output must be combined with the target systems' own audit logs (AD security events, SAP change documents, database audit trails)."*
+
+#### Reconstruction sanity check
+
+Always validate before delivering. Pick five identities at known life-cycle moments (a recent joiner, a recent leaver, a recent role assignment, a recent role removal, a long-tenured stable user) and inspect their reconstructed state by hand against the source events:
+
+```sql
+/* For one identity, list every event that contributed to its reconstruction */
+SELECT
+    'PROVISIONING' AS source,
+    pt.application_name,
+    pt.operation,
+    pt.status,
+    TO_DATE('1970-01-01','YYYY-MM-DD') + (pt.created / 1000 / 86400) AS event_date
+FROM spt_provisioning_transaction pt
+WHERE pt.identity_name = 'jsmith'
+  AND pt.created > <TARGET_EPOCH_MS>
+UNION ALL
+SELECT
+    'AUDIT' AS source,
+    ae.application,
+    ae.action,
+    ae.string1,
+    TO_DATE('1970-01-01','YYYY-MM-DD') + (ae.created / 1000 / 86400)
+FROM spt_audit_event ae
+WHERE ae.target = 'jsmith'
+  AND ae.created > <TARGET_EPOCH_MS>
+ORDER BY event_date;
+```
+
+If the reconstructed state for the test identities doesn't match what their lifecycle history suggests, your XPath is wrong, your `T` boundary is off-by-one, or a retention purge has eaten data you assumed was present.
+
+---
+
 ### Roles created or modified recently
 
 ```sql

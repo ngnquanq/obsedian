@@ -2,6 +2,9 @@
 
 This document explains how CyberArk Privileged Access Management (PAM) and SailPoint IdentityIQ (IIQ) work together, the integration patterns available, and the end-to-end data flows between the two systems. For IIQ table structures, see [IIQ.md](IIQ.md). For IIQ data flow fundamentals, see [IIQ-Data-Flows.md](IIQ-Data-Flows.md).
 
+> [!tip] CyberArk-side reference material
+> For the CyberArk product itself — architecture, data model, dashboarding via Power BI — see the dedicated [[CyberArk PAM/README|CyberArk PAM Index]]. Quick entry points: [[what-is-cyberark]], [[CyberArk PAM/02-architecture/overview|CyberArk Architecture Overview]], [[safes]], [[accounts]], [[CyberArk PAM/04-glossary/glossary|CyberArk Glossary]].
+
 ---
 
 ## Why Integrate CyberArk with SailPoint IIQ?
