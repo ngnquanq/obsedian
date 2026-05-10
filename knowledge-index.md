@@ -95,3 +95,9 @@ Flat index of every major area in this vault. Load this file first to orient wit
 - `Playbooks/Start a New Project.md` — steps to initialize a new project in this vault
 - `Playbooks/Causal Analysis Checklist.md` — method selection and data readiness for causal inference
 - `Playbooks/Evaluate a Dataset.md` — dataset assessment before starting analysis
+
+---
+
+## Vault Meta
+
+- `Vault-Production-Roadmap.md` — roadmap for taking the vault to a production-grade knowledge hub; tracks retrieval, tool integration, guard-rails, and operational quality gaps

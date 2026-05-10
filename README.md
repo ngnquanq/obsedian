@@ -10,6 +10,7 @@ benchmark: Claude Code 40/40 · Codex 39/40 (2026-05-10)
 Personal knowledge base for CISSP exam preparation, enterprise IAM, data science, and machine learning. Notes are written for long-term retention — every note is independently useful weeks after it was written.
 
 For writing standards and folder conventions, see `CLAUDE.md`.
+For the roadmap toward a production-grade knowledge hub, see `Vault-Production-Roadmap.md`.
 
 ---
 
