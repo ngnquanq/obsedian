@@ -39,6 +39,8 @@ IAM is not a single tool. It is a layered set of technologies, each responsible 
 └─────────────────────────────────────────────────────┘
 ```
 
+![[IAM-Stack.excalidraw.md]]
+
 ### Directory Layer — Where Identities Live
 
 The directory is the foundation. It stores user accounts, groups, and the relationships between them. Every other layer reads from or writes back to the directory.
@@ -147,8 +149,35 @@ Banks, healthcare organisations, and government agencies have strict IAM require
 | **GDPR** | Right to erasure; data access limited to legitimate purpose |
 | **PCI-DSS** | Least privilege; MFA for cardholder data environments |
 | **Basel III / banking regs** | Privileged access controls; audit trails for sensitive operations |
+| **APRA CPS 230** | Operational resilience, critical operations, business continuity, and service provider risk management |
+| **APRA CPS 234** | Information security capability, security controls, testing, incident response, and APRA notification for material information security incidents |
 
 A governance tool like IIQ exists in these environments precisely to produce the audit evidence these regulations demand: who approved this access, when was it last reviewed, and who removed it.
+
+### APRA CPS 230 and CPS 234
+
+APRA is the Australian Prudential Regulation Authority. Its cross-industry prudential standards apply to APRA-regulated entities such as authorised deposit-taking institutions, insurers, private health insurers, and registrable superannuation entity licensees.
+
+| Standard | Focus | Why IAM matters |
+|---|---|---|
+| **[CPS 230 - Operational Risk Management](https://handbook.apra.gov.au/standard/cps-230)** | Requires APRA-regulated entities to manage operational risk, maintain critical operations within tolerance levels during severe disruptions, and manage risks from service providers. APRA lists CPS 230 as current from **1 July 2025**. | IAM supports operational resilience by controlling who can access critical systems, enforcing privileged access controls, preserving access review evidence, and reducing dependency risk when service providers administer important platforms. |
+| **[CPS 234 - Information Security](https://handbook.apra.gov.au/standard/cps-234)** | Requires APRA-regulated entities to maintain an information security capability proportionate to threats and information assets; implement controls based on asset criticality and sensitivity; test control effectiveness; and notify APRA of material information security incidents. APRA lists CPS 234 as current from **1 July 2019**. | IAM is one of the control families that protects confidentiality, integrity, and availability: authentication, authorization, least privilege, access revocation, privileged session control, and periodic certification all provide evidence that access to information assets is governed. |
+
+```
+APRA obligation
+    │
+    ▼
+Critical system or information asset identified
+    │
+    ▼
+IAM control applied: MFA, role, group, privilege vault, or access review
+    │
+    ▼
+Evidence retained: approval, certification, log, or removal record
+```
+
+> [!note] CPS 230 vs CPS 234
+> CPS 230 is broader operational resilience and service provider risk management. CPS 234 is specifically information security. They overlap when an identity, cyber, third-party, or privileged access failure could disrupt a critical operation or compromise an information asset.
 
 ---
 
@@ -168,6 +197,13 @@ A governance tool like IIQ exists in these environments precisely to produce the
 
 - [[AD-LDAP-Fundamentals]] — how the directory layer works in detail
 - [[AD-Domain-Forest-Trusts]] — domain and forest topology
+- [[Access-Control-Models]] — MAC, DAC, RBAC, ABAC, Risk-Based; PDP/PEP; how the authorization layer is implemented
+- [[Authentication-Factors-MFA]] — factor types, biometrics, AAL levels, SSO, JIT; the authentication layer in depth
+- [[Kerberos-Protocol]] — Kerberos deep dive: KDC, TGT, AES, NTP
+- [[SAML-Federation]] — SAML 2.0, IDaaS, on-prem/cloud/hybrid federation
+- [[OAuth2-OIDC]] — OAuth 2.0 and OIDC; JWT; delegated access
+- [[RADIUS-TACACS-Diameter]] — AAA protocols for network access
+- [[Privilege-Escalation-Service-Accounts]] — privilege creep, service accounts, escalation types
 - [[IIQ-Concepts]] — SailPoint IIQ mental models
 - [[IIQ-AD-LDAP-Connector]] — how IIQ connects to AD/LDAP
 - [[AD-Groups-in-IIQ-Governance]] — how AD groups flow into IIQ governance

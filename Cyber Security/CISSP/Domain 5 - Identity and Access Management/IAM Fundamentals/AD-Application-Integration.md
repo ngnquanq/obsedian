@@ -263,5 +263,9 @@ If Pattern 4 (PAM/SSH): SSSD cache refreshes → user can now SSH in
 - [[AD-LDAP-Fundamentals]] — what AD groups are and how membership is stored
 - [[AD-Domain-Forest-Trusts]] — how groups work across domains
 - [[AD-File-Shares-NAS-DFS]] — NAS devices, DFS namespaces, NTFS vs. share permissions, AGDLP on file share ACLs
+- [[Kerberos-Protocol]] — Pattern 1 deep dive: KDC, TGT, Service Ticket, PAC, AES, NTP dependency
+- [[SAML-Federation]] — Pattern 3 deep dive: SAML 2.0 assertion types, IDaaS, SP/IdP-initiated flows, WS-Federation
+- [[OAuth2-OIDC]] — Pattern 3 continuation: OAuth 2.0 grant types, OIDC authentication layer, JWT
+- [[RADIUS-TACACS-Diameter]] — network device authentication (AAA) — the pattern behind VPN and 802.1X
 - [[IIQ-AD-LDAP-Connector]] — how IIQ uses LDAP to read from AD
 - [[AD-Groups-in-IIQ-Governance]] — how IIQ governs and provisions AD group membership

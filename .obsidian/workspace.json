@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "05d9b594be1c685c",
+        "id": "08d16dd1e6f3d7b2",
         "type": "tabs",
         "children": [
           {
-            "id": "9619f01a9191ff96",
+            "id": "170554739593a456",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,8 +20,75 @@
               "icon": "lucide-file",
               "title": "Domain 5 - IAM"
             }
+          },
+          {
+            "id": "c97e4e7adda7e447",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/IAM-Overview.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "IAM-Overview"
+            }
+          },
+          {
+            "id": "1675fa162bfaf715",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/Access-Control-Models.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Access-Control-Models"
+            }
+          },
+          {
+            "id": "4b83222e0bce90a8",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/CISSP/Access-Control-Models.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Access-Control-Models.excalidraw"
+            }
+          },
+          {
+            "id": "e65133698e35bac6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CLAUDE.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CLAUDE"
+            }
+          },
+          {
+            "id": "c0a2a3f05ba02c76",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Analytics Engineering/denormalizationTechniques.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "denormalizationTechniques"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -74,11 +141,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 576.5,
     "collapsed": true
   },
   "right": {
@@ -143,13 +211,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cyber Security/CISSP/Domain 5 - Identity and Access Management/Domain 5 - IAM.md",
+                "file": "Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/Access-Control-Models.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Domain 5 - IAM"
+              "title": "Outline of Access-Control-Models"
             }
           }
         ],
@@ -173,53 +241,53 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "9619f01a9191ff96",
+  "active": "1675fa162bfaf715",
   "lastOpenFiles": [
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/AD-File-Shares-NAS-DFS.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/06-reference/further-reading.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/06-reference/common-error-codes.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/06-reference",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/05-dashboard-guide/system-health-dashboard.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/05-dashboard-guide/session-monitoring-dashboard.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/05-dashboard-guide/power-bi-integration.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/05-dashboard-guide/password-management-dashboard.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/05-dashboard-guide/key-metrics-and-kpis.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/05-dashboard-guide/compliance-dashboard.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/05-dashboard-guide",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/04-glossary/glossary.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/04-glossary",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/03-key-entities/users-and-groups.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/03-key-entities/sessions.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/03-key-entities/safes.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/03-key-entities/policies-and-permissions.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/03-key-entities/platforms.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/03-key-entities/accounts.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/03-key-entities",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/02-architecture/pvwa.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/02-architecture/pta.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/02-architecture/psm.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/02-architecture/overview.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/02-architecture/digital-vault.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/02-architecture/deployment-models.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/02-architecture/cpm.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/02-architecture/aam-ccp.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/02-architecture",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/01-core-concepts/why-pam-matters.md",
+    "Excalidraw/CISSP/Access-Control-Models.excalidraw.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/Access-Control-Models.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/IAM-Overview.md.tmp.57632.2c6d91f91433",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/Access-Control-Models.md.tmp.57632.620e72321271",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/SAML-Federation.md.tmp.57632.a56087a5bcac",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/Kerberos-Protocol.md.tmp.57632.dc45ced3b21a",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/IAM-Overview.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/AD-LDAP-Fundamentals.md",
+    "Excalidraw/CISSP/SAML-Flow.excalidraw.md",
+    "Excalidraw/CISSP/Kerberos-Flow.excalidraw.md",
+    "Excalidraw/CISSP/IAM-Stack.excalidraw.md",
+    "Excalidraw/CISSP",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/Domain 5 - IAM.md",
+    "CLAUDE.md",
+    "Excalidraw/Analytics Engineering/denormalizationTechniques.md",
+    "Excalidraw/Analytics Engineering/dataWarehouse Architecture.md",
+    "Excalidraw/Analytics Engineering/dataModel.md",
     "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/01-core-concepts/what-is-pam.md",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM/01-core-concepts",
-    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/CyberArk PAM",
-    "Untitled.base",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/Physical-vs-Logical-Access.md",
+    "Statistics/Computational thinking.md",
+    "Data Engineering/Data Engineer.md",
+    "Data Engineering/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/Storage and Databases on AWS.md",
+    "Data Engineering/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/Monitoring and Optimization.md",
+    "Data Engineering/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/Compute and Networking.md",
+    "Data Engineering/AWS Fundamentals Specialization/AWS Cloud Technical Essentials/AWS Overview and Security.md",
+    "Data Engineering/AWS Cloud Practitioner Essentials/Storage and Databases.md",
+    "Data Engineering/AWS Cloud Practitioner Essentials/Security.md",
+    "Data Engineering/AWS Cloud Practitioner Essentials/Monitoring and Analytics, Pricing and Support.md",
+    "Data Engineering/AWS Cloud Practitioner Essentials/Migration and Innovation, the Cloud Journey.md",
+    "Data Engineering/AWS Cloud Practitioner Essentials/Introduction to Amazon Web Services, Compute in the Cloud.md",
+    "Data Engineering/AWS Cloud Practitioner Essentials/Global Infrastructure and Reliability, Networking.md",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/IAM-Overview.md.tmp.57632.4ba6abac4aba",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/Domain 5 - IAM.md.tmp.57632.da57f76f52cc",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/Domain 5 - IAM.md.tmp.57632.3986ed880c7e",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/Domain 5 - IAM.md.tmp.57632.891f9dd908d9",
+    "Data Science/Cyber Security/CISSP/Domain 5 - Identity and Access Management/IAM Fundamentals/Privilege-Escalation-Service-Accounts.md.tmp.57632.e2ed1866cdb3",
     "attachments/Pasted image 20240314133654.png",
     "attachments/TaxTable.png",
     "attachments/pro_forma7.png",
     "attachments/pro_forma6.png",
-    "attachments/pro_forma5.tif",
     "attachments/pro_forma5.png",
     "attachments/pro_forma4.png",
     "attachments/pro_forma3.png",
     "attachments/pro_forma2.png",
     "attachments/pro_forma1.png",
-    "attachments/pro_forma0.png",
-    "attachments/images"
+    "attachments/pro_forma0.png"
   ]
 }

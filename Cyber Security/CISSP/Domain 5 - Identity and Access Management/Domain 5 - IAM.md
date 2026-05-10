@@ -14,11 +14,11 @@ Identity and Access Management (IAM) ensures the right people have the right acc
 | Subtopic | What It Covers | Notes in This Vault |
 |---|---|---|
 | **5.1** Control physical and logical access | Access control models, physical access, least privilege | [[Physical-vs-Logical-Access]], [[IAM-Overview]], [[what-is-pam]], [[CyberArk-IIQ-Integration]] |
-| **5.2** Identification & Authentication | Passwords, MFA, Kerberos, LDAP bind, biometrics | [[AD-LDAP-Fundamentals]], [[AD-Application-Integration]] |
-| **5.3** Federated Identity | SAML, OAuth, OIDC, domain trusts, cross-forest | [[AD-Domain-Forest-Trusts]], [[AD-Application-Integration]] |
-| **5.4** Authorization mechanisms | RBAC, ABAC, ACLs, group-based access | [[AD-Application-Integration]], [[AD-File-Shares-NAS-DFS]], [[AD-Groups-in-IIQ-Governance]] |
-| **5.5** Provisioning lifecycle | JML (Joiner-Mover-Leaver), access requests, certifications | [[IIQ-Concepts]], [[IIQ-Data-Flows]], [[IIQ-AD-LDAP-Connector]] |
-| **5.6** Authentication systems | SSO, Kerberos, RADIUS, TACACS+ | [[AD-Application-Integration]] |
+| **5.2** Identification & Authentication | Passwords, MFA, Kerberos, LDAP bind, biometrics | [[AD-LDAP-Fundamentals]], [[AD-Application-Integration]], [[Authentication-Factors-MFA]], [[Kerberos-Protocol]] |
+| **5.3** Federated Identity | SAML, OAuth, OIDC, domain trusts, cross-forest | [[AD-Domain-Forest-Trusts]], [[AD-Application-Integration]], [[SAML-Federation]], [[OAuth2-OIDC]] |
+| **5.4** Authorization mechanisms | RBAC, ABAC, ACLs, group-based access | [[Access-Control-Models]], [[AD-Application-Integration]], [[AD-File-Shares-NAS-DFS]], [[AD-Groups-in-IIQ-Governance]] |
+| **5.5** Provisioning lifecycle | JML (Joiner-Mover-Leaver), access requests, certifications | [[IIQ-Concepts]], [[IIQ-Data-Flows]], [[IIQ-AD-LDAP-Connector]], [[Privilege-Escalation-Service-Accounts]] |
+| **5.6** Authentication systems | SSO, Kerberos, RADIUS, TACACS+ | [[Kerberos-Protocol]], [[SAML-Federation]], [[OAuth2-OIDC]], [[RADIUS-TACACS-Diameter]], [[AD-Application-Integration]] |
 
 ---
 
@@ -27,14 +27,21 @@ Identity and Access Management (IAM) ensures the right people have the right acc
 Start here if you're new to IAM:
 
 ```
-1. IAM-Overview              — understand the technology stack and where each tool fits
-2. AD-LDAP-Fundamentals      — understand directories, groups, and AD itself
-3. AD-Domain-Forest-Trusts   — understand cross-domain topology (key for 5.3)
-4. AD-Application-Integration    — understand how apps consume AD (key for 5.2, 5.4, 5.6)
-5. AD-File-Shares-NAS-DFS    — file share access model: NAS, DFS, UNC, NTFS ACLs (builds on step 4)
-6. IIQ-Concepts              — understand governance tooling (key for 5.5)
-7. IIQ-Data-Flows            — understand the provisioning and certification flows
-8. AD-Groups-in-IIQ-Governance   — tie everything together
+1.  IAM-Overview                        — understand the technology stack and where each tool fits
+2.  AD-LDAP-Fundamentals                — understand directories, groups, and AD itself
+3.  AD-Domain-Forest-Trusts             — understand cross-domain topology (key for 5.3)
+4.  AD-Application-Integration          — understand how apps consume AD (key for 5.2, 5.4, 5.6)
+5.  AD-File-Shares-NAS-DFS             — file share access model: NAS, DFS, UNC, NTFS ACLs
+6.  Access-Control-Models               — MAC, DAC, RBAC, ABAC, Rule-Based, Risk-Based, PDP/PEP (key for 5.4)
+7.  Authentication-Factors-MFA          — factor types, biometrics, AAL, SSO, JIT, session management (key for 5.2)
+8.  Kerberos-Protocol                   — KDC, TGT, service tickets, AES, NTP (key for 5.6)
+9.  SAML-Federation                     — SAML 2.0, IDaaS, on-prem/cloud/hybrid federation (key for 5.3, 5.6)
+10. OAuth2-OIDC                         — OAuth 2.0 delegation, OIDC authentication, JWT (key for 5.3, 5.6)
+11. RADIUS-TACACS-Diameter              — AAA protocols, network access authentication (key for 5.6)
+12. Privilege-Escalation-Service-Accounts — escalation types, service accounts, privilege creep (key for 5.5)
+13. IIQ-Concepts                        — understand governance tooling (key for 5.5)
+14. IIQ-Data-Flows                      — understand the provisioning and certification flows
+15. AD-Groups-in-IIQ-Governance         — tie everything together
 ```
 
 ---
@@ -49,6 +56,13 @@ Notes covering the underlying technology — no tooling yet, just the protocols 
 - [[AD-Domain-Forest-Trusts]] — domains, forests, trust types, cross-domain group scope rules, AGDLP
 - [[AD-Application-Integration]] — Kerberos tokens, LDAP bind, SAML/federation, PAM/SSSD; how apps actually consume AD groups
 - [[AD-File-Shares-NAS-DFS]] — NAS devices, UNC paths, DFS namespaces, NTFS vs. share permissions, AGDLP on file share ACLs
+- [[Access-Control-Models]] — MAC, DAC, RBAC, Rule-Based, ABAC, Risk-Based; PDP/PEP architecture; implicit deny and constrained interfaces
+- [[Authentication-Factors-MFA]] — five factor types, MFA vs 2FA, biometrics (FAR/FRR/CER), AAL1/2/3, TOTP/FIDO2, SSO, JIT provisioning, session management
+- [[Kerberos-Protocol]] — KDC, AS, TGS, TGT, Service Ticket, PAC; full ticket exchange flow; AES, NTP dependency, port 88
+- [[SAML-Federation]] — SAML 2.0 assertion types, SP/IdP-initiated flows, metadata, IDaaS, WS-Federation, on-prem/cloud/hybrid federation
+- [[OAuth2-OIDC]] — OAuth 2.0 grant types, OIDC authentication layer, JWT/ID tokens, delegated access, OAuth vs SAML
+- [[RADIUS-TACACS-Diameter]] — AAA model, RADIUS (UDP 1812/1813), TACACS+ (TCP 49, full encryption), Diameter
+- [[Privilege-Escalation-Service-Accounts]] — horizontal/vertical escalation, lateral movement, privilege creep, service account management, gMSA
 
 ---
 
