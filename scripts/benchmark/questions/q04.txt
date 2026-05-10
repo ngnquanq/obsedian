@@ -1,0 +1,1 @@
+What delta aggregation method does SailPoint IIQ use by default when connecting to Active Directory — and what AD permission does the bind account need?

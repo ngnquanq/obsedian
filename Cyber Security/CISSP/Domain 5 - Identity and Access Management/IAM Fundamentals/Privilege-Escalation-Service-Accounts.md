@@ -1,6 +1,6 @@
 ---
-tags: [privilege-escalation, service-accounts, least-privilege, privilege-creep, pam, gmsa, lateral-movement, cissp, domain-5-iam, cissp/5.5-provisioning-lifecycle, cissp/5.1-access-control]
-aliases: [Privilege Escalation, Service Account Management, Privilege Creep, Least Privilege, gMSA Group Managed Service Accounts]
+tags: [privilege-escalation, service-accounts, least-privilege, privilege-creep, pam, gmsa, lateral-movement, credential-management, password-vault, cissp, domain-5-iam, cissp/5.5-provisioning-lifecycle, cissp/5.2-identification-authentication, cissp/5.1-access-control]
+aliases: [Privilege Escalation, Service Account Management, Privilege Creep, Least Privilege, gMSA Group Managed Service Accounts, Password Vault, Credential Management Systems]
 ---
 
 # Privilege Escalation and Service Account Management
@@ -192,6 +192,39 @@ Install-ADServiceAccount svc-iiq-prod
 
 ---
 
+## Credential Vaults and Managed Secrets
+
+Credential management systems reduce the risk that passwords, API keys, SSH keys, and service-account secrets become permanent unmanaged access. For CISSP, the important control objective is not a specific vendor: it is central control over the credential lifecycle.
+
+| Control | Why it matters |
+|---|---|
+| **Central vaulting** | Secrets are stored in a hardened system instead of scripts, spreadsheets, wiki pages, or local config files |
+| **Checkout or brokering** | Users authenticate personally before receiving or using a shared privileged credential |
+| **Rotation** | The credential changes on a schedule, after checkout, after use, or after suspected compromise |
+| **Approval workflow** | Sensitive access can require manager, system owner, or break-glass approval |
+| **Session recording** | Shared privileged activity is tied back to an individual user and preserved as audit evidence |
+| **Discovery** | Unknown privileged accounts and unmanaged service accounts are found before attackers find them |
+
+```
+Privileged or service credential discovered
+    │
+    ▼
+Credential onboarded into vault or replaced with managed identity
+    │
+    ▼
+Access brokered with approval, MFA, and time limits
+    │
+    ▼
+Credential rotated and session activity logged
+```
+
+Examples include password vaults such as CyberArk, BeyondTrust, and Delinea; cloud secret managers; and platform-native mechanisms such as gMSA or managed identities. In this vault, [[CyberArk-IIQ-Integration]] is the concrete implementation example, while this note is the exam-facing concept.
+
+> [!note] Password vault vs IGA
+> A password vault controls use of high-risk credentials. IGA controls whether a person should have access in the first place. Mature environments use both: IGA approves and reviews entitlement; PAM brokers privileged use and records what happened.
+
+---
+
 ## Mitigation Controls Summary
 
 | Attack Type | Primary Controls |
@@ -219,7 +252,9 @@ This ensures that even if the admin's daily-use laptop is compromised by malware
 
 - [[IAM-Overview]] — where privilege management fits in the IAM and PAM layers
 - [[Access-Control-Models]] — least privilege and need-to-know as access control principles; MAC as the strictest enforcement
+- [[Authentication-Factors-MFA]] — credential management systems, authenticator lifecycle, and identity proofing for CISSP 5.2
 - [[Kerberos-Protocol]] — Kerberoasting exploits Kerberos service ticket encryption; understanding the protocol is prerequisite for the attack
 - [[CyberArk-IIQ-Integration]] — CyberArk as the enterprise solution for privileged account vaulting, session recording, and credential rotation
+- [[AI-Agent-Identity-and-IAM]] — AI agents as emerging non-human identities with tool permissions, delegated action, and kill-switch requirements
 - [[IIQ-Concepts]] — JML lifecycle and access certifications as the governance controls for privilege creep
 - [[AD-LDAP-Fundamentals]] — gMSA as an AD object type; service account naming and OU placement conventions

@@ -1,0 +1,1 @@
+According to this vault, which causal inference method should be used when you have pre/post data with a control group, and what is its key assumption?

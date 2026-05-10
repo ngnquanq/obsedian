@@ -1,0 +1,1 @@
+What does this vault's causal inference material say about the assumptions behind Synthetic Control? Is this from the vault owner's own notes or from an imported source?

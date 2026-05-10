@@ -195,3 +195,4 @@ The receiving application verifies the signature using the issuer's public key (
 - [[Kerberos-Protocol]] — Kerberos as the equivalent of OIDC for Windows-native environments
 - [[AD-Application-Integration]] — Pattern 3: how SAML and OIDC integrate with AD via an IdP
 - [[IAM-Overview]] — federated identity as part of the broader IAM stack
+- [[AI-Agent-Identity-and-IAM]] — how delegated scopes and token-based access change when an autonomous agent acts for a user or task

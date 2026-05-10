@@ -1,0 +1,288 @@
+{
+  "source_repo": "https://github.com/matheusfacure/python-causality-handbook",
+  "source_commit": "3e974d311a415d795a81b4657d524f3ccba4e9fe",
+  "source_site": "https://matheusfacure.github.io/python-causality-handbook",
+  "imported_at_utc": "2026-05-10T07:12:59.043099+00:00",
+  "entry_count": 31,
+  "entries": [
+    {
+      "part": "Book Overview",
+      "title": "Causal Inference for The Brave and True",
+      "source_file": "landing-page.md",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/landing-page.md",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/landing-page.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/landing-page.md",
+      "note_path": "Statistics/Causal Inference/Causal Inference.md"
+    },
+    {
+      "part": "Part I - The Yang",
+      "title": "Introduction To Causality",
+      "source_file": "01-Introduction-To-Causality.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/01-Introduction-To-Causality.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/01-Introduction-To-Causality.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/01-Introduction-To-Causality.md",
+      "note_path": "Statistics/Causal Inference/01 - Introduction To Causality.md"
+    },
+    {
+      "part": "Part I - The Yang",
+      "title": "Randomised Experiments",
+      "source_file": "02-Randomised-Experiments.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/02-Randomised-Experiments.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/02-Randomised-Experiments.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/02-Randomised-Experiments.md",
+      "note_path": "Statistics/Causal Inference/02 - Randomised Experiments.md"
+    },
+    {
+      "part": "Part I - The Yang",
+      "title": "Stats Review: The Most Dangerous Equation",
+      "source_file": "03-Stats-Review-The-Most-Dangerous-Equation.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/03-Stats-Review-The-Most-Dangerous-Equation.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/03-Stats-Review-The-Most-Dangerous-Equation.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/03-Stats-Review-The-Most-Dangerous-Equation.md",
+      "note_path": "Statistics/Causal Inference/03 - Stats Review The Most Dangerous Equation.md"
+    },
+    {
+      "part": "Part I - The Yang",
+      "title": "Graphical Causal Models",
+      "source_file": "04-Graphical-Causal-Models.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/04-Graphical-Causal-Models.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/04-Graphical-Causal-Models.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/04-Graphical-Causal-Models.md",
+      "note_path": "Statistics/Causal Inference/04 - Graphical Causal Models.md"
+    },
+    {
+      "part": "Part I - The Yang",
+      "title": "The Unreasonable Effectiveness of Linear Regression",
+      "source_file": "05-The-Unreasonable-Effectiveness-of-Linear-Regression.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/05-The-Unreasonable-Effectiveness-of-Linear-Regression.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/05-The-Unreasonable-Effectiveness-of-Linear-Regression.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/05-The-Unreasonable-Effectiveness-of-Linear-Regression.md",
+      "note_path": "Statistics/Causal Inference/05 - The Unreasonable Effectiveness of Linear Regression.md"
+    },
+    {
+      "part": "Part I - The Yang",
+      "title": "Grouped and Dummy Regression",
+      "source_file": "06-Grouped-and-Dummy-Regression.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/06-Grouped-and-Dummy-Regression.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/06-Grouped-and-Dummy-Regression.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/06-Grouped-and-Dummy-Regression.md",
+      "note_path": "Statistics/Causal Inference/06 - Grouped and Dummy Regression.md"
+    },
+    {
+      "part": "Part I - The Yang",
+      "title": "Beyond Confounders",
+      "source_file": "07-Beyond-Confounders.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/07-Beyond-Confounders.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/07-Beyond-Confounders.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/07-Beyond-Confounders.md",
+      "note_path": "Statistics/Causal Inference/07 - Beyond Confounders.md"
+    },
+    {
+      "part": "Part I - The Yang",
+      "title": "Instrumental Variables",
+      "source_file": "08-Instrumental-Variables.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/08-Instrumental-Variables.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/08-Instrumental-Variables.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/08-Instrumental-Variables.md",
+      "note_path": "Statistics/Causal Inference/08 - Instrumental Variables.md"
+    },
+    {
+      "part": "Part I - The Yang",
+      "title": "Non Compliance and LATE",
+      "source_file": "09-Non-Compliance-and-LATE.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/09-Non-Compliance-and-LATE.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/09-Non-Compliance-and-LATE.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/09-Non-Compliance-and-LATE.md",
+      "note_path": "Statistics/Causal Inference/09 - Non Compliance and LATE.md"
+    },
+    {
+      "part": "Part I - The Yang",
+      "title": "Matching",
+      "source_file": "10-Matching.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/10-Matching.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/10-Matching.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/10-Matching.md",
+      "note_path": "Statistics/Causal Inference/10 - Matching.md"
+    },
+    {
+      "part": "Part I - The Yang",
+      "title": "Propensity Score",
+      "source_file": "11-Propensity-Score.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/11-Propensity-Score.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/11-Propensity-Score.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/11-Propensity-Score.md",
+      "note_path": "Statistics/Causal Inference/11 - Propensity Score.md"
+    },
+    {
+      "part": "Part I - The Yang",
+      "title": "Doubly Robust Estimation",
+      "source_file": "12-Doubly-Robust-Estimation.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/12-Doubly-Robust-Estimation.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/12-Doubly-Robust-Estimation.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/12-Doubly-Robust-Estimation.md",
+      "note_path": "Statistics/Causal Inference/12 - Doubly Robust Estimation.md"
+    },
+    {
+      "part": "Part I - The Yang",
+      "title": "Difference-in-Differences",
+      "source_file": "13-Difference-in-Differences.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/13-Difference-in-Differences.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/13-Difference-in-Differences.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/13-Difference-in-Differences.md",
+      "note_path": "Statistics/Causal Inference/13 - Difference-in-Differences.md"
+    },
+    {
+      "part": "Part I - The Yang",
+      "title": "Panel Data and Fixed Effects",
+      "source_file": "14-Panel-Data-and-Fixed-Effects.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/14-Panel-Data-and-Fixed-Effects.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/14-Panel-Data-and-Fixed-Effects.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/14-Panel-Data-and-Fixed-Effects.md",
+      "note_path": "Statistics/Causal Inference/14 - Panel Data and Fixed Effects.md"
+    },
+    {
+      "part": "Part I - The Yang",
+      "title": "Synthetic Control",
+      "source_file": "15-Synthetic-Control.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/15-Synthetic-Control.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/15-Synthetic-Control.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/15-Synthetic-Control.md",
+      "note_path": "Statistics/Causal Inference/15 - Synthetic Control.md"
+    },
+    {
+      "part": "Part I - The Yang",
+      "title": "Regression Discontinuity Design",
+      "source_file": "16-Regression-Discontinuity-Design.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/16-Regression-Discontinuity-Design.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/16-Regression-Discontinuity-Design.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/16-Regression-Discontinuity-Design.md",
+      "note_path": "Statistics/Causal Inference/16 - Regression Discontinuity Design.md"
+    },
+    {
+      "part": "Part II - The Yin",
+      "title": "Predictive Models 101",
+      "source_file": "17-Predictive-Models-101.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/17-Predictive-Models-101.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/17-Predictive-Models-101.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/17-Predictive-Models-101.md",
+      "note_path": "Statistics/Causal Inference/17 - Predictive Models 101.md"
+    },
+    {
+      "part": "Part II - The Yin",
+      "title": "Heterogeneous Treatment Effects and Personalization",
+      "source_file": "18-Heterogeneous-Treatment-Effects-and-Personalization.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/18-Heterogeneous-Treatment-Effects-and-Personalization.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/18-Heterogeneous-Treatment-Effects-and-Personalization.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/18-Heterogeneous-Treatment-Effects-and-Personalization.md",
+      "note_path": "Statistics/Causal Inference/18 - Heterogeneous Treatment Effects and Personalization.md"
+    },
+    {
+      "part": "Part II - The Yin",
+      "title": "Evaluating Causal Models",
+      "source_file": "19-Evaluating-Causal-Models.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/19-Evaluating-Causal-Models.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/19-Evaluating-Causal-Models.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/19-Evaluating-Causal-Models.md",
+      "note_path": "Statistics/Causal Inference/19 - Evaluating Causal Models.md"
+    },
+    {
+      "part": "Part II - The Yin",
+      "title": "Plug-and-Play Estimators",
+      "source_file": "20-Plug-and-Play-Estimators.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/20-Plug-and-Play-Estimators.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/20-Plug-and-Play-Estimators.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/20-Plug-and-Play-Estimators.md",
+      "note_path": "Statistics/Causal Inference/20 - Plug-and-Play Estimators.md"
+    },
+    {
+      "part": "Part II - The Yin",
+      "title": "Meta Learners",
+      "source_file": "21-Meta-Learners.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/21-Meta-Learners.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/21-Meta-Learners.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/21-Meta-Learners.md",
+      "note_path": "Statistics/Causal Inference/21 - Meta Learners.md"
+    },
+    {
+      "part": "Part II - The Yin",
+      "title": "Debiased/Orthogonal Machine Learning",
+      "source_file": "22-Debiased-Orthogonal-Machine-Learning.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/22-Debiased-Orthogonal-Machine-Learning.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/22-Debiased-Orthogonal-Machine-Learning.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/22-Debiased-Orthogonal-Machine-Learning.md",
+      "note_path": "Statistics/Causal Inference/22 - Debiased Orthogonal Machine Learning.md"
+    },
+    {
+      "part": "Part II - The Yin",
+      "title": "Challenges with Effect Heterogeneity and Nonlinearity",
+      "source_file": "23-Challenges-with-Effect-Heterogeneity-and-Nonlinearity.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/23-Challenges-with-Effect-Heterogeneity-and-Nonlinearity.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/23-Challenges-with-Effect-Heterogeneity-and-Nonlinearity.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/23-Challenges-with-Effect-Heterogeneity-and-Nonlinearity.md",
+      "note_path": "Statistics/Causal Inference/23 - Challenges with Effect Heterogeneity and Nonlinearity.md"
+    },
+    {
+      "part": "Part II - The Yin",
+      "title": "The Difference-in-Differences Saga",
+      "source_file": "24-The-Diff-in-Diff-Saga.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/24-The-Diff-in-Diff-Saga.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/24-The-Diff-in-Diff-Saga.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/24-The-Diff-in-Diff-Saga.md",
+      "note_path": "Statistics/Causal Inference/24 - The Difference-in-Differences Saga.md"
+    },
+    {
+      "part": "Part II - The Yin",
+      "title": "Synthetic Difference-in-Differences",
+      "source_file": "25-Synthetic-Diff-in-Diff.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/25-Synthetic-Diff-in-Diff.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/25-Synthetic-Diff-in-Diff.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/25-Synthetic-Diff-in-Diff.md",
+      "note_path": "Statistics/Causal Inference/25 - Synthetic Difference-in-Differences.md"
+    },
+    {
+      "part": "Appendix",
+      "title": "Debiasing with Orthogonalization",
+      "source_file": "Debiasing-with-Orthogonalization.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/Debiasing-with-Orthogonalization.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/Debiasing-with-Orthogonalization.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/Debiasing-with-Orthogonalization.md",
+      "note_path": "Statistics/Causal Inference/A01 - Debiasing with Orthogonalization.md"
+    },
+    {
+      "part": "Appendix",
+      "title": "Debiasing with Propensity Score",
+      "source_file": "Debiasing-with-Propensity-Score.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/Debiasing-with-Propensity-Score.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/Debiasing-with-Propensity-Score.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/Debiasing-with-Propensity-Score.md",
+      "note_path": "Statistics/Causal Inference/A02 - Debiasing with Propensity Score.md"
+    },
+    {
+      "part": "Appendix",
+      "title": "When Prediction Fails",
+      "source_file": "When-Prediction-Fails.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/When-Prediction-Fails.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/When-Prediction-Fails.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/When-Prediction-Fails.md",
+      "note_path": "Statistics/Causal Inference/A03 - When Prediction Fails.md"
+    },
+    {
+      "part": "Appendix",
+      "title": "Why Prediction Metrics are Dangerous For Causal Models",
+      "source_file": "Prediction-Metrics-For-Causal-Models.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/Prediction-Metrics-For-Causal-Models.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/Prediction-Metrics-For-Causal-Models.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/Prediction-Metrics-For-Causal-Models.md",
+      "note_path": "Statistics/Causal Inference/A04 - Why Prediction Metrics are Dangerous For Causal Models.md"
+    },
+    {
+      "part": "Appendix",
+      "title": "Conformal Inference for Synthetic Controls",
+      "source_file": "Conformal-Inference-for-Synthetic-Control.ipynb",
+      "source_url": "https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/Conformal-Inference-for-Synthetic-Control.ipynb",
+      "site_url": "https://matheusfacure.github.io/python-causality-handbook/Conformal-Inference-for-Synthetic-Control.html",
+      "raw_path": "Statistics/Causal Inference/_Source/Python Causality Handbook/raw/Conformal-Inference-for-Synthetic-Control.md",
+      "note_path": "Statistics/Causal Inference/A05 - Conformal Inference for Synthetic Controls.md"
+    }
+  ]
+}

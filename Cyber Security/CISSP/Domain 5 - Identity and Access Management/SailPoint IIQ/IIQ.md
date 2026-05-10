@@ -4,6 +4,9 @@
 
 IIQ uses **Hibernate ORM** to map Java objects to database tables. This means each `spt_` table corresponds to a Java class (e.g., `spt_identity` → `sailpoint.object.Identity`), Java camelCase properties become `lower_case_with_underscores` column names, and — critically — **most tables store a significant portion of their data in serialized XML within CLOB columns** rather than in flat relational columns. All primary keys are **VARCHAR(128) GUIDs**, not auto-increment integers. All timestamps are stored as **BIGINT epoch milliseconds** (not native DATE types). The schema supports MySQL, Oracle, MS SQL Server, and DB2.
 
+> [!note] Schema version and verification
+> Column names, enum values, and table structures documented here reflect **SailPoint IdentityIQ 8.x**. Minor schema differences exist between versions. Timestamp storage as BIGINT epoch milliseconds is confirmed across versions by the SailPoint developer community. For any specific deployment, verify column definitions against your instance's `spt_database_version` table and Hibernate mapping files (`.hbm.xml`).
+
 ---
 
 ## How the spt_* schema is organized

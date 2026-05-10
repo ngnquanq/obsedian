@@ -1,0 +1,1 @@
+What happens in SailPoint IIQ when a user is manually removed from an AD group directly in Active Directory, bypassing IIQ's provisioning workflow?

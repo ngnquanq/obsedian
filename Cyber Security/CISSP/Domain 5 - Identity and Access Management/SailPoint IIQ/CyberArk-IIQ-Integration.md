@@ -293,17 +293,43 @@ Once CyberArk data is in IIQ, it participates in all standard governance process
 
 ### Key Safe Permissions (CyberArk)
 
-These permissions appear as entitlement attributes once aggregated into IIQ:
+These permissions appear as entitlement attributes once aggregated into IIQ.
 
-| Permission | What It Allows | Governance Relevance |
-|---|---|---|
-| `UseAccounts` | Connect through PSM using vaulted credentials | **High** — grants actual privileged session access |
-| `RetrieveAccounts` | Copy/view the actual password | **Critical** — password can be used outside CyberArk |
-| `ListAccounts` | See which accounts exist in the Safe | Low — informational only |
-| `AddAccounts` | Add new privileged accounts to the Safe | Medium — administrative |
-| `UpdateAccountContent` | Change the stored password | Medium — administrative |
-| `ManageSafe` | Full control over Safe configuration | **Critical** — can grant others access |
-| `ManageSafeMembers` | Add/remove Safe members | **Critical** — can escalate privileges |
+> [!note] Permission naming conventions
+> CyberArk's REST API uses **camelCase** property names (e.g., `useAccounts`, `retrieveAccounts`). The CyberArk Classic UI displays them with spaces ("Use accounts", "Retrieve accounts"). This table uses PascalCase as a readable middle ground — map to camelCase when writing queries against API-sourced data.
+> Source: [CyberArk PAM Self-Hosted — Add Safe Member (REST API)](https://docs.cyberark.com/pam-self-hosted/latest/en/content/webservices/add%20safe%20member.htm)
+
+**Account access permissions:**
+
+| Permission (PascalCase) | API property (camelCase) | What It Allows | Governance Relevance |
+|---|---|---|---|
+| `UseAccounts` | `useAccounts` | Connect through PSM using vaulted credentials | **High** — grants actual privileged session access |
+| `RetrieveAccounts` | `retrieveAccounts` | Copy/view the actual password | **Critical** — password can be used outside CyberArk |
+| `ListAccounts` | `listAccounts` | See which accounts exist in the Safe | Low — informational only |
+| `AddAccounts` | `addAccounts` | Add new privileged accounts to the Safe (requires `UpdateAccountProperties`) | Medium — administrative |
+| `UpdateAccountContent` | `updateAccountContent` | Change the stored password | Medium — administrative |
+| `UpdateAccountProperties` | `updateAccountProperties` | Modify account metadata/properties | Low — required to enable `AddAccounts` |
+| `RenameAccounts` | `renameAccounts` | Rename a vaulted account | Low — administrative |
+| `DeleteAccounts` | `deleteAccounts` | Delete a vaulted account from the Safe | **High** — destructive |
+| `UnlockAccounts` | `unlockAccounts` | Unlock a locked account | Low — operational |
+| `InitiateCPMAccountManagementOperations` | `initiateCPMAccountManagementOperations` | Trigger CPM password rotation | Medium — can force credential rotation |
+| `SpecifyNextAccountContent` | `specifyNextAccountContent` | Set the next password value before rotation (requires `InitiateCPM...`) | Medium — sensitive |
+| `AccessWithoutConfirmation` | `accessWithoutConfirmation` | Bypass dual-control approval workflow | **High** — circumvents controls |
+
+**Safe administration permissions:**
+
+| Permission (PascalCase) | API property (camelCase) | What It Allows | Governance Relevance |
+|---|---|---|---|
+| `ManageSafe` | `manageSafe` | Full control over Safe configuration | **Critical** — can grant others access |
+| `ManageSafeMembers` | `manageSafeMembers` | Add/remove Safe members | **Critical** — can escalate privileges |
+| `ViewSafeMembers` | `viewSafeMembers` | See the Safe member list | Low — informational |
+| `ViewAuditLog` | `viewAuditLog` | View Safe audit history | Low — informational |
+| `BackupSafe` | `backupSafe` | Export Safe contents | **High** — can exfiltrate credentials |
+| `CreateFolders` | `createFolders` | Create folders within the Safe | Low — organizational |
+| `DeleteFolders` | `deleteFolders` | Delete folders within the Safe | Low — organizational |
+| `MoveAccountsAndFolders` | `moveAccountsAndFolders` | Reorganize accounts between folders | Low — organizational |
+| `RequestsAuthorizationLevel1` | `requestsAuthorizationLevel1` | First-level approver for dual-control requests | Medium — approval authority |
+| `RequestsAuthorizationLevel2` | `requestsAuthorizationLevel2` | Second-level approver for dual-control requests | Medium — approval authority |
 
 ---
 

@@ -67,7 +67,7 @@ Logical access is what IAM tooling governs. It decomposes into three mechanisms 
 
 - **Account-level**: account creation, account disable, password reset, lockout policy, session timeout
 - **Authentication strength**: MFA enforcement, password complexity, certificate-based auth, FIDO2 keys
-- **Authorization model**: see [[Access-Control-Models]] for DAC vs MAC vs RBAC vs ABAC (planned)
+- **Authorization model**: see [[Access-Control-Models]] for DAC vs MAC vs RBAC vs ABAC
 - **Network logical**: firewall rules, VPN gates, 802.1X port authentication, microsegmentation
 - **Data logical**: file ACLs, database GRANTs, encryption keys, DRM, DLP rules
 - **Cloud logical**: IAM policies (AWS IAM, Azure RBAC, GCP IAM), service principals, conditional access

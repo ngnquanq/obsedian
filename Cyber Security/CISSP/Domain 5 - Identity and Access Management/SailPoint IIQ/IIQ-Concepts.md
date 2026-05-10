@@ -10,7 +10,7 @@ Every organization faces the same problem: **people join, move between roles, an
 
 Without governance, this creates three risks:
 
-1. **Excessive access** — People accumulate permissions they no longer need ("entitlement creep")
+1. **Excessive access** — People accumulate permissions they no longer need ("entitlement creep") -> This is why big enterprise often create something known as "User Access Review".
 2. **Orphan accounts** — Former employees retain active accounts on target systems
 3. **Segregation of Duties (SOD) violations** — One person holds conflicting permissions (e.g., creating vendors AND approving payments)
 
@@ -60,6 +60,8 @@ IIQ's central concept is the **Identity Cube** — a unified profile that aggreg
 | Roles assigned | `spt_identity_bundles` + `spt_identity.attributes` XML | Detected and assigned role memberships |
 
 One person with accounts on 5 applications and 20 entitlements across those accounts produces: 1 row in `spt_identity`, 5 rows in `spt_link`, and 20 rows in `spt_identity_entitlement`. This is why `spt_identity_entitlement` is typically the largest table.
+
+So basically, each account is associate with multiple entitlements. And often most of the time, AD group are the realization of these entitlements. 
 
 ---
 

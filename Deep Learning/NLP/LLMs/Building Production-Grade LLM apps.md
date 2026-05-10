@@ -114,3 +114,7 @@ For the evalution metrics
 # Resources
 https://github.com/truera/trulens/blob/main/trulens_eval/examples/expositional/frameworks/canopy/canopy_quickstart.ipynb
 https://www.youtube.com/watch?v=fo0F-DAum7E
+
+# Related
+
+- [[How to Build, Evaluate, and Iterate on LLM Agents]] - extends production RAG ideas into tool-using, governed, enterprise AI agents.

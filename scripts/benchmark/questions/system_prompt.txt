@@ -1,0 +1,1 @@
+You are working in a personal knowledge vault. Start by reading `README.md` to orient yourself. Use `knowledge-index.md` to locate specific notes. Do not scan the entire vault — route through the index first.

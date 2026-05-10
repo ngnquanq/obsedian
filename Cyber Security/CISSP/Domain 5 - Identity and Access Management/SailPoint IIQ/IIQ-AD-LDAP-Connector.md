@@ -60,11 +60,21 @@ For multi-domain environments, see [[AD-Domain-Forest-Trusts]] for topology rule
 
 ## What Gets Aggregated
 
-Aggregation populates two categories of data:
+Aggregation runs as **two separate scans** that answer two different questions:
 
-### 1. Accounts (`spt_link`)
+| Scan | Question it answers | Data perspective | Target table |
+|---|---|---|---|
+| **Account aggregation** | Who exists and what are they a member of? | User's perspective | `spt_link`, `spt_identity_entitlement` |
+| **Group aggregation** | What groups exist and what are their properties? | Group's perspective | `spt_managed_attribute` |
 
-Each user account in AD becomes one row in `spt_link`:
+You need both. Account aggregation alone gives you memberships but no metadata about the groups themselves. Group aggregation alone gives you a catalog but no idea who holds what.
+
+> [!warning] Run order dependency
+> Group aggregation should run first (or be kept current). When account aggregation processes a user's `memberOf` and tries to write an `spt_identity_entitlement` row, it looks up the corresponding `spt_managed_attribute` record. If the group hasn't been aggregated yet — no catalog row exists — the entitlement may be created as unmanaged or skipped entirely. If you see AD memberships that aren't appearing in `spt_identity_entitlement`, check whether the group exists in `spt_managed_attribute` first.
+
+### 1. Account Aggregation (`spt_link`)
+
+Each user account in AD becomes one row in `spt_link`. Data flows from the **user's perspective** — "here is jsmith, and here are all the groups jsmith belongs to":
 
 | `spt_link` Column | Source in AD |
 |---|---|
@@ -80,9 +90,9 @@ The `attributes` XML blob on `spt_link` stores every AD attribute IIQ was config
 > [!note] Reading spt_link attributes
 > Because `attributes` is an XML blob, querying specific AD attributes requires either IIQ's built-in attribute extraction or staging tables. See `staging_tables_generic.sql` in this repo for a pattern that normalises these into queryable columns.
 
-### 2. Groups / Entitlements (`spt_managed_attribute`)
+### 2. Group Aggregation (`spt_managed_attribute`)
 
-Each AD security group that IIQ is configured to manage becomes a row in `spt_managed_attribute`:
+Each AD security group that IIQ is configured to manage becomes a row in `spt_managed_attribute`. Data flows from the **group's perspective** — "here is Finance_VPN_Group, and here is its description and owner":
 
 | `spt_managed_attribute` Column | Source in AD |
 |---|---|
@@ -93,6 +103,8 @@ Each AD security group that IIQ is configured to manage becomes a row in `spt_ma
 | `application` | FK to `spt_application.id` |
 | `descriptions` | XML blob of group descriptions |
 | `requestable` | Whether users can request this group via IIQ LCM |
+
+This table is the **entitlement catalog** — the menu of all possible access IIQ knows about. It answers questions account aggregation cannot: what does this group actually grant? who owns it? can it be requested through IIQ?
 
 ---
 
@@ -174,18 +186,63 @@ IIQ supports two aggregation modes for AD:
 - Typically scheduled weekly or monthly
 
 ### Delta Aggregation (Recommended for AD)
-- Uses AD's `uSNChanged` attribute to find only objects modified since the last sync
-- IIQ stores the highest `uSNChanged` value seen and queries for anything higher on the next run
+- Uses Microsoft's **DirSync** protocol by default to detect only objects modified since the last sync
+- IIQ stores a DirSync cookie per domain after each run; the next delta reads only changes since that cookie
 - Fast — only processes genuinely changed objects
 - Typically scheduled hourly or more frequently
 
-> [!note] DirSync
-> IIQ's AD connector can also use **DirSync** — a Microsoft-native AD change notification protocol — for near-real-time delta sync. This requires the bind account to have specific directory permissions.
+> [!note] DirSync vs. uSNChanged
+> The AD connector uses **DirSync** as the default delta mechanism (introduced in IIQ 6.3). DirSync requires the bind account to have **Replicating Directory Changes** permission on the domain.
+>
+> An older method, **uSNChanged**, tracks the highest `uSNChanged` value seen and queries for anything higher on the next run. It requires only List and Read permissions but is unreliable in multi-DC or load-balanced environments — `uSNChanged` is not replicated across domain controllers, so IIQ must always query the same DC to avoid missing changes. DirSync does not have this limitation.
+>
+> Source: [SailPoint — Active Directory delta aggregation: DirSync vs. uSNChanged](https://community.sailpoint.com/t5/IdentityIQ-Wiki/Active-Directory-delta-aggregation-DirSync-vs-uSNChanged/ta-p/72397)
 
 ### What Triggers Aggregation
 - Scheduled tasks configured in IIQ's task scheduler
 - Manual run by an IIQ administrator
 - Event-based triggers (e.g., an HR event fires a lifecycle workflow, which triggers a targeted aggregation)
+
+---
+
+## The Connector Gap
+
+The connector is a **scheduled reader, not a real-time listener**. It polls AD on a cadence. Everything IIQ knows about AD is only as fresh as the last aggregation timestamp on `spt_link.last_refresh`.
+
+```
+IIQ scheduler fires
+        │
+        ▼
+Connector opens LDAP connection to AD
+        │
+        ▼
+Reads all accounts + their memberOf attributes
+        │
+        ▼
+Compares what it found against what IIQ already has
+        │
+        ▼
+Updates spt_link, spt_identity_entitlement, flags needs_refresh
+```
+
+**The gap is the window between polls.** If a sysadmin manually adds Jane to `Domain Admins` in AD at 9am, and the next aggregation runs at midnight, IIQ has no visibility for 15 hours. During that window:
+
+- Jane has the access in reality
+- `spt_identity_entitlement` shows nothing
+- No certification item exists for it
+- No SOD check has fired
+- Risk score has not updated
+
+When aggregation finally runs, IIQ finds the new membership and writes a row with `aggregation_state = 'Connected'` and `assigned = 0` — meaning the entitlement was found on the system but was never requested through IIQ. This is the signal that access was granted outside the governed process.
+
+### The `Disconnected` signal works in reverse
+
+If Jane is removed from `Domain Admins` directly in AD — bypassing IIQ's provisioning — the next aggregation finds the group missing from her `memberOf`. IIQ does **not** delete the `spt_identity_entitlement` row. It sets `aggregation_state = 'Disconnected'`.
+
+This distinction matters for auditors: the record proves that access existed and was removed, but the `Disconnected` state specifically flags that removal happened outside IIQ's workflow rather than through a governed request or certification decision.
+
+> [!warning] Gap size is a governance risk
+> A 24-hour delta aggregation schedule means changes made directly in AD are invisible to IIQ for up to a day. For high-risk groups (privileged admin groups, finance application roles), shorter aggregation intervals or event-based triggers reduce this exposure window.
 
 ---
 

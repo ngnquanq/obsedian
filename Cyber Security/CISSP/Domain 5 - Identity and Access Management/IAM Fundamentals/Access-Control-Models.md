@@ -88,6 +88,16 @@ A subject needs both the correct **clearance level** (≥ the object's classific
 > [!tip] MAC mental model
 > MAC is like a locked building with badge readers controlled by security. Even the CEO cannot let someone in by propping open a door — the system decides.
 
+> [!warning] Classification labels are not MAC by themselves
+> Marking a document as `Public`, `Internal`, `Confidential`, or `Restricted` is **data classification**. It becomes MAC only when the system enforces access by comparing object labels against centrally controlled subject clearances or compartments, and the resource owner cannot override the rule.
+
+| Situation | Correct classification |
+|---|---|
+| User labels a SharePoint file `Confidential`, but access is still controlled by groups or ACLs | Data classification plus RBAC/DAC-style enforcement |
+| File owner manually grants another user access to a confidential file | DAC |
+| Manager adds a user to an AD group that can read a confidential folder | RBAC |
+| System denies access unless subject clearance and compartments dominate the file label | MAC |
+
 ---
 
 ### 3. Role-Based Access Control (RBAC)
@@ -274,3 +284,4 @@ These mechanisms implement the models above at a technical level:
 - [[AD-File-Shares-NAS-DFS]] — NTFS ACLs as DAC in practice
 - [[Authentication-Factors-MFA]] — authentication (who you are) vs. authorisation (what you can do)
 - [[Privilege-Escalation-Service-Accounts]] — what happens when access control models are bypassed
+- [[AI-Agent-Identity-and-IAM]] — applying ABAC, risk-based access, and PDP/PEP controls to AI agent tool use

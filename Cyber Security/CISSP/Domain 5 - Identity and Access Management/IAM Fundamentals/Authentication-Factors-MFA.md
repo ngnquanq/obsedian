@@ -1,11 +1,11 @@
 ---
-tags: [authentication, mfa, biometrics, sso, jit, session-management, otp, fido2, passwordless, aal, cissp, domain-5-iam, cissp/5.2-identification-authentication]
-aliases: [Authentication Factors, MFA Multi-Factor Authentication, Biometrics FAR FRR CER, AAL Authenticator Assurance, Single Sign-On SSO]
+tags: [authentication, mfa, biometrics, sso, jit, session-management, otp, fido2, passwordless, aal, identity-proofing, credential-management, cissp, domain-5-iam, cissp/5.2-identification-authentication]
+aliases: [Authentication Factors, MFA Multi-Factor Authentication, Biometrics FAR FRR CER, AAL Authenticator Assurance, Single Sign-On SSO, Identity Proofing, Credential Management]
 ---
 
 # Authentication Factors and MFA
 
-Authentication answers one question: **are you who you claim to be?** It is the gate before authorisation. The tools for answering that question — from passwords to hardware keys to fingerprints — differ enormously in strength and how they fail. This note covers the CISSP 5.2 authentication landscape: the factor types, MFA mechanics, biometric accuracy, assurance levels, SSO, JIT provisioning, and session management.
+Authentication answers one question: **are you who you claim to be?** It is the gate before authorisation. The tools for answering that question — from identity proofing to passwords, hardware keys, fingerprints, SSO, and password vaults — differ enormously in strength and how they fail. This note covers the CISSP 5.2 authentication landscape: registration and proofing, factor types, MFA mechanics, biometric accuracy, assurance levels, credential management, SSO, JIT provisioning, and session management.
 
 ---
 
@@ -101,6 +101,49 @@ Pattern-of-life analysis:
 
 > [!warning] Two steps ≠ MFA
 > A password plus a security question is two-step verification, not MFA. Both are Type 1 (something you know). True MFA requires at least two *different* factor types.
+
+---
+
+## Registration, Proofing, and Establishment of Identity
+
+Before a system can authenticate a user, it has to decide whether the account should exist and who the account represents. This is **identity proofing**: establishing a relationship between a digital subject and a real person to an appropriate level of confidence.
+
+NIST SP 800-63A-4 describes identity proofing and enrollment as a sequence:
+
+```
+Applicant claims identity
+    │
+    ▼
+Resolution: collect enough evidence and attributes to identify one person
+    │
+    ▼
+Validation: check that the evidence and attributes are genuine and accurate
+    │
+    ▼
+Verification: confirm the applicant owns the evidence and attributes
+    │
+    ▼
+Enrollment: create the subscriber account and bind authenticators
+```
+
+| Step | CISSP meaning | Enterprise example |
+|---|---|---|
+| **Registration** | The person or service requests an identity in the system | New employee record arrives from HR; contractor onboarding form submitted |
+| **Proofing** | The organisation validates that the claimed identity is real and belongs to the applicant | HR verifies employment documents; bank performs customer identification checks |
+| **Establishment** | The system creates the identity record and binds credentials or authenticators to it | AD account created; MFA device enrolled; smart card issued |
+| **Maintenance** | The identity and authenticators are renewed, recovered, revoked, or disabled over time | Password reset, authenticator replacement, account recovery, leaver disablement |
+
+NIST separates **Identity Assurance Levels (IAL)** from **Authenticator Assurance Levels (AAL)**:
+
+| Assurance | Question | Example |
+|---|---|---|
+| **IAL** | How strongly was the person's real-world identity proofed? | Self-asserted attributes vs. validated government evidence |
+| **AAL** | How strong is the authentication event? | Password-only vs. MFA vs. hardware-backed phishing-resistant MFA |
+
+> [!note] Proofing vs authentication
+> Proofing happens before or during enrollment: "Should this account represent this person?" Authentication happens later at login: "Is this the same subscriber returning?" Strong MFA cannot fix weak initial proofing if the account was issued to the wrong person.
+
+Source anchor: [NIST SP 800-63A-4](https://pages.nist.gov/800-63-4/sp800-63a.html) covers identity proofing and enrollment; [ISC2 CISSP Domain 5.2](https://www.isc2.org/certifications/cissp/cissp-certification-exam-outline) explicitly lists registration, proofing, and establishment of identity.
 
 ---
 
@@ -222,6 +265,44 @@ Passwordless removes the knowledge factor entirely, relying on possession + inhe
 
 ---
 
+## Credential Management Systems
+
+CISSP uses **credential management system** broadly: the process and tooling for issuing, storing, rotating, recovering, revoking, and auditing credentials. A password vault is one example, not the whole category.
+
+| Credential type | Management concern | Typical control |
+|---|---|---|
+| User password | Reset, lockout, compromise, reuse | Password policy, breached-password checking, MFA, self-service reset |
+| MFA authenticator | Enrollment, replacement, lost device | Authenticator binding, recovery codes, helpdesk verification |
+| Smart card / certificate | Issuance, expiration, revocation | PKI, certificate lifecycle, CRL/OCSP |
+| API key / token | Secret leakage, over-permission, stale token | Secret vault, short lifetime, scoped permissions |
+| Privileged password | Shared admin use, credential exposure | Password vault, checkout approval, rotation, session recording |
+| Service account secret | Long-lived non-human credential | gMSA, managed identity, vault rotation, no interactive login |
+
+```
+Credential issued
+    │
+    ▼
+Stored or bound securely
+    │
+    ▼
+Used for authentication
+    │
+    ▼
+Renewed, rotated, recovered, or revoked
+    │
+    ▼
+Audit trail proves who controlled it and when
+```
+
+For privileged and service-account credentials, see [[Privilege-Escalation-Service-Accounts]]. For CyberArk as a concrete password-vault implementation, see [[CyberArk-IIQ-Integration]].
+
+> [!warning] Credential management is broader than passwords
+> A password vault helps with privileged passwords, but CISSP expects the full lifecycle: issuance, binding, storage, rotation, recovery, revocation, and auditability across human and non-human credentials.
+
+Source anchor: [NIST SP 800-63B](https://pages.nist.gov/800-63-4/sp800-63b.html) covers authenticator lifecycle topics such as binding, renewal, and account recovery; ISC2 Domain 5.2 lists credential management systems, including password vaults.
+
+---
+
 ## Single Sign-On (SSO)
 
 SSO allows a user to authenticate once and access multiple applications without re-entering credentials.
@@ -326,3 +407,4 @@ Authentication creates a session. Session management governs how long that sessi
 - [[SAML-Federation]] — SAML-based SSO and JIT provisioning for web apps and SaaS
 - [[OAuth2-OIDC]] — OIDC as the modern authentication protocol; JWTs; passwordless with PKCE
 - [[RADIUS-TACACS-Diameter]] — AAA protocols for network device authentication
+- [[Privilege-Escalation-Service-Accounts]] — service-account secrets, privileged credential vaulting, and credential rotation

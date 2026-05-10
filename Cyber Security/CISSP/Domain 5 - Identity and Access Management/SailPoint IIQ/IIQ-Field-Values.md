@@ -2,6 +2,9 @@
 
 This document enumerates and explains possible values for status codes, types, and flags across all major IIQ tables. When you encounter a value in a query result and need to know what it means operationally, look it up here. For table structures and join paths, see [IIQ.md](IIQ.md). For what these concepts mean in business terms, see [IIQ-Concepts.md](IIQ-Concepts.md).
 
+> [!note] Version and verification
+> Enum values documented here reflect **SailPoint IdentityIQ 8.x** behavior. Values are derived from the IIQ Java object model (Hibernate-mapped enums) and are consistent across 7.x–8.x for the core tables. Values for custom or extended attributes are deployment-specific. If a value you observe in your database is not listed here, it may be a deployment customization or a version difference — verify against your instance's `.hbm.xml` mapping files or the IIQ API Javadocs.
+
 ---
 
 ## spt_identity

@@ -8,7 +8,9 @@
 2. [[LLM with Azure]]
 3. [[Extending with Functions and Plugins]]
 4. [[Building an End-to-End LLM application in Azure]]
-5. 
+
+# Enterprise Agentic AI
+1. [[How to Build, Evaluate, and Iterate on LLM Agents]]
 
 # Introduction to Generative AI
 1. [[Exploring a cloud-based Generative AI Application]]

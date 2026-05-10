@@ -127,6 +127,7 @@ The loop is continuous: provisioning creates access, aggregation records what ex
 | Term | Definition |
 |---|---|
 | **Identity** | A digital representation of a person (or service). In IIQ: `spt_identity`. |
+| **Agent identity** | A digital identity for an AI agent or autonomous software actor; see [[AI-Agent-Identity-and-IAM]]. |
 | **Account** | A user's login on a specific system. In IIQ: `spt_link`. |
 | **Entitlement** | A discrete access right — usually group membership. In IIQ: `spt_managed_attribute`. |
 | **Provisioning** | Creating, modifying, or removing an account or entitlement. |
@@ -204,6 +205,7 @@ Evidence retained: approval, certification, log, or removal record
 - [[OAuth2-OIDC]] — OAuth 2.0 and OIDC; JWT; delegated access
 - [[RADIUS-TACACS-Diameter]] — AAA protocols for network access
 - [[Privilege-Escalation-Service-Accounts]] — privilege creep, service accounts, escalation types
+- [[AI-Agent-Identity-and-IAM]] — emerging IAM model for autonomous AI agents, tool access, delegated action, and auditability
 - [[IIQ-Concepts]] — SailPoint IIQ mental models
 - [[IIQ-AD-LDAP-Connector]] — how IIQ connects to AD/LDAP
 - [[AD-Groups-in-IIQ-Governance]] — how AD groups flow into IIQ governance

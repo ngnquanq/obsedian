@@ -28,3 +28,7 @@ Về lý thuyết, các Agents trong cùng 1 môi trường đều có khả nă
 => Sử dụng `tavily search`
 
 # Autogen
+
+# Related
+
+- [[How to Build, Evaluate, and Iterate on LLM Agents]] - production playbook for taking tool-using and multi-agent systems into enterprise environments.

@@ -124,6 +124,18 @@ Managed By tab:  Who is responsible for managing this group
 > [!note] Connecting ADUC to IIQ
 > Everything you see in ADUC maps directly to what IIQ stores. The **Member Of** tab on a user = `spt_identity_entitlement` rows. The **Members** tab on a group = the `member` attribute in `spt_managed_attribute`. The OU path in the left pane = the `distinguishedName` attribute on `spt_link`.
 
+### How to View Group Membership in Windows
+
+| Method | Command / Steps | Best for |
+|---|---|---|
+| **ADUC** | `dsa.msc` → find group → Properties → **Members** tab | Quick visual check, one group at a time |
+| **PowerShell** | `Get-ADGroupMember "GroupName" -Recursive` | Scripting, nested group expansion |
+| **CMD** | `net group "GroupName" /domain` | Quick CLI check, no extra tools |
+| **AD Admin Center** | Search group → Members tab | Slightly newer UI, same result as ADUC |
+
+> [!warning] ADUC Members tab shows direct members only
+> If `Finance_VPN_Group` contains a nested group `Finance_SubTeam_Group`, the Members tab shows the subgroup — not the users inside it. You see one level deep. Use `Get-ADGroupMember -Recursive` to flatten the full membership tree and see every effective member regardless of nesting depth.
+
 ---
 
 ## What is LDAP?

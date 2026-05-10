@@ -1,0 +1,1 @@
+A new data analyst joins the team and needs to query SailPoint IIQ for a report on who has Domain Admins group membership and when they got it. What is the recommended starting point in this vault, and what SQL concept should they use?
