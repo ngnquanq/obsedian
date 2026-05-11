@@ -34,6 +34,8 @@ This map connects the imported handbook chapters into a working mental model for
 
 ## Discovery Questions
 
+- **Is this a ranking decision or a policy decision?** Ranking (select the top 10%) tolerates a predictive model. Policy (change who gets treated at scale) requires a causal model — the predictive model was trained on a world that no longer exists after the policy is applied.
+- **Do you have randomized data?** If yes, prediction and causality converge — optimize the outcome directly. If no, a predictive model absorbs the selection mechanism and produces wrong effect estimates.
 - What is the intervention, not just the prediction target?
 - Which counterfactual is missing?
 - What assumption identifies that counterfactual?

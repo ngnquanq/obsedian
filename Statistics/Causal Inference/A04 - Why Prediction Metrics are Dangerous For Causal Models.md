@@ -40,12 +40,39 @@ Use the source-derived notes below for the detailed derivation, examples, and Py
 
 - No explicit assumption keywords were detected automatically; review the source-derived notes.
 
+## When Prediction Is Enough
+
+If you run a **randomized experiment (A/B test)**, you can optimize revenue directly. Randomization handles confounding — prediction and causality converge. Ship the variant that earns more.
+
+The instinct "whatever brings more revenue is better, no need to care about causality" is correct in that setting. The goal is always revenue; the question is which tool correctly estimates the effect of your *actions* on revenue.
+
+## When "Just Maximize Revenue" Breaks
+
+The problem surfaces when you act on a model's recommendation at scale using observational data.
+
+A predictive model trained on observational data learns correlations from a world where your intervention has not happened yet. The moment you use it to change who gets treated, you shift the data-generating process — and the correlation the model learned no longer holds. This is **distribution shift under intervention**.
+
+**Example:** A model learns "customers who received a discount bought more." You roll out discounts to everyone the model scores as high-value. Now you are discounting customers who would have bought at full price anyway. Revenue drops — not because the model was wrong about the correlation, but because you changed the world the correlation was measured in.
+
+| Scenario | Prediction model holds? |
+|---|---|
+| Ranking and selecting (top 10% of scorers, no change to policy) | Usually — distribution shift is small |
+| Small-scale intervention | Usually |
+| Large-scale policy change | No — you have moved outside the data-generating process the model was trained on |
+| A/B test (randomized) | Yes — randomization collapses prediction and causality |
+
+> [!warning] The hidden cost
+> Predictive models reward fitting the selection mechanism — who already gets treated. Using them to make policy decisions optimizes for "who already tends to have good outcomes," not "who responds most to the intervention." These groups overlap only when treatment is random.
+
+The distinction: predictive models find patterns that are true *in the current world*. Causal models estimate what happens *if you change the world*. For any business decision that changes who gets treated, you need the second.
+
 ## Failure Modes
 
 - Confusing prediction quality with causal identification.
 - Treating adjustment, matching, or machine learning as a substitute for a credible research design.
 - Ignoring overlap, data leakage, time ordering, or hidden confounding.
 - Reporting one estimate without the assumption that makes it interpretable.
+- Using a predictive model to drive a large-scale policy change — the model was trained on a world that no longer exists after the policy is applied.
 
 ## Python / Implementation Notes
 

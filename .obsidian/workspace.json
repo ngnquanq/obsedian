@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Engineering/IBM/Hands-on Introduction to Linux Commands and Shell Scripting/Introduction to Linux and Unix.md",
+                "file": "Machine Learning/Machine Learning.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction to Linux and Unix"
+              "title": "Machine Learning"
             }
           },
           {
@@ -81,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nab",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,8 +102,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -171,13 +170,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Engineering/IBM/Hands-on Introduction to Linux Commands and Shell Scripting/Introduction to Linux and Unix.md",
+                "file": "Machine Learning/Machine Learning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Introduction to Linux and Unix"
+              "title": "Outline of Machine Learning"
             }
           }
         ],
@@ -203,42 +202,42 @@
   },
   "active": "170554739593a456",
   "lastOpenFiles": [
+    "Deep Learning/Foundations/Loss function.md.tmp.212880.8d4c917a5657",
+    "Deep Learning/Foundations/Loss function/2. Regression Loss Functions.md",
+    "Deep Learning/Foundations/Loss function/2. Regression Loss Functions.md.tmp.212880.02788e844066",
+    "Statistics/Causal Inference/Causal Inference - Knowledge Map.md.tmp.212880.39869767e9e3",
+    "Statistics/Causal Inference/A04 - Why Prediction Metrics are Dangerous For Causal Models.md.tmp.212880.50c17be31d96",
+    "Machine Learning/Learning Paradigms/Reinforcement Learning Evaluation.md",
+    "Machine Learning/Learning Paradigms/Reinforcement Learning Methods.md",
+    "Machine Learning/Learning Paradigms/Reinforcement Learning.md",
+    "Machine Learning/Learning Paradigms/Self-Supervised Evaluation.md",
+    "Machine Learning/Learning Paradigms/Self-Supervised Methods.md",
+    "Machine Learning/Learning Paradigms/Self-Supervised Learning.md",
+    "Machine Learning/Learning Paradigms/Semi-Supervised Evaluation.md",
+    "Machine Learning/Learning Paradigms/Semi-Supervised Methods.md",
+    "Machine Learning/Learning Paradigms/Semi-Supervised Learning.md",
+    "Machine Learning/Learning Paradigms/Learning Paradigms.md",
+    "Machine Learning/Learning Paradigms",
+    "Machine Learning/Foundations/Prediction as Conditional Expectation.md",
+    "Machine Learning/Machine Learning.md",
+    "Deep Learning/Open Source/HuggingFace open source.md",
+    "Data Engineering/IBM/Hands-on Introduction to Linux Commands and Shell Scripting/Introduction to Linux and Unix.md",
+    "Machine Learning/Foundations",
+    "knowledge-index.md.tmp.212880.fe3eb3b8122f",
+    "README.md.tmp.212880.a550ae079b92",
+    "Vault-Production-Roadmap.md",
+    "Vault-Production-Roadmap.md.tmp.212880.f858ad6fd704",
     "Statistics/Causal Inference/19 - Evaluating Causal Models.md",
     "README.md.tmp.212880.b85a278c30e0",
     "README.md.tmp.212880.3fd777ff2eb3",
-    "Benchmark.md.tmp.212880.c7109cac3adf",
-    "scripts/benchmark/results/scores.md.tmp.212880.5024da95a71e",
     "scripts/benchmark/results/scores.md",
-    "scripts/benchmark/results/scores.md.tmp.212880.5bd611c8aded",
     "scripts/benchmark/results/antigravity_results.md",
-    "scripts/benchmark/results/antigravity_results.md.tmp.212880.58d8fb70d50b",
     "scripts/benchmark/results/codex_results.md",
-    "scripts/benchmark/results/codex_results.md.tmp.212880.619336304aea",
     "scripts/benchmark/results/claude_results.md",
-    "scripts/benchmark/results/claude_results.md.tmp.212880.8d79284aecab",
     "scripts/benchmark/score_guide.md",
-    "scripts/benchmark/score_guide.md.tmp.212880.18905ade0727",
-    "scripts/benchmark/run_all.sh",
     "Benchmark.md",
     "Playbooks/Evaluate a Dataset.md",
     "Playbooks/Causal Analysis Checklist.md",
-    "Playbooks/Start a New Project.md",
-    "Statistics/Statistics.md",
-    "Finance/Finance.md",
-    "Deep Learning/Deep Learning.md",
-    "knowledge-index.md",
-    "README.md",
-    "Deep Learning/NLP/LLMs/How to Build, Evaluate, and Iterate on LLM Agents.md",
-    "Deep Learning/NLP/LLMs/LLM Deployment.md",
-    "Deep Learning/NLP/LLMs/Building Production-Grade LLM apps.md",
-    "Deep Learning/NLP/LLMs/Benchmark.md",
-    "Deep Learning/NLP/LLMs/Aligning LLMs with DPO.md",
-    "Deep Learning/NLP/NLP.md",
-    "Deep Learning/NLP/LLMOps/LLMOps.md",
-    "Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md",
-    "Deep Learning/NLP/LLMOps/Operationalizing on Azure/Extending with Functions and Plugins.md",
-    "Deep Learning/NLP/LLMOps/Operationalizing on Azure/Building an End-to-End LLM application in Azure.md",
-    "Deep Learning/NLP/LLMOps/Operationalizing on Azure/LLM with Azure.md",
     "Statistics/Causal Inference/_Source/Python Causality Handbook/data/img/when-prediction-fails/waiting-time.png",
     "Statistics/Causal Inference/_Source/Python Causality Handbook/data/img/when-prediction-fails/slice-2.png",
     "Statistics/Causal Inference/_Source/Python Causality Handbook/data/img/when-prediction-fails/slice-1.png",

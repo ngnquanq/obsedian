@@ -21,7 +21,7 @@ For agent navigation, see `README.md`. For a flat file-path index, see `knowledg
 | Causal inference methods | `Statistics/Causal Inference/Causal Inference - Knowledge Map.md` |
 | Active projects | `Projects/Project List.md` |
 | Deep learning / NLP / LLMs | `Deep Learning/Deep Learning.md` |
-| Machine learning algorithms | `Machine Learning/Machine Learning.md` |
+| Machine learning curriculum | `Machine Learning/Machine Learning.md` |
 | Statistics | `Statistics/Statistics.md` |
 | Finance | `Finance/Finance.md` |
 
@@ -34,7 +34,7 @@ For agent navigation, see `README.md`. For a flat file-path index, see `knowledg
 | Cyber Security — IAM | `Domain 5 - IAM.md` | Active | Most developed area; SailPoint IIQ, CyberArk, AD |
 | Statistics | `Statistics/Statistics.md` | Active | Strong causal inference section (25 chapters) |
 | Deep Learning | `Deep Learning/Deep Learning.md` | Study notes | NLP/LLMs most developed |
-| Machine Learning | `Machine Learning/Machine Learning.md` | Study notes | Clustering, regression |
+| Machine Learning | `Machine Learning/Machine Learning.md` | Active | Applied ML curriculum: prediction framing, learning paradigms, regression, clustering, evaluation |
 | Finance | `Finance/Finance.md` | Study notes | Corporate finance, bank management |
 | Projects | `Projects/Project List.md` | Active | 6 projects at various stages |
 

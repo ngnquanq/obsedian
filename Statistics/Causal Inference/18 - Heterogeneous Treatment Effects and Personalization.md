@@ -1,6 +1,6 @@
 ---
 tags: ["causal-inference", "statistics", "python-causality-handbook", "part-ii--the-yin"]
-aliases: ["Heterogeneous Treatment Effects and Personalization", "Causal Inference - Heterogeneous Treatment Effects and Personalization"]
+aliases: ["Heterogeneous Treatment Effects and Personalization", "Causal Inference - Heterogeneous Treatment Effects and Personalization", "Heterogeneity", "Treatment Effect Heterogeneity"]
 source: https://github.com/matheusfacure/python-causality-handbook/blob/master/causal-inference-for-the-brave-and-true/18-Heterogeneous-Treatment-Effects-and-Personalization.ipynb
 source_commit: 3e974d311a415d795a81b4657d524f3ccba4e9fe
 ---
@@ -26,6 +26,36 @@ This chapter exists to solve one practical causal inference problem in the handb
 - [[Randomized Experiments]]
 - [[LATE]]
 - [[Heterogeneous Treatment Effects]]
+
+## What Heterogeneity Means
+
+Heterogeneity means that an effect is not the same for every unit, group, context, or time period. In causal inference, **treatment effect heterogeneity** means the treatment changes the outcome differently depending on characteristics $X$:
+
+$$
+E[Y_1 - Y_0 \mid X]
+$$
+
+This is different from the average treatment effect:
+
+$$
+E[Y_1 - Y_0]
+$$
+
+The average treatment effect asks, "What is the average impact of the treatment?" Heterogeneity asks, "For whom, where, or when is the impact larger, smaller, zero, or harmful?"
+
+Example: a discount campaign may increase purchases for price-sensitive customers, do little for loyal customers who would have bought anyway, and reduce margin for customers who only buy when deeply discounted. The average effect may look positive, but the actionable question is whether each subgroup responds differently enough to justify personalized treatment.
+
+## When It Is Suitable
+
+Use a heterogeneity framing when the decision is not simply whether to treat everyone, but **who should receive which treatment**. It is suitable when:
+
+- the same intervention plausibly affects groups differently;
+- you have pre-treatment features that define meaningful groups or contexts;
+- there is enough variation in treatment and outcomes within those groups;
+- the goal is targeting, personalization, segmentation, policy prioritization, or fairness analysis;
+- the identification assumptions are credible before adding machine learning or subgroup analysis.
+
+Avoid leading with heterogeneity when the sample is small, overlap is weak, subgroup definitions are post-treatment, or the main causal effect is not identified yet. In those cases, estimating many subgroup effects can create noisy patterns that look actionable but are mostly modeling artifacts.
 
 ## Method / Mechanics
 

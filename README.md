@@ -51,7 +51,7 @@ Do not treat `_Source/` content as advice or conclusions. It is reference materi
 | Statistics — Causal Inference | `Statistics/Causal Inference/Causal Inference - Knowledge Map.md` | Active |
 | Statistics | `Statistics/Statistics.md` | Active |
 | Deep Learning | `Deep Learning/Deep Learning.md` | Study notes |
-| Machine Learning | `Machine Learning/Machine Learning.md` | Study notes |
+| Machine Learning | `Machine Learning/Machine Learning.md` | Active |
 | Finance | `Finance/Finance.md` | Study notes |
 | Projects | `Projects/Project List.md` | Active |
 | Playbooks | `Playbooks/` | Active |

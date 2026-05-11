@@ -1,7 +1,19 @@
 ---
-aliases:
+status: active
+type: reference
+domain: machine-learning
+updated: 2026-05-10
+tags: [machine-learning, clustering, metrics, evaluation]
+aliases: [Clustering Metrics, Cluster Evaluation, Internal and External Clustering Metrics]
 ---
-Mainly, there're two type of **big metrics**, those are **internal and external evaluation metrics**. Each of which provide different useful information for clustering algorithm. 
+
+# Clustering Metrics
+
+Clustering metrics help decide whether discovered groups are compact, separated, stable, or aligned with known labels. Read [[Machine Learning/Clustering algorithm/Clustering Algorithm|Clustering Algorithm]] first: the metric only makes sense after defining what "similar" should mean for the task.
+
+---
+
+Mainly, there are two types of **big metrics**: **internal and external evaluation metrics**. Each provides different useful information for clustering algorithms.
 
 **Remember:**
 - **Internal Metrics**: useful for comparing algorithms or settings, may not always reflect the true underlying cluster structure. 
@@ -11,25 +23,25 @@ Mainly, there're two type of **big metrics**, those are **internal and external 
 - **Comprehensive Evaluation:** Employing multiple metrics can provide a more rounded assessment of clustering performance.
 - **Visualization Aid:** Visual tools like scatter plots or density plots can complement metric-based evaluations.
 - **Domain Knowledge:** Integrating domain expertise is vital when interpreting scores and assessing the quality of clustering.
-# Internal Evaluation Metrics (without ground truth knowledge). 
+# Internal Evaluation Metrics (without ground truth knowledge)
 To be clear, ground truth knowledge basically is the label of the dataset. With that being said, internal metrics are crucial when ground truth labels are not available. They provide a way to **assess the quality of clustering based on the attributes of the data itself**. 
 ## Inertia (Within-Cluster Sum of Squares)
 1. What it measures: **Sum of squared distances between each datapoint and its cluster's centroid.** 
 2. Interpretation: **The lower the inertia, the more compact that cluster is.** However, a very **low inertia** also mean **overfitting**, where the number of clusters is too high. 
-3. Formular:
+3. Formula:
 $$
 \mathbf{TSS = \Sigma_{i=1}^{n}(y_i - \bar{y})^2}
 $$
 ## Silhouette Coefficient
-1. Assessment: Evaluates cohesion within clusters and separation between them. \
+1. Assessment: Evaluates cohesion within clusters and separation between them.
 2. Range: It varies from -1 (poor clustering) to 1 (excellent clustering). 
 3. Usage: Higher scores suggest better-defined clusters with good separation and tightness.
 4. Explained:
 	1. Cohesion: how close a datapoint is to other points in its own cluster (which is average distance to all other data points within the same cluster). 
 	2. Separation: how far a datapoint is from points in other clusters (which is average distance to all data points in the nearest neighboring cluster).
-5. Formular:
+5. Formula:
 	$$
-	\textbf{silhouette coefficient} = \frac{(seperation - cohesion)}{max(separation, cohesion)}
+	\textbf{silhouette coefficient} = \frac{(separation - cohesion)}{max(separation, cohesion)}
 	$$
 6. Interpretation: ranges from -1 to 1. A value close to 1 indicates a well-clustered data point, near 0 suggests overlapping clusters, and a value close to -1 indicates a misclassified datapoint. 
 ## Davies-Bouldin Index
@@ -38,7 +50,7 @@ $$
 3. Main idea: Good clusters are those that have low within-cluster variation and high between-cluster separation. 
 4. Formula: 
 
-## Calinski-Harabasz Index (Variance Ration Criterion)
+## Calinski-Harabasz Index (Variance Ratio Criterion)
 1. Purpose: compares the variance between cluster with the variance within clusters. 
 2. Higher Scores: Indicate more distinct, well-separated cluster. 
 3. Formula:
@@ -71,3 +83,11 @@ $$
 	- C = cluster labels
 	- H(.) = Entropy
 	- I(Y;C) = Mutual Information between Y and C = H(Y) - H(Y|C)
+
+---
+
+## Related
+
+- [[Machine Learning]] — curriculum map for this section.
+- [[Machine Learning/Clustering algorithm/Clustering Algorithm|Clustering Algorithm]] — unsupervised learning methods these metrics evaluate.
+- [[Machine Learning/Regression algorithm/Metrics|Regression Metrics]] — supervised prediction metrics for numeric targets.

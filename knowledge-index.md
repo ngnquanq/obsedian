@@ -67,9 +67,22 @@ Flat index of every major area in this vault. Load this file first to orient wit
 
 ## Machine Learning
 
-- `Machine Learning/Machine Learning.md` — domain MOC; clustering and regression
-- `Machine Learning/Clustering algorithm/Clustering Algorithm.md` — clustering methods
-- `Machine Learning/Regression algorithm/Regression Algorithm.md` — regression methods
+- `Machine Learning/Machine Learning.md` — applied ML curriculum; prediction framing, learning paradigms, supervised learning, unsupervised learning, evaluation
+- `Machine Learning/Foundations/Prediction as Conditional Expectation.md` — why supervised prediction is framed as estimating E[Y | X]
+- `Machine Learning/Learning Paradigms/Learning Paradigms.md` — map of supervised, unsupervised, semi-supervised, self-supervised, and reinforcement learning
+- `Machine Learning/Learning Paradigms/Semi-Supervised Learning.md` — overview of learning from labeled and unlabeled examples
+- `Machine Learning/Learning Paradigms/Semi-Supervised Methods.md` — pseudo-labeling, consistency regularization, label propagation, and self-training
+- `Machine Learning/Learning Paradigms/Semi-Supervised Evaluation.md` — evaluation design and failure modes for pseudo-label and unlabeled-data workflows
+- `Machine Learning/Learning Paradigms/Self-Supervised Learning.md` — overview of representation learning from generated targets
+- `Machine Learning/Learning Paradigms/Self-Supervised Methods.md` — masked prediction, contrastive learning, next-step prediction, and reconstruction
+- `Machine Learning/Learning Paradigms/Self-Supervised Evaluation.md` — downstream evaluation, linear probes, fine-tuning, and transfer checks
+- `Machine Learning/Learning Paradigms/Reinforcement Learning.md` — overview of policy learning from states, actions, and rewards
+- `Machine Learning/Learning Paradigms/Reinforcement Learning Methods.md` — dynamic programming, temporal-difference learning, Q-learning, and policy gradients
+- `Machine Learning/Learning Paradigms/Reinforcement Learning Evaluation.md` — simulator, offline, online, and guardrail evaluation for RL policies
+- `Machine Learning/Regression algorithm/Regression Algorithm.md` — regression as supervised prediction for numeric targets
+- `Machine Learning/Regression algorithm/Metrics.md` — regression error metrics and error analysis
+- `Machine Learning/Clustering algorithm/Clustering Algorithm.md` — clustering as unsupervised structure discovery
+- `Machine Learning/Clustering algorithm/Metrics.md` — internal and external clustering evaluation metrics
 
 ---
 
