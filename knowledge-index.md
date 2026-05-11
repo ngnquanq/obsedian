@@ -87,6 +87,7 @@ Flat index of every major area in this vault. Load this file first to orient wit
 - `Projects/Causal IAM Risk Analytics.md` — causal analysis of IAM risk (Idea/MVP)
 - `Projects/Fraud Detection using ML.md` — fraud detection project (Draft)
 - `Projects/Neural Style Transfer.md` — neural style transfer (Active)
+- `Projects/Local RAG Chatbot.md` — local classical-ML search chatbot over JSON documents, no LLM (Idea)
 
 ---
 

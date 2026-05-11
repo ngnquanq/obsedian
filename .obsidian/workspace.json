@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Engineering/IBM/Hands-on Introduction to Linux Commands and Shell Scripting/Introduction to Linux and Unix.md",
-                "mode": "preview",
+                "file": "Projects/Local RAG Chatbot.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction to Linux and Unix"
+              "title": "Local RAG Chatbot"
             }
           },
           {
@@ -102,8 +102,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -196,29 +195,31 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "copilot:Open Copilot Chat": false
+      "command-palette:Open command palette": false
     }
   },
   "active": "170554739593a456",
   "lastOpenFiles": [
-    "Statistics/Causal Inference/19 - Evaluating Causal Models.md",
-    "README.md.tmp.212880.b85a278c30e0",
-    "README.md.tmp.212880.3fd777ff2eb3",
-    "Benchmark.md.tmp.212880.c7109cac3adf",
-    "scripts/benchmark/results/scores.md.tmp.212880.5024da95a71e",
-    "scripts/benchmark/results/scores.md",
-    "scripts/benchmark/results/scores.md.tmp.212880.5bd611c8aded",
-    "scripts/benchmark/results/antigravity_results.md",
-    "scripts/benchmark/results/antigravity_results.md.tmp.212880.58d8fb70d50b",
+    "Projects/Local RAG Chatbot.md.tmp.6303.cdbda0b81649",
+    "Projects/Local RAG Chatbot.md.tmp.6303.f89d8a775000",
+    "Projects/Local RAG Chatbot.md.tmp.6303.fed290176d5b",
+    "Cyber Security/CISSP/Domain 5 - Identity and Access Management/Domain 5 - IAM.md",
+    "knowledge-index.md.tmp.6303.960e8ee1bf9f",
+    "Deep Learning/NLP/NLP.md.tmp.6303.4341eb83e707",
+    "Projects/Project List.md.tmp.6303.067a6860ab37",
+    "Projects/Local RAG Chatbot.md",
+    "Projects/Local RAG Chatbot.md.tmp.6303.a74f061c25a3",
+    "managed_context/metadata.json",
+    "managed_context",
+    "test_suite_analysis/metadata.json",
+    "test_suite_analysis",
     "scripts/benchmark/results/codex_results.md",
-    "scripts/benchmark/results/codex_results.md.tmp.212880.619336304aea",
+    "Data Engineering/IBM/Hands-on Introduction to Linux Commands and Shell Scripting/Introduction to Linux and Unix.md",
+    "Statistics/Causal Inference/19 - Evaluating Causal Models.md",
+    "scripts/benchmark/results/scores.md",
+    "scripts/benchmark/results/antigravity_results.md",
     "scripts/benchmark/results/claude_results.md",
-    "scripts/benchmark/results/claude_results.md.tmp.212880.8d79284aecab",
     "scripts/benchmark/score_guide.md",
-    "scripts/benchmark/score_guide.md.tmp.212880.18905ade0727",
-    "scripts/benchmark/run_all.sh",
     "Benchmark.md",
     "Playbooks/Evaluate a Dataset.md",
     "Playbooks/Causal Analysis Checklist.md",
@@ -235,10 +236,6 @@
     "Deep Learning/NLP/LLMs/Aligning LLMs with DPO.md",
     "Deep Learning/NLP/NLP.md",
     "Deep Learning/NLP/LLMOps/LLMOps.md",
-    "Deep Learning/NLP/LLMOps/Introduction to Generative AI/Exploring a cloud-based Generative AI Application.md",
-    "Deep Learning/NLP/LLMOps/Operationalizing on Azure/Extending with Functions and Plugins.md",
-    "Deep Learning/NLP/LLMOps/Operationalizing on Azure/Building an End-to-End LLM application in Azure.md",
-    "Deep Learning/NLP/LLMOps/Operationalizing on Azure/LLM with Azure.md",
     "Statistics/Causal Inference/_Source/Python Causality Handbook/data/img/when-prediction-fails/waiting-time.png",
     "Statistics/Causal Inference/_Source/Python Causality Handbook/data/img/when-prediction-fails/slice-2.png",
     "Statistics/Causal Inference/_Source/Python Causality Handbook/data/img/when-prediction-fails/slice-1.png",
