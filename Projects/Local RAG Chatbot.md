@@ -3,7 +3,7 @@ status: idea
 type: project
 domain: nlp
 updated: 2026-05-11
-tags: [project, nlp, information-retrieval, tfidf, bm25, classical-ml, enterprise, extractive-qa, chatbot]
+tags: [project, nlp, information-retrieval, tfidf, bm25, classical-ml, enterprise, extractive-qa, chatbot, document-routing]
 aliases: [Local Search Chatbot, Internal Document Search, Local RAG Chatbot]
 ---
 
@@ -12,7 +12,7 @@ aliases: [Local Search Chatbot, Internal Document Search, Local RAG Chatbot]
 > [!note] On the name
 > Filename kept as "Local RAG Chatbot" for graph continuity with the original scoping. The system is **not** a generative RAG — it is a classical IR + extractive QA pipeline. No LLM, no neural embeddings, no GPU. Treat the word "RAG" here as shorthand for "retrieve then respond," where the response is templated and extractive.
 
-This project is an enterprise POC for an **internal chatbot** that answers questions over a corpus of JSON-like documents using **only traditional machine learning** running on local compute. Zero external APIs, zero generative models, zero GPU dependency. The chatbot retrieves the most relevant passages with lexical and statistical methods (BM25, TF-IDF, optional LSI), ranks them with a learning-to-rank model, and returns the top sentences with citations inside a Jinja template.
+This project is an enterprise POC for an **internal chatbot** that answers questions over a corpus of JSON-like documents using **only traditional machine learning** running on local compute. Zero external APIs, zero generative models, zero GPU dependency. The current baseline is **document representation**: every document is converted into a structured retrieval profile, then user questions are routed to the documents whose profile and supporting chunks best align with the question. The chatbot can still return extracted passages, but the systematic first problem is question-to-document alignment.
 
 Before working on this project, read the prerequisites: [[Introduction to Retrieval Augmented Generation]] (as contrast — what we are deliberately not building), [[LLMOps]] (operational patterns still apply), and [[Machine Learning]] (classical methods MOC).
 
@@ -302,6 +302,114 @@ Because `purpose` is recommended but not required, the system runs at three qual
 
 A backlog dashboard (Phase 2) lists Silver / Bronze docs by query traffic, so doc owners know which docs would benefit most from adding a `purpose` line.
 
+---
+
+## Systematic Question-to-Document Routing
+
+The near-term product task is not full chat. The user has a **list of questions**, and the system should route each question to the document or documents most aligned with it. This turns the document representation baseline into a reviewable matching workflow:
+
+```
+question list → question preprocessing → document profile scoring
+              → chunk evidence scoring → document rollup
+              → alignment table for review
+```
+
+The output is document-first, with evidence attached. That matters because a document-only route is hard to audit, while a passage-only route hides the actual routing decision. The routing artifact should answer: "Which document should this question point to, and what text made the system think so?"
+
+### Document profile
+
+Each document gets a compact profile used specifically for routing. It is separate from the chunk text used for final answer extraction.
+
+| Profile field | Source | Routing role |
+|---|---|---|
+| `doc_id` | Metadata or file path | Stable target for the route. |
+| `title` / `heading` | Metadata | High-weight cue for obvious topic matches. |
+| `purpose` | Metadata | Highest-value field because it is written in user-facing language. |
+| `tags` | Metadata | Useful for domain and owner-level routing. |
+| `owner` | Metadata | Review handoff and accountability. |
+| `updated_at` | Metadata | Staleness signal; not a semantic match signal by itself. |
+| section headings / section purposes | Nested docs | Bridges document-level routing to the best supporting section. |
+| aggregated chunk text | Chunker output | Fallback when metadata is thin. |
+
+For routing, `purpose` should be treated as the baseline representation target. If a document lacks a `purpose`, the system can still route against title and body text, but the route should be marked lower quality. This gives document owners a concrete improvement loop: add better purpose lines for questions that miss.
+
+### Batch routing output
+
+The first implementation should be an offline batch report rather than a live chat path. For each question, return the top documents plus the best supporting evidence:
+
+```json
+{
+  "question_id": "q-001",
+  "question": "how do I revoke a legacy API key",
+  "top_docs": [
+    {
+      "rank": 1,
+      "doc_id": "runbook-legacy-auth-rotation",
+      "score": 0.87,
+      "confidence": "high",
+      "matched_fields": ["purpose", "title"],
+      "evidence": {
+        "chunk_id": "runbook-legacy-auth-rotation#revoke-procedure",
+        "sentence": "To revoke a legacy API key, navigate to Admin Console > Keys, select the key, and click Disable."
+      }
+    }
+  ],
+  "needs_review": false
+}
+```
+
+The human-facing report can be a CSV or markdown table with these columns:
+
+| Column | Meaning |
+|---|---|
+| `question_id` | Stable ID from the input question list. |
+| `question` | Original user question. |
+| `rank_1_doc` | Best aligned document. |
+| `rank_1_evidence` | Best matching sentence or chunk. |
+| `rank_1_confidence` | `high`, `medium`, or `low` from score gap and absolute score. |
+| `alternatives` | Rank 2-5 documents for reviewer comparison. |
+| `needs_review` | True when scores are close, weak, or all matches rely on body fallback. |
+
+### Scoring strategy
+
+Use two candidate paths, then merge them at the document level:
+
+| Path | What it scores | Why it exists |
+|---|---|---|
+| Document profile scoring | Question against `title`, `purpose`, `tags`, section purposes, and aggregated document text | Finds the most likely target document. |
+| Chunk evidence scoring | Question against chunks and extracted sentences | Finds the text that justifies the route. |
+
+The combined score should stay interpretable. Start with hand-weighted classical features before training any reranker:
+
+| Feature | Interpretation |
+|---|---|
+| `document_bm25` | Lexical match against the document profile. |
+| `document_tfidf_cosine` | Secondary statistical similarity against the document profile. |
+| `best_child_chunk_score` | Strongest supporting chunk under the document. |
+| `top3_child_chunk_mean` | Stability of evidence across more than one chunk. |
+| `query_term_coverage` | Fraction of important question terms found in the document. |
+| `exact_phrase_match` | Whether a phrase from the question appears verbatim. |
+| `field_match_title` | Question terms found in title or heading. |
+| `field_match_purpose` | Question terms found in the purpose line. |
+| `field_match_tags` | Question terms found in tags. |
+| `score_gap` | Difference between rank 1 and rank 2; used for confidence. |
+
+This makes the system debuggable: if a question routes poorly, the reviewer can see whether the failure came from missing metadata, vocabulary mismatch, weak chunking, or an actually missing document.
+
+### Review loop
+
+Question-to-document routing should create a doc-quality backlog, not just a one-time output. For every low-confidence or corrected route, record the likely fix:
+
+| Problem found | Systematic fix |
+|---|---|
+| Correct document exists but was not retrieved | Add or rewrite the document `purpose`; consider synonym YAML if terminology differs. |
+| Correct document appears at rank 2-5 | Tune feature weights or add labels for LambdaMART later. |
+| Evidence sentence is weak but document is right | Improve chunk boundaries or section-level purpose lines. |
+| No document truly answers the question | Mark as corpus gap; create or request a source document. |
+| Multiple documents are valid | Keep all as alternatives and label one as authoritative if the business process requires it. |
+
+Once enough reviewed mappings exist, promote them into a labeled evaluation set with `question`, `relevant_doc_ids`, and optional `gold_sentence`. That gives the project a clean path from document representation → batch routing → measured retrieval quality.
+
 ### Supporting data the system itself produces
 
 These are not corpus documents — they are artifacts the system generates and consumes to learn and audit itself.
@@ -420,6 +528,20 @@ Chunk size target: **300–600 tokens** (lemmatized). Smaller than typical LLM-R
 7. Within each passage, rank sentences by TextRank or sentence-level TF-IDF cosine against the query. Keep top-1 per passage.
 8. Render Jinja template: each extracted sentence with `[doc_id: path]` citation, plus a confidence band derived from the gap between rank-1 and rank-4 scores.
 
+### 3a. Batch question routing pipeline
+
+For the question-list workflow, the system stops one layer earlier than chat response rendering:
+
+1. Load `questions.jsonl` with `question_id` and `question`.
+2. Preprocess each question with the same tokenizer / lemmatizer used by retrieval.
+3. Score document profiles directly with BM25 and TF-IDF cosine.
+4. Score chunks with the existing retrieval stack.
+5. Roll up chunk scores to parent documents.
+6. Merge document-profile score, best-child chunk score, field matches, and score gap into a document alignment score.
+7. Export top-k documents per question with evidence sentence, matched fields, confidence band, and `needs_review`.
+
+This is the cleanest place to use the current document representation baseline: the router treats the document profile as the primary object and uses chunks only as evidence.
+
 ### 4. LTR feature set (Phase 2)
 
 | Feature | Description |
@@ -507,6 +629,10 @@ local-rag-chatbot/
 │   │   ├── tfidf_retriever.py
 │   │   ├── lsi_retriever.py   # Phase 3
 │   │   └── ensemble.py        # weighted merge
+│   ├── routing/
+│   │   ├── document_profile.py # document-level routing representation
+│   │   ├── question_router.py  # batch question -> document alignment
+│   │   └── scoring.py          # interpretable route features
 │   ├── ranking/
 │   │   ├── features.py        # LTR feature extractors
 │   │   ├── ltr_model.py       # LightGBM LambdaMART wrapper
@@ -529,6 +655,9 @@ local-rag-chatbot/
 │   ├── indexes/               # bm25.pkl, tfidf.npz, lsi.npz
 │   └── audit.db
 ├── evaluation/
+│   ├── questions.jsonl        # input question list for batch routing
+│   ├── route_questions.py     # offline question -> document report
+│   ├── question_routes.jsonl  # generated alignment artifact
 │   ├── eval_dataset.jsonl     # (query, relevant_doc_ids, gold_sentence)
 │   ├── label_tool.py          # Gradio relevance-labeling app
 │   ├── evaluate.py            # MRR@10, NDCG@10, P@5, R@10
@@ -563,12 +692,14 @@ Working end-to-end demo on the developer laptop.
 - `rank_bm25` index built and persisted.
 - TF-IDF matrix built and persisted.
 - Ensemble retriever (weighted BM25 + cosine).
+- Document profile builder for `title`, `purpose`, tags, section purposes, and aggregated chunk text.
+- Offline question-to-document routing report for a provided question list.
 - Sentence-level extractor (TextRank).
 - Jinja templated response with citations.
 - Gradio UI.
 - SQLite audit log on every query.
 
-**Exit criteria:** Stakeholder types a question in Gradio, gets a top-3 citation list with extracted sentences, the query appears in `audit.db`, p50 latency under 200 ms on the dev corpus.
+**Exit criteria:** Stakeholder provides a question list and gets a top-k document alignment report with evidence and `needs_review` flags. The live demo still supports typing a question in Gradio and getting a top-3 citation list with extracted sentences. Query latency stays under 200 ms on the dev corpus.
 
 ### Phase 2 — Enterprise features (Weeks 4–6)
 
@@ -605,6 +736,9 @@ Move from "demo" to "stakeholder-presentable POC."
 
 | Metric | Definition | Target |
 |---|---|---|
+| Doc Recall@1 | Fraction of questions where the top routed document is relevant | ≥ 0.60 |
+| Doc Recall@5 | Fraction of questions where any top-5 routed document is relevant | ≥ 0.85 |
+| Doc MRR@10 | Mean reciprocal rank of the first relevant routed document in top-10 | ≥ 0.65 |
 | MRR@10 | Mean reciprocal rank of the first relevant chunk in top-10 | ≥ 0.60 |
 | NDCG@10 | Discounted cumulative gain on graded relevance (0/1/2) | ≥ 0.55 |
 | Precision@5 | Fraction of top-5 results marked relevant | ≥ 0.70 |
