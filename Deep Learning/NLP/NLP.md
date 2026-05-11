@@ -11,3 +11,6 @@
 # LLMOps
 1. [[LLMOps]]
 2. 
+
+# Information Retrieval
+1. [[Local RAG Chatbot]] — classical IR + extractive QA over JSON documents, no LLM

@@ -21,6 +21,7 @@ Registry of all projects in this vault. Each row has a status and next action so
 | Sentiment Analysis with Mamba | Draft | NLP | Public | Link to `Sentiment Analysis With Mamba.md` |
 | Poem Generation | Idea | NLP | TBD | Define scope |
 | Bank Transaction Database | Idea | Data Engineering | TBD | Define schema |
+| [[Local RAG Chatbot]] | Idea | NLP | Internal JSON documents | Build JSON chunker; stand up rank_bm25 index |
 
 ---
 
